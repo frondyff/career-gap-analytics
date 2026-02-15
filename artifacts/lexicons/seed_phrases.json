@@ -1,0 +1,22 @@
+{
+  "hard_seed_phrases": [
+    "cloud experience",
+    "dashboard development",
+    "data pipeline",
+    "machine learning",
+    "python programming",
+    "sql skills",
+    "statistics knowledge",
+    "technical skills"
+  ],
+  "soft_seed_phrases": [
+    "business understanding",
+    "collaboration skills",
+    "communication skills",
+    "leadership ability",
+    "presentation skills",
+    "problem solving",
+    "stakeholder management",
+    "teamwork experience"
+  ]
+}

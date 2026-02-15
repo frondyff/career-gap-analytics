@@ -1,0 +1,1160 @@
+post_id,comment_rank,comment_body,comment_score
+1qx1cr3,1,"Ten years ago I had to write SAS code on a white board as interviewers peppered me with questions.
+
+Still have nightmares",1
+1qx11ri,1,"In general I think causal inference / MMM is more difficult practically and has less financial upside than like ML engineering. The reason to do causal inference is because you love it.
+
+If you do love it though, you should DM me because we are in the space and love to hire people who are passionate about causal inference.",1
+1qx11ri,2,"What country are you in and industry ?
+
+Sounds like if you’ve been in 5 years, it’s the decision to specialise on a technical level or take on more of a management role?
+
+I look at the manager two levels above me, they aren’t really doing any actual work themselves, it’s just meetings and setting broad strategy, they aren’t writing any code, just reviewing presentations",1
+1qx11ri,3,"As someone that do both types of work (we use ML and causal models in rec sys and personalization), this should not be an “either … or …” question. In my domain, you’re expected to know both types of science work. 
+
+If you feel you’ve plateaued in ML, take the causal inference job and in the future, you can apply to jobs that allows you to combine both methods.",1
+1qx11ri,4,"From a recent review of job ads compared to 3y ago, there's a lot more ML engineer jobs or mlops dev roles than data scientist roles. I take that to bean that the experimenting / bespoke dev stuff is dying out and being replaced by mlops architecture and plug/play models. Not sure what that means in your scenario - I'm sure mmm can be systematised, but I reckon the ol' creative juices aspect will be hard to replace with LLM written so may have better longevity? 🤷",1
+1qwz1yi,1,"Just because engineers cannot manage to write good evals... because shocker, they are not trained in measurement and creating measures of latent concepts and fuzzy concepts, .... that does not mean we have to use AI to write evals. It's a a circle in which because you cannot write evals, you use AI to write evals and then you use AI to write evals to evaluate the system that wrote evals. It's insane.
+
+Just hire someone who is an expert in measurement. That exists in social science.
+
+Being in the inside and seeing engineers create the dumbest stuff like ""meaningful"" or ""helpful"" is mind boggling. And the choices/options for those make no sense whatsover either.",7
+1qwcdb6,1,Like? The animal taking turn game?/ the ecosystem game? What does ai do to them?,9
+1qwcdb6,2,Makes sense honestly..  it’s the reality we live in at this point,3
+1qwcdb6,3,"To answer your question, god no.",3
+1qvdw7t,1,"Given how much effort went into making this, the real A/B test is whether posting it gets you more upvotes or job offers",0
+1qv95en,1,"This is the difference between academia data science and industry data science. If the model generates impact, nothing else matters.",286
+1qv95en,2,"Just because a model is good or generates a lot of revenue, doesn't mean it's perfect or that every decision that went in to producing it was the right decision. I work with a model that also generates millions in revenue. It had a bug in it. We fixed the bug but even with the bug, it still generated millions. That doesn't mean bugs are good.
+
+Unless you know what the model's metrics were before backwards elimination was used to select features, you can't really say what the effect of backward elimination is on model performance.
+
+Backwards elimination is perfectly defensible in plenty of situations. It's usually a reasonable, practical step to throw a lot of features into a model to begin with and backwards elimination can obviously get rid of some features that are doing nothing or not very much.
+
+I think there's very few of these kinds of techniques that are always good or always bad. The bottom line is, if you think something's a good idea or a bad idea, test it and find out. What people ""reckon"" about these things without being able to back it up isn't worth much.",93
+1qv95en,3,"Every model is wrong, but some are useful",62
+1qv95en,4,"Why not just use lasso to more quickly identify useless features though?
+
+
+I come from academia to industry and my first thought was what most people said, rigor vs practicality.
+
+
+But coming from academia, I see a lot of lazy non empirical shit. 
+
+
+Idk why someone dropped certain features two years ago, but today they are highly significant. If they'd use an empirical programmatic solution in the first place, I wouldn't be here trying to understand why they dropped the third most significant feature. 
+
+
+Or something like that.",25
+1qv95en,5,"In academia, statistical models are typically used to test hypotheses derived from theory. This means the researcher begins with a belief that a specific relationship exists between a set of variables and an outcome of interest, and then uses a model to evaluate whether the data support that belief. For example, a researcher might hypothesize that a medication reduces the likelihood of a particular disease and fit a model to test this relationship. If the analysis shows no effect, the hypothesis is not supported. In this context, models are theory-driven and primarily used for inference, that is, understanding whether and how variables are related.
+
+In industry, the primary goal is often different. Rather than focusing on causal relationships, practitioners are typically more concerned with maximizing predictive accuracy. From this perspective, a model created through backward elimination is data-driven rather than theory-driven: variables are retained or removed based on how well they improve prediction, not on whether they align with an existing theoretical framework. As a result, the final model may or may not be interpretable from a theoretical standpoint.",49
+1qv95en,6,"it often “works” because the signal is strong enough and the model is used in a stable setting, not because the method is sound. backward elimination breaks down when collinearity, small samples, or reuse for inference matter, so it’s more defensible as a rough heuristic than a principled selection method.",9
+1qv95en,7,"I run tree based models and I’ve done forward selection, backward selection, backward eliminate a fixed number of features then forward select, Shapley values, and interactions. With all methods usually the top 3 features are always the same and if you rank the top 10 features from each method they are usually very similar. 
+
+I find backward selection works the best because I have moderate multicollinearity which is a pain to deal with.",4
+1qv95en,8,It depends on whether you use it for inference or prediction.,2
+1qv95en,9,"Harrell’s critique is mostly about how backward elimination inflates Type I error and gives overly optimistic estimates of effect sizes, especially when the dataset is small or predictors are correlated. That said, in practice, if your dataset is large, signal-to-noise is high, and the goal is purely predictive rather than inferential, it can still produce models that perform well. It’s defensible when you care more about a usable, interpretable set of predictors and have enough data that overfitting is unlikely, but it’s risky if you try to interpret coefficients or generalize beyond the training distribution. context matters more than ideology here.",2
+1qv95en,10,"From what I remember Frank’s criticism mostly concerns the inferential aspect of BE and how it affects confidence/p-values of the coefficients. Frank Harrell is very knowledgeable and you should read all of his stuff, but just read w a grain of salt bc he looks down on lots of common practice things in DS that work for other people.",2
+1qv64eu,1,I would not take this job unless you’re desperate. A junior really needs a mentor.,36
+1qv64eu,2,"Felt my own self reading ur post... I took that job offer and today I'm the specialist generalist... 
+
+I belive it does have a lot to do with the company employee size and how many of them u interact on the daily... 
+
+Forecasting as a starting point could reach wide and spread :)",14
+1qv64eu,3,"I’m a data scientist who never had a mentor. I turned out ok, but I still very badly wish I’d had one",12
+1qv64eu,4,"I took a similar role as the first Data Analyst in the company when I had 1 YOE and it was the best decision of my career - I'm now a Sr. DS with almost 9 years of tenure at that same company. Being a one-man band that early in your career is very much not easy. You need to be comfortable teaching yourself things thoroughly enough to produce good work and to be the expert for non-technical stakeholders. But the upside is that it's an opportunity to be very impact and visible. With great responsibility comes great power.
+
+If you go for it, I recommend diving head first into learning time series forecasting, especially the theoretical side of it, and looking for mentors that can support your growth on the programming side (like maybe that MLE).",3
+1qv64eu,5,"I had something similar during my data science apprenticeship during my master's degree, minus the ML Engineer.
+
+I was the only person in the department doing data science, and as a result, I had to do four different jobs (data engineer, data ops, data scientist, and data manager).
+
+And when I finally got a permanent position after my apprenticeship at the same place, they added a fifth job: project manager (and mentor at the same time).
+
+After three years, I couldn't take it anymore, having done so many jobs and having worked alone for two years (my colleagues were IAM developers, so we could only talk about IAM, not data or AI). I ended up leaving even though I didn't have a job lined up (I left at the beginning of 2025, so when the market was bad, and yes, it still is, but no big deal, my health was more important).
+
+Given how similar your situation is to mine, you're going to do absolutely every job.
+
+It's up to you whether you want to do them all or not.
+On the one hand, it's good for experience and confidence, but on the other hand, don't expect to stay with the company for long.
+You'll end up exhausted and will probably never want to do multiple jobs for the same company again, unless it's your own, or you'll only accept it if the pay is good.",3
+1qv64eu,6,Trust your gut,6
+1qv64eu,7,"In almost the same boat, started at my current Co in another role, did my DS degree alongside that role and now the sole lead/principal level DS and have to do everything without a mentor and it's not just a DS role, it's DE, MLE, MLOps etc. on top of being a DS.  
+
+  
+The biggest issue for me is trying to get the traction on DS from non-technical stakeholders, most like the idea of DS etc. but as they don't understand it fully it looses its appeal if you can't show them how it solves their problem, plus everyone is bloody obsessed with GenAI tools since it's all the hype atm but that's a whole other thing to manage expectations over 🤣",2
+1qv64eu,8,"being the only ds on a coop can be a mixed bag. u will probably learn a lot fast, but the risk is that there is no one to tell u when an approach is wrong or unrealistic. demand forecasting sounds fine on paper, but in practice the hard part is data quality, assumptions, and explaining uncertainty to non technical people. if the manager is less ml aware and the mle is also new, u might end up owning decisions without real support. for a first coop, that can be stressful, but it can also be valuable if expectations are clearly scoped and they know u are still learning. i would try to clarify how success is defined and how much guidance u will actually get before deciding.",2
+1qv64eu,9,"being the only ds with no mentor is risky for a first coop, especially on forecasting where problem framing and validation matter a lot. i’d ask what success looks like for the first 8 to 12 weeks and who actually reviews your work before it’s used in decisions.",1
+1qv64eu,10,"I had internships on stable teams, but my first full job was with a startup and I was the analytics person. 
+
+It's a great opportunity to be very visible!
+
+I did augment myself during my time in the role getting a master's degree via night classes.
+
+There are upsides and downsides to any opportunity, are you a self learner, do you like visibility? Maybe it will work, if not look elsewhere.",1
+1qtzy39,1,"I'm waiting for the same outfit and author to publish: ""U.S. Tech Jobs Could See Shrink in Q1 2026, Total Data Suggests"".",121
+1qtzy39,2,Im currently looking.  9 YOE Senior Dev without a BS degree.  Its brutal as fuck,50
+1qtzy39,3,"My wife works for a big Healthcare Org, her team is small but they deal with process improvement via reporting. A data analyst on her team left a few weeks ago and her boss said they already have over 1000 applications in a matter of WEEKS. Growth might be coming but the amount of people still looking is huge.
+
+  
+Edit: the qualifications for the position is needing a Degree and experience in a related field.",13
+1qtzy39,4,"seem funny. if 2025 100 people got laid off, in 2026 100 people got hired, statistically yeah, employment increased, but you need to see the big picture",16
+1qtzy39,5,"Really should break it down between entry level and senior level positions 
+
+Been applying non stop for the last few months, seems to be a fair amount of senior level 5+ years of experience positions open, but very few entry level spots",6
+1qtzy39,6,"[https://jobswithgpt.com/blog/global\_software-engineering\_jobs\_january\_2026/](https://jobswithgpt.com/blog/global_software-engineering_jobs_january_2026/) I don't have historical data to say whether there is growth or not, but this the current state of market for swe's",14
+1qtzy39,7,"If yall care about the two cents of a recruiter who has been hiring data scientists in starts up and big tech for about ten years, here it is. 
+
+The conditions for solid job opening growth are all here imo, and each time I’ve seen such conditions what follows is the hiring of many recruiters. openings jumped massively at the start of ‘26, more than just budgets settling hires. GDP unexpectedly grew, and companies have been shaving off their workforce for about 4 years now. Every DS team I talk with basically says the same thing - we’re very lean and could use more people. 
+
+This is not a promise that the article is true, but for the first time in at least two years hiring conditions are looking optimistic imo.",8
+1qtzy39,8,"Isn’t it easy to say we’re going to experience growth after so many cuts were made?
+
+Like, oh, we cut 30k tech jobs in previous Q4, but we’re adding 5k jobs Q1 2026. Growth. GROWTH, EVERYBODY!!!",4
+1qtzy39,9,I’m so sure,1
+1qtzy39,10,Probably for someone with a very different skillset from mine sadly for me. Need to figure out how to leverage my mechanical engineering background. 99% of jobs won't care. Need to find the niche then dig in. ,1
+1qtzq0k,1,"Decades.
+
+If you told me ""company ABC who was founded and built to be ran by an agentic framework"" then maybe I'd say less if they had a very small, specific niche area they focus on. But a company who once had 1000 employess going to 15 people who can mastermind an entire operation just running on prompts and vibes? Decades. 
+
+Not only because the technology to do that will take decades to get there, and not only because the organizational changes that will need to happen will also take decades, but because as work starts getting automated/takes less time to do, what is inevitably going to happen is that those things will become table stakes and companies will want to unlock whatever the next is, whatever differentiates them.
+
+Like, 20 years ago the idea of having a team that focuses on making sure your online ads are the most effective would have sounded like science fiction. Now it's an out of the box functionality that every marketing team has access to. Last time I checked, marketing hasn't died - in fact, they're doing quite well.
+
+But now they're working on microsegmentation, on using AI to develop targeted ads on social media. And once that becomes a fully solved problem that can be enabled with two clicks, someone will already be thinking about what is the next thing to do.
+
+I think anything that assumes that we will automate all the work fails to understand that we *might* be able to automate all the work we do *today*, which is almost surely going to be a small fraction of the work to be done 20 years from now.",4
+1qtzq0k,2,"We get there in 10 years. In 20 years, these companies all collapse because after the waves of lay offs, nobody has enough money to buy their increasingly shitty products, even if they wanted to.",2
+1qtzq0k,3,"This was clearly written by a person who is neither a statistician nor a data scientist. Lemme guess, found this drivel on linkedin?",3
+1qtzq0k,4,weird that ai can do swe's job but not managers or ceo job,1
+1qtzq0k,5,"I just had to do the splits to try to connect a basic Google Sheet to AWS lol 😂 I can’t imagine this scenario, let alone the computation costs Snowflake takes, etc. I would say run the report through a pipeline and query it automatically(instead using an agent), but even that does not Always work. With free computation and well-trained human support MAYBE but there is  still an infrastructure problem that more data centers or GPUs can’t solve.  But hey it’s your dream make it happen 👍",1
+1qtzq0k,6,"It's going so fast, everything, count tomorrow :)",1
+1qtzq0k,7,"I'm sure we are decades away from that... Being honest, I think AI is useful in some of the workflows in companies, but not each workflow and not with the same amount of impact. I work closer to industrial environments, and for me there's a niche there to work with AI and newer neural networks to improve performance by reducing human interaction by increasing the use of AI algorithms, but for huge companies with lots of departments is not a good idea (IMO) to put AI inside every process trying to reduce employees due to excellent results with AI agents. The more repetitive is the job, the more it makes sense to use AI, but for general purpose jobs (and that is every job where you have to interact with a lot of employees to do your tasks) is not anything that is closer for me.",1
+1qtzq0k,8,Error generating reply.,0
+1qtzq0k,9,"8 to 10 years.  
+  
+I think the one idea people have a hard time rectifying is that the C-Suite/mangers are using AI and are saving themselves time, per numerous industry studies from 2025. But the median developer or data scientist isn't seeing significant gains in leveraging AI and it's a wash. The problem is that none of those median developers get to make meaningful decisions on adoption within their orgs or companies at large. And C-suite's experience is dramatically positive. So we will see rapid adoption of these technologies whether they are useful for the average employee or not because the decisions makers experience has been positive. This rapid adoption will lead to massive training datasets overnight and we will likely see exponential growth in their abilities.
+
+I think if you had to ask me with a lie detector C-Suite would rather ride or die with less developers that are true believers of AI than run a bloated team of all humans and have to explain that capital expenditure to a board when everyone else is getting leaner and more AI focused.
+
+Also I do believe a company primarily driven by agentic AI's will break through and see extreme market success and it will scare everyone off from doing the opposite. Even though it will take hundreds of companies fail and flailing with agentic AI before we get one of those companies, survivor bias at its finest. But a company running well with AI is going to have a massive advantage over a 100% human or even moderate AI use companies.
+
+I also make a habit of not betting against the smartest people and companies. And most people you talk to in the space really do believe what the post describes is within 10 years.
+
+I love the example of automating farming as an analogy for AI coding. We didn't need to build completely robotic human like farmers to automate farming. We built crude metal devices that leveraged the same principles in more efficient and mechanical ways. AI developers don't need to be an exact replica of a human SWE to be a good a good SWE.",-1
+1qtr5cw,1,Would you consider this prod ready? Very interested in trying it out,4
+1qtr5cw,2,"oh man, you're my savior, i have used your product since it first out",5
+1qtr5cw,3,"The idea of collapsing tuning into a single budget parameter is interesting, but a lot hinges on what assumptions are baked into that generalization scheme. In practice, hyperparameters often encode inductive bias for specific data regimes, so I am curious where this breaks down. The LightGBM plus Optuna comparison is compelling on wall time, but I would want to understand how sensitive the results are across very different feature distributions and dataset sizes. Interop via ONNX and XGBoost export is a smart move if the goal is real deployment rather than just benchmarks. the question for me is less about raw speed and more about whether the learned structure stays robust once this is dropped into messy production pipelines.",3
+1qtr5cw,4,Really cool will check it out later this week for a time series problem I have,2
+1qtr5cw,5,"what a legend, thank you",2
+1qtr5cw,6,🤯🤯,2
+1qtr5cw,7,"Zero copy polars is great lol, hopefully less troubleshooting silent memory crashes for our DS that refuse to use sane parameters.",2
+1qtlvfu,1,"I'm graduating university this semester and getting my bachelor's degree, and got an offer for an entry level remote data science position. Any ideas on what a starting salary should look like? I'm seeing a wide range online",1
+1qtlvfu,2,"\* Learning resources (e.g. books, tutorials, videos) 
+
+\- Just enrolled in the 1 year MS in DS program at Eastern University. I know there are schools with bigger names that are far more reputable but I currently don't have the time/money to invest in anything more than this 
+
+\* Traditional education (e.g. schools, degrees, electives)
+
+\- I have been an educator (elementary schools) for the past decade, and entrepreneur/program coordinator for the past 4 years. Got a BS in communication science. Hard core pivot I know :'D 
+
+\* Alternative education (e.g. online courses, bootcamps)
+
+\- I signed up for a course on Udemy to just get familiar with the topic before my program begins (on March 9th), it's been very helpful! 
+
+\* Job search questions (e.g. resumes, applying, career prospects)
+
+\- Anyone in the similar type of situation from education -> ds? I'm currently subbing while looking for project coordinator positions to bridge into industry. ANY suggestions/tips/recs on job application or the current job market maneuvering will be really, really, appreciated <3
+
+\* Elementary questions (e.g. where to start, what next)
+
+\- What technical skill should I focus on? 
+
+\- Will. Appreciate. Any. Tips. in general for someone in my situation (f/career changer/in my 30s/knowing limited coding and hard core grinding/working full time) 
+
+\- Thank you!",1
+1qtlvfu,3,"Hi all!
+I’m currently a student aspiring to become a Data Scientist once I finish high school in Melbourne.
+Did anyone have any tips on how to choose my degree, what I should focus on during my spare time and what I should study or just words of wisdom?
+
+Thank you so much.",1
+1qtlvfu,4,"I have BS in accounting and currently i'm finishing 1st semester of data analysis/science MS program in EU
+
+So far we had multivariate stats, econometrics (up to GARCH & panel data), python & R
+
+From what i'm seeing, it is mostly applied and I fear this will hurt my employability
+
+I have hard time deciding what to learn in my free time other than what they teach in uni.
+
+I've been thinking about just doing what they require of me and relearing calculus & linear algebra in my spare time - since I only had 1 semester of it combined in my first year of accoutnig program
+
+  
+Is learning math a good use of my free time? Or should I perhaps do online courses for python? I wan't to avoid getting in a position where I can't progress up the compensation ladder because I skipped on something",3
+1qtlvfu,5,"I thought I'd get some people's opinions on enrolling in the 1-year Master in Urban Spatial Analytics program offered by UPenn Weitzman.
+
+For background, I have a poli sci bachelors/GIS minor from a LAC and I want to pivot towards more geospatial/data science roles. The program is a lot of courses in R, ML, and Python/Javascript, and it's not really solely a GIS or MPP degree. It's pretty centered on urban issues/policy content-wise, though.
+
+It seems pretty up my alley, but I'm wondering what people's thoughts are on a program like this (or data science + public policy grad programs in general). Thanks!",1
+1qtlvfu,6,"Hi , Iam a DS student currently in 4 sem of university . I want to start earning by doing work related to data analytics or data engineering. So all those who started earning while they were in college/university , how did you started ? Freelance websites are satuarated  , and i am not skilled enough now for a remote job or a physical job . I fond working or SQL very interesting and also python , also find interest in stats subj . So how should i start so that i could start making money online and what things should i foucus more in academics?",1
+1qt2hhe,1,"I'm a simple man 
+
+I see AI schlop 
+
+I downvote",30
+1qt2hhe,2,Not another ai generated ad… I hope people in this subreddit can see this and stop engaging with these types of posts,32
+1qt2hhe,3,Ad and slop,23
+1qt2hhe,4,"Thats a comprehensive guide!
+Hope you get 'Offers' soon💪",6
+1qt2hhe,5,"The market is mispricing talent right now because everyone's still traumatized from last year's layoffs. I was seeing senior DS roles getting offers 20-30% lower than 2021 levels, despite inflation. Interesting, right?",2
+1qt2hhe,6,"I will have an interview soon through my college in a company i am a fresher A lot of things here you mentioned i understood but it felt very overwhelming as a fresher do you think a similar type of interview will be held?
+
+Like this many rounds i was thinking i am really good in data science but now this process you went through seems a little hard to crack",1
+1qt2hhe,7,"It almost makes me cry to see how much more I could be earning if I was willing to move to the USA! I do this exact type of role for half these salaries at best, and a quarter of the total packages.",1
+1qsylys,1,"I dunno, sometimes plain English summaries work better than viz for segments. I built Userjam to just push that to Slack instead of dashboards.",5
+1qsxuaa,1,"I’ve been a data scientist for about 5 years and for most of that focused on data cleaning/feature extraction.
+From working with teams I think the biggest weakness is an unwillingness to spend time understanding your data set. You have to spend time either building or looking through a data dictionary to understand what each column ought to be. Then you have to look through the data itself and this isn’t just df.describe - especially if you are doing NLP type work you have to actually look at several rows and get a sense of what the data looks like. Spending time doing stuff like this has always helped me immensely, even if it’s just building my own confidence with the data set.
+
+I come from a math background and in writing my earliest paper in undergrad we had to do a lot of grunt work by hand writing out some equations and trying to determine a pattern. My adviser at the time mentioned that this is part of doing the work, you have to get your hands dirty and take a pencil and paper and write it out and stare at it. I honestly think that most data scientists are unwilling to do this, myself included at times. I can’t tell you how many data sets I have inherited and as I am looking through the data I notice rows where an int needs to be a string or vice versa and the data scientist who built the set had no idea. It’s because they don’t actually spend time looking through their own data because it is boring and shitty work. No one wants to test and no one wants to data clean, but to have good models, you need to",10
+1qsxuaa,2,">Why is data cleaning hard?
+
+Because humans aren't machines and if your data source requires human input, dirty data is a guarantee.
+
+Secondly, many developers haven't put thought into capturing data when designing a system. Data capturing is more of an afterthought and that leads to data format inconsistency and lack of data validation step at the front end side.
+
+Third, is semantics. Even if a system / human  records clean data, it's still a data professional job to decide on how to consume a data. Does a user spamming clicks on an item counted towards to final CTR metric or we need a rules to ""distinct the intent""?",7
+1qsxuaa,3,"I like the framing that cleaning is about getting closer to reality, not aesthetics. I’d add that it feels hard because the definition of “reality” is often implicit and unstable. You only discover the assumptions baked into the data once you try to use it for a concrete decision or model. At that point, you’re negotiating semantics, incentives, and system behavior, not just fixing nulls. that mismatch between analytical intent and how the data was originally produced is usually the real source of pain.",2
+1qsxuaa,4,"In my experience data cleaning is hard for 2 reasons. 
+
+1. It’s mostly about making things easier for a computer to work with even when something is plainly obvious for a person. This can make the data professional feel like they’re doing menial task. 
+
+2. Most data professionals think they’re “above” cleaning. This is similar to but not the same as 1.  Many people I’ve worked with think their job is about working out complex calculations, writing scripts, and transforming big data into brilliant insights or $$$. From this mindset, data cleaning is just something that gets in the way of your “real” work.",1
+1qsxuaa,5,"i think the hard part is that cleaning is where assumptions get exposed. once u try to map messy logs or human entered fields to something “real,” u realize nobody fully agrees what reality is. in practice it is less about fixing nulls and more about chasing edge cases, silent pipeline failures, and business rules that only live in someone’s head. it also feels never ending because the model keeps finding new problems in the data that no dashboard ever flagged. that gap between system data and how the world actually works is why it never feels done.",1
+1qsxuaa,6,Consulto. Algún libro o curso para recomendar en este aspecto? Soy analista pero siento que esa parte me falta complemento teórico.,1
+1qsxuaa,7,"ctrl + a, delete :D Follow me for more tips :D",1
+1qsxuaa,8,it's very hard for me : (,1
+1qsxuaa,9,"the core issue is that cleaning is always reactive, you discover the mess when you try to use data for something nobody originally planned for. the thing that actually makes a dent is pushing validation closer to the source: column-level contracts, schema tests on ingest, making the producing team own their data quality instead of dumping it on DS to sort out. but that's a people/org problem, not a technical one, which is why it stays painful.",1
+1qsls5g,1,"I recommend thinking about whether you enjoy what you are doing. It is ok if you started off heading into data science, but found yourself loving something else. It sounds like you are getting value exposure to driving a business and you shouldn’t discount that just because it wasn’t a part of your original career plan. 
+
+One of my biggest mistakes in my career and holding on too tightly on my career paths. I always wanted to do public policy. I fought for years to remain in public policy even as it didn’t fit the direction life was taking me. Eventually I accepted that data science is what made the most sense for the experiences I was having, the opportunities that I was getting, and the constraints in my life. Once I became open to something other than my original plans, everything made sense and, funny enough, I found a way to contribute to public policy.
+
+So my advice is to hold your career plans with an open hand. If you enjoy what you are doing now and are getting value experience, pour yourself into it. If data science is a deep and persistent passion, as your pour yourself into what you are doing now, you will naturally tackle it in a way that’s unique to someone with a passion in data science and your existing experiences will migrate closer to your career plans. But don’t let your career plans become a ball and chains that limit your ability to get experiences that you didn’t plan on getting or discover passion/talent that you didn’t plan on developing.",27
+1qsls5g,2,You know the answer in your heart.,8
+1qsls5g,3,"this role is drifting away from core data science, even if it is building useful business context. most ds roles still involve a lot of coding, messy data, and model iteration, even at startups. what u are learning now is how decisions get made and how systems get adopted, which is valuable for entrepreneurship, but it does not compound technically. the risk is waking up in a year or two and realizing u cannot pass a hands on ds interview without a lot of catch up. tooling and ops work helps if u pair it with real analysis or modeling on the side. if data is meant to be a core lever in your future business, u probably want deeper reps with data pipelines, analysis, and at least simple models. a good checkpoint is whether u are still growing technically quarter over quarter. if not, it is usually a sign to adjust the role or move.",5
+1qsls5g,4,"this doesn’t sound like drifting, it sounds like context building. real ds roles are usually a lot of messy data, stakeholder questions, and glue work, not constant modeling. the risk is staying too long without touching code or stats at all, not doing tooling per se. if entrepreneurship is the goal, seeing how decisions get made and systems break is underrated. just make sure you deliberately keep your technical muscle warm, otherwise the switch back gets harder.,,,",3
+1qsls5g,5,"If you're seeing the strategic insights, why not simply build the models in your own time? Why not start building your company in your spare hours and lay the foundation? 
+
+Notions such as ""I want to before"" and ""I want to have a business"" are empty shells of ambitions. Be concrete, what do you want to build, and build it. Take the lead on your ambitions. Get used to uncertainty in practice.",1
+1qrtgse,1,"Honestly, the answer is the impact of the decisions. More than one of the models my team and I have built at Amazon have $100s of millions in annual impact, either via top line revenue, company spend, or loss avoidance. Not all of them are incredibly complex (quite often the opposite as they emphasize explainability), but the scientists who do well here are able to understand high value/complex business problems and apply the right solution. I like to think of it like the ship repair problem.
+
+A ship's engine failed, halting production, and no mechanic could fix it. An expert tapped a specific spot with a hammer, instantly repairing it. The $10,000 bill was questioned, prompting the expert to itemize: $1 for tapping, $9,999 for knowing where to tap, highlighting that expertise, not just education and effort, holds immense value.",741
+1qrtgse,2,"Well as one of those ICs who currently makes $500k at a FAANG my breakdown is like this:
+
+1. RSUs appreciation over time = $150k
+2. Annual RSU refreshers = $100k
+3. Base salary and bonus = $300k
+
+I also spent several years working at regular F500 companies before going to FAANG, which counted as valuable experience that allowed me to get hired at a more senior level.
+
+You'll notice that the base comp is indeed much higher in big tech. The reason is mainly that DS here are working on more valuable products and supporting teams of better paid engineers. I'm touching things that involve 10-50x more revenue than what I did at a F500 and I get paid 2.5x more because of it. I'm certainly not 2.5x smarter or harder working than I was back then.",253
+1qrtgse,3,"Interviewing skills.
+
+From my little observation: you have to develop your own niche, starting from mastering the basics and develop your craft.
+
+I go back to basic frequentist statistics every quarter to ensure I train my memory to avoid BS from stakeholders, and my niche is an ability to gather and leverage data in messy systems by building infrastructure for it. Oh, and I detect and underline BS to my stakeholders which is appreciated by my allies, and disliked by those without moat.",30
+1qrtgse,4,"time spent prepping + luck in getting the interview, there's no skill difference in faang, maybe more politics
+
+source: 4 years at FAANG",59
+1qrtgse,5,"Yes, it’s the stock (RSUs). Base salaries even in tech, top out around 250k for most ICs. But why do they “deserve” that much? That one is tricky to answer. I guess it’s because they design services that are crucial to those tech co’s the same way SWEs do. The code is the product, so you are not just some cost center. And top tech firms have been paying SWEs lots if you count RSUs for a long time. I guess the question is always have when I run into some incredibly gifted data scientist working for $100k at a small or non tech company is why aren’t they making more. Maybe they hate the rat race in Silicon Valley. Maybe they hate or can’t pass FAANG interviews. But sometimes they just don’t know they could be making 5x as much.",44
+1qrtgse,6,Networking and Luck,16
+1qrtgse,7,"I've talked to a few senior folks in my network working at Google, Optiver, Netflix and the likes. The common trend among them was being able to operate at scale. I'm talking about writing optimized software for billions, if not millions of concurrent users. Stuff breaks at scale and the architecture of things becomes too complex. Scaling models / APIs to handle 4-5 million+ QPS is a valuable skill that separates them from the F500 Data Scientists at their level.",62
+1qrtgse,8,"The data scientists at FAANG are whip smart, have subject matter expertise, and the best ones have product, finance, business, and engineering chops beyond their data science knowledge to be able to put data to good use in large organizations. 
+
+Key example: a good data scientist at a company like Stripe will come with the data science toolkit, but will also have working expertise in finance/accounting, financial engineering, B2B SaaS, or other focus area according to their role. They would be able to make strong recommendations or build models that can work within the business line of the company. 
+
+Tech companies are flat organizationally. It means each data scientist is directly responsible for a scope that the company believes is more valuable than their TC. 
+
+Also, these corporations make tons of money so they can afford to overpay to obtain and retain talent. FAANG companies sell technology products, while this is not true for most F500s. Tech companies lifeblood is directly dependent on their ability to turn data into $$$ while PepsiCo’s lifeblood is to sell more Doritos.",37
+1qrtgse,9,"Luck, ambition and sometimes skill.
+
+I will say the FAANG types often have a sense of over confidence which helps make them seem more competent too. But at the end of the day, they’re not that much different. I know guys doing DS for their local municipalities that have as much skill as people in FAANG.  They just lacked the desire to do high stress interview after high stress interview. Meanwhile the dudes in FAANG just applied everywhere and studied coding problems all day until they landed anything at all that met their requirements. And once their foot was in the door they were made.",11
+1qrtgse,10,"About 100k. But for real, it’s usually not just one thing like tech expertise, it’s that they’re really good at a lot of things and fast. Like in my F10 role we’d take our time and have pretty specific scope and just keep on chugging and passing week by week while giving little updates. At FAANG, the question/idea comes up Monday, there’s a team spun up Tuesday with 3 docs for alignment, then 1-2 people powering through deeper analyses than I saw elsewhere Wednesday, a pre-meeting with leads and a few $1B+ scoped org leaders Thursday (who’ve already asked twice that week when you’d be done), then VPs shift teams to focus the laser on your DS recs after an audience Friday, probably netting 5x the yearly salary for the group in the next quarter of execution, while the same cycle starts the next week. All while 2-5 mega projects are ongoing, and metrics reports and ad hoc analyses are being written at all times. TBH, the roles are vastly underpaid at $500k for the value they truly create by aiming the $10M/yr engineering team that drives 6-9x ROI year after year (literally, I calculated this as part of planning: 6x ROI on headcount was the bottom cutoff for “right sizing” the org last year, with mean Eng cost of $950k as the input).
+
+That’s the lowest level DS. The rest crush more. No joke. It’s just not the same scale, and every DS is extraordinarily capable or we just get other ones.
+
+There’s a lot of talk about hiring fresh PhDs by other companies in the comments here and tbh, the hard part is never technical (that’s the minimum cost of entry), it’s doing a job and making the company value and prioritizing work—that’s why companies pay big bucks.",4
+1qrohou,1,"From what I have seen, the strategy matters less than being honest about what problem you are actually trying to offload. A lot of teams jump straight to “generate code” and hit the validation wall you describe, because the review cost is real. The places where it seems to work better are narrow, well scoped tasks where correctness is easy to check, like draft documentation, test cases, or refactoring suggestions rather than greenfield logic. On the tooling side, flexibility usually comes from constraining the interface rather than the model. If the inputs and outputs are boring and well defined, the LLM can be sloppy internally without breaking anything. The harder question is whether the team is willing to invest in those interfaces, because that work often looks like overhead rather than leverage at first.",34
+1qrohou,2,"LLMs help most when they sit close to very narrow, boring tasks. once u ask them to be creative or own big chunks of logic, review cost explodes. teams that get value usually constrain scope hard, like draft doc outlines, test scaffolds, or simple transforms that already have strong conventions. the cold start issue never really goes away, u slowly build context by fixing outputs and feeding that back. if the model is writing more code than u would, that’s usually a sign the task isn’t well bounded yet. the win is saving time on setup, not replacing judgment.",17
+1qrohou,3,"I think LLMs work best as helpers, assistants and never entirely as complete builders. They are good at turning rough notes into short docs and explaining code in simple words or if I put in a more simpler manner just helps you to get started..You want to build a DAG to orchestrate something, want to built agentic frameworks or just to make sense of the data, whatever it is LLM does helps with the cold start problem because context builds little by little
+
+For the validation thing that you pointed it, I think its more the game of prompt engineering in that case…
+I have seen multiple cases where validation gets easier when you keep requests small concise and to the point. Ask for one function or one idea, not a full script. Short answers are easier to read and trust. A quick explanation with the code helps catch mistakes fast. As another redditor pointed out, decide on a particular template format you want the LLM input and output to be based upon and it will help you to streamline the use case workflows much better..Lastly, LLM’s efficiency is entirely depended on the context, the inputs you are provided, the sources you are asking it to refer to before it spurts out the responses, hence having a proper data source, data cleaning, document chunking, embeddings , RAG models, evaluation metrics..pondering over all of these goes a long way in unleashing these machine bots in an effective manner",3
+1qrohou,4,"My team does a mix of modeling, software engineering, and data engineering.
+
+I'm getting a ton of lift on tedious stuff like ""write code that uploads raw data from s3 to my RDS instance"" or ""build an endpoint for this new dropdown following the existing pattern"". Make sure you set guardrails and adhere to strict TDD methods.
+
+It's great at documentation but ironically generates too much of it to be useful for the team. It's useful for other agents I guess.
+
+But wow, it's terrible at modeling exercises. Does not understand experiment design, data leakage, or business logic despite extensive prompting. Makes schoolboy DS errors.",3
+1qrohou,5,I’m going to wait until it’s more refined and so I don’t have to guess how to best use it.,5
+1qrohou,6,Non-manager here: Please give your people Claude Max. Just do it. Copilot fucking sucks.,3
+1qrohou,7,My team is split Data Science and MLOps. My MLEs use it heavily. My Data Scientists are testing the waters. We use it to help with scoping and generate questions for ideation sessions with business partners. It is great for mapping features to common language reasons to accelerate transparency outputs. We also use to assess the features we’ve engineered and have it provide recommendations on other transformations or calculations to consider. I will caveat that we have an enterprise managed chatbot that is behind enterprise firewall so no fear of entering proprietary or trade secret information.,1
+1qrohou,8,"For documentation you don’t need to have everything fully automated to add value. 
+
+Define a template for your documentation and have your team using LLMs to convert their bullet points into the full documentation.",1
+1qrohou,9,"I start with AI works better with limits and constraints. So while I can’t use rust on Databricks, we are uplifting all the standard engineering practices to improve the likelihood of correct code from the LLM. That means fleshing out our CI/CD pipeline some more. Switching to Ty from MyPi, adding ruff. Finally getting pytest up and working instead of one off manual testing or bespoke automated tests. Also moved to uv from pipenv. 
+
+Then it’s building some skills for common stuff (like an on call skill that will grab a specified ticket, looks at the Databricks logs, cross check the git history and provide a summary for the on call engineer, and opine if a simple rerun will fix it). 
+
+Lastly, weekly meetings where we discuss both engineering best practices and how to use AI safely and effectively to help with our work.",1
+1qrohou,10,"Nothing. The time it takes to validate their output takes longer than creating the output yourself. We employ skilled professionals here, not vibe coders. 
+
+They're complete fucking garbage and anyone with a brain can see that.",1
+1qqvlcn,1,I've been approached by a few headhunters in Germany. Both compensation and relocation wasn't a fit for me but glad it's happening given US work visa shenanigans.,57
+1qqvlcn,2,"Are there plenty of jobs in Finland ? 
+I doubt it",14
+1qqvlcn,3,What are some big finland AI companies?  I'll be honest the only major AI companies I know are Mistral and Flux from Europe,15
+1qqvlcn,4,"I was under the impression that the job market is pretty bad in Finland. Companies are not on a hiring spree in Europe either, there were a lot of companies looking to hire in Poland in the last year or so and in some other countries.",16
+1qqvlcn,5,"""Talent""",3
+1qqvlcn,6,Good for Finland!,2
+1qqvlcn,7,I have a feeling that the tech hiring slow down is a much bigger deal in the US than almost anywhere else. ,2
+1qqvlcn,8,This is just misleading news... And most European countries can't even come close to competing with US companies.,2
+1qqvlcn,9,Indians are lining up to get into Finland. Residents of Finland kissing their jobs goodbye. ,2
+1qqvlcn,10,"Guys how many projects do i need to start freelancing, now i only have 2, one is done, the other(swapi) is still in dev, check out my github yahyanaddam, i'm a beginner, This is my first year i'm only 14",0
+1qqtj9y,1,"And more.  
+
+How do I work with stakeholders to ensure they value the team, so that I can get an appropriate level of funding.  
+
+How do I support and develop each person in my team.  When do I step in, and when do I step back?
+
+The two main mental changes I had were: 
+
+My role is to coach the team, to get everyone performing their best.  Screw the output, if I put my best on a project then I can always do better, but my goal is to maximise team skill, not deliver only top results.  The output is for the IC. 
+
+I’m literally running a small business here.  I’m selling my team. If I want my team to grow then I need more sales.  That means the same as it does in any sales role, listen to your customers and deliver what makes them happy.  
+
+Oh, another thing is that consistency of tools, techniques and approach across your team will make it easier for you to rearrange resources.",28
+1qqtj9y,2,Take an AMA course or another management course if you can. It’s worth it. You need to learn how to be a manager just like you had to learn how to be a data scientist.,19
+1qqtj9y,3,"What helped me was realizing that my output stopped being models and started being decisions. A good week was not shipping something myself, but unblocking someone else, killing a low value project early, or reframing a vague request into something the team could actually execute. That felt uncomfortable at first because it is less visible and less concrete.
+
+My sense of judgment got better by sitting closer to stakeholders and paying attention to second order effects. You start noticing which projects quietly create leverage and which ones just generate slides. Saying no became easier once I saw how much opportunity cost there really is. the hardest habit to break was jumping into do the work because I could do it faster. Letting others struggle a bit, while still supporting them, ended up creating way more value long term. It sounds like you are already asking the right questions, which is honestly most of the transition.",7
+1qqtj9y,4,"If you aren’t being allowed to reject projects, then run. 
+
+There is a certain kind of hell when you have manage people AND your expected to take on every single request every idiot decided is what they want.",6
+1qqtj9y,5,"the biggest shift for me was realizing my output stopped being models or analyses and became decisions and constraints. a lot of value judgment came from seeing where teams kept getting stuck and asking why. often it wasn’t lack of skill, it was unclear goals or work that never connected back to an outcome. deciding what not to work on got easier once i forced every project to answer what changes if this succeeds. if the answer was vague, it usually wasn’t worth the time. leverage through others came from setting direction clearly and then getting out of the way, even if they solved it differently than i would have. letting go of being the fastest or most correct person took time, but that’s where scale actually shows up.",5
+1qqtj9y,6,"A Team Lead is typically a player/coach role, where you align the team towards a common goal, ensure that maps to overall organizational KPIs, assign work/projects against the skills and development goals of the ICs, ensure they have access to training and resources, etc. In short, you help lead the way, but show the way with a 70/30 split across the ‘playing’ and ‘coaching’.
+
+You should make sure you push your manager to get you the overall goals, KPIs and strategy of the organization so you can translate that down to your team. And this position should come with more responsibility around what to do and why you do it. 
+
+Also, I would expect this position to have more cross-company visibility and influence. So, if that’s not happening then talk to your manager about getting into meetings where decisions are being made.
+
+Hope that helps.",2
+1qqtj9y,7,"Lots of good wisdom in already in this thread but I'll add my two cents on how to get work done through other people rather than doing in yourself. I read once in a management book (I think it was ""the making of a manager"") that your job as a team lead is to 1) define a goal, 2) help your team understand if they are moving towards that goal, and 3) inspire them to care about that goal. In my experience, that second role - helping people understand if they're moving towards a goal - is the most important part but it's also easiest to overlook. It can be tough in data work to understand if you're making progress or if you're getting stuck in a rabbit hole. Your instincts on how to zig and zag through various small decisions are likely great, which is why you got promoted, and now your job is to imprint upon your intuitions and tastes on your team so that they can start to make those same micro-decisions. So its important to both checkin frequently to help make those decisions, as well as explain your reasoning (e.g. ""we want to display the data in this way because our stakeholders are particularly interested in understanding this dimension of the data"" versus ""use a bar chart because its cleaner""). 
+
+  
+Relatedly, the best tactical management advice I ever got was ""don't only taste the soup when it's done."" The worst thing you can do as a team lead is assign a task that takes weeks and only review it when it's done. By contrast, great head chefs will check in along the way to see how their chefs are prepping the ingredients, they will take an early taste of the stock, give adjustments, etc. That can sometimes be hard for younger ICs since they might believe that they should only show you finished products or only checkin when they've made great progress. So you'll need to encourage checkins when they're stuck and help them feel comfortable being vulnerable when something is not going well.",2
+1qqtj9y,8,"Just to clarify, do you have direct reports? Or are you the tech lead, responsible for technical direction, strategy, etc. without the people management piece?",1
+1qqtj9y,9,"Nothing actually changes except maybe you get to say no a bit more to people outside the team.
+
+I find your language really strange. It sounds like it's coming from management books. Just keep doing your normal job and try to help the less experienced people not drown in the bullshit. I don't see how you even get to be a team lead if you weren't already involved in planning, project selection, coaching juniors, etc.
+
+> Any mental models, habits, or mistakes-you-learned-from that were particularly helpful?
+
+Yeah actually my advice is not to fall into the trap that so many do and take your foot off the gas pedal improving your technical skills.",-6
+1qqg341,1,Myopia is common. Everybody assumes their experience is universal.,289
+1qqg341,2,OpenAI uses Airflow for everything. ,94
+1qqg341,3,I literally am using airflow right now for a big enterprise.,81
+1qqg341,4,"It’s a dumb comment. As a data scientist you would think they would be good at not making sweeping generalized statements without supporting evidence. (I am assuming the title of the commenter here) 
+
+At my company we are currently working on implementing Airflow into our tech stack.",133
+1qqg341,5,Did you interview at Dagster? lol,40
+1qqg341,6,"Astronomer, AWS MWAA, yes we are all using AirFlow. Anyone still using Jenkins? Luigi?",25
+1qqg341,7,Yes it’s true - in 2026 we now just ask Claude to “please refresh this analysis” - we’ve come full circle,41
+1qqg341,8,Any massive generalization like that is almost always not true. If it's not required it doesn't matter.,13
+1qqg341,9,It’s used at Amazon for some of the largest data you’ve ever seen,12
+1qqg341,10,"Just laugh at that point, cause clearly whoever said that has no lay of the industry whatsoever",8
+1qputs6,1,"Yes, search for Goole Maps API.",19
+1qputs6,2,"Try using the [Google Maps Places API](https://developers.google.com/maps/documentation/places/web-service/overview) to get all of the Food Lions + Chinese Restaurants. You'll get a [place ID](https://developers.google.com/maps/documentation/places/web-service/place-id) (unique ID). And you can pass it to the [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview) to get the coordinates, or even to the [Routes API](https://developers.google.com/maps/documentation/routes) to calculate distances.",11
+1qputs6,3,"u can do it, but it is messier than it sounds. google maps itself does not like bulk queries at state scale, and results depend a lot on category labeling. “chinese restaurant” is especially noisy in practice. some places are tagged asian, some are missing cuisine tags, some are inside larger plazas with fuzzy locations. u will also hit rate limits fast. the harder part is not getting lat long once, it is making sure the data is complete and comparable. if this is for analysis, expect to spend more time cleaning and sanity checking than computing distances.",9
+1qputs6,4,"you can use openstreetmap data with the overpass api. you can pull all food lions in NC, all chinese restaurants in NC and then compute distances.
+
+i ran it and got that there are 416 food lions total and only 155 have a chinese (or asian) restaurant within 1km.
+
+check it here and click run: [https://overpass-turbo.eu/s/2jAj](https://overpass-turbo.eu/s/2jAj)",5
+1qputs6,5,"The Google API is good as others have mentioned, but please the guidance and limitations carefully. It’s not as straightforward as you might expect to get ‘all’ locations, not just a sampling.
+
+Basically the API is designed more for integration into apps and such, not for data analysis or for data harvesting. What you want to do is also probably forbidden by their TOS. I’m just informing you of this. I think it doesn’t matter so much for personal, casual usage like this.
+
+Another option might openstreetmap and it’s nominatim API, but it’s harder to use than Google’s and the quality/freshness of the data is likely to be lower.",4
+1qputs6,6,"With Maptitude you can use the free trial to map the Food Lion locations, then use the distance and travel time table tool [https://www.caliper.com/learning/creating-travel-time-tables/](https://www.caliper.com/learning/creating-travel-time-tables/), on the Chinese restaurant landmark layer. Do you just need the table of results? Let us know, we can send it over.",2
+1qputs6,7,"at a high level, yes, but google maps itself is not really designed for this kind of bulk spatial analysis. people usually end up going through the places api or an open poi dataset and then doing the joins offline. the practical caveat is that category labels like “chinese restaurant” are noisy and incomplete, so your result will reflect how google classifies places rather than ground truth. if you are okay with that, pulling lat long for each category and computing distances is straightforward once you are outside the maps ui.",1
+1qputs6,8,"You can do this via the Google Places API (or OpenStreetMap if you want to avoid quotas). Query Food Lion and Chinese restaurants separately, restrict by state bounds, and collect lat/longs. From there it’s just a spatial join + distance calculation (Haversine). One thing to watch out for is API rate limits and duplicate POIs in shopping centers.",1
+1qohv5a,1,"I only memorized enough in class to pass. It never truly stuck with me in that way.
+
+It stuck when I applied it to projects that I enjoyed: Like grabbing a dataset on video games and using Python/Pandas to gather statistics. You can go very far with the basics, like using df.info() in pandas.
+
+Then I grew my career from there and used it every day.
+
+I'd encourage you to learn in parallel. Learn it in class, practice it, then see if you can apply it to a dataset of your own. Even if that means using something like Excel. You'll be surprised how fast it can stick that way.",83
+1qohv5a,2,"One of the problems with statistics, is that it is often taught by statisticians.
+
+
+I struggled with stats at university, now I am decades into a career in Data Science. A large part of that was managing deeply technical people interacting with commercial people. One of the things I would do when I interviewed a data scientist was ask them to explain a statistical concept (eg regression) and then explain it using no statistical terms.
+
+
+Stats is such an abstract subject that is built up on other abstract concepts that you need to do enough of it to get to the conceptual knowledge on the other side that lets you communicate with non stats people",40
+1qohv5a,3,"I have a masters in statistics and I'm less comfortable than before. Part of that is that I originally learned stats without much math (I took precalc in high school), and then proceeded to relearn it from the ground up after basically learning math from the ground up. Turned the subject upside down for me, and got me to a point that I almost never used what I learned before.",11
+1qohv5a,4,"Many years, first class was AP stats in high school where you just memorized formulas, pretty comfortable after undergrad stat classes, finally “got it” after deriving the common formulas used for standard error and the t-distribution in grad school",5
+1qohv5a,5,Probably started to feel more comfortable towards the end of my PhD program (about 7 years post my last undergrad stats class). I took about 12 different stats and quantitative methods classes (e.g. digital signal processing) as part of non-CS related interdisciplinary STEM program. I dropped out of my program ABD to join a startup 4 years ago. I am already a little rusty in some areas and don’t ever think I’ll ever fully feel confident in everything—but at least I have a solid foundation and can brush up on concepts as needed. The biggest thing that made it click for me was rebuilding previous intuitions with a Bayesian framework. Statistical Rethinking by Richard McElreath is an amazing book and worth its weight in gold!,4
+1qohv5a,6,"I'm about 15 years in as a Bayesian stats focussed Data Scientist. I did maybe 6 years of work under a stats professor before that. 
+
+
+Still don't feel like I know it. ",5
+1qohv5a,7,"honestly it clicked for me when i started working on real projects, not just textbook problems. like running actual surveys and seeing how messy real data is made everything make more sense. took maybe a year or two of consistent practice before i felt truly comfortable",4
+1qohv5a,8,"1. Frequentist: bootstrap and resamolkng did the trick.
+2. Bayesian: still learning
+3. Experimental design: read science papers and their critics
+4. Mathematical statistics: I did the course 4 times
+
+The key is to understand resampling and play with it. 
+
+Statistics is a beautiful tool, but ultimately, it is about measuring what you can’t know and its impact.",3
+1qohv5a,9,"It's a matter of getting comfortable with being uncomfortable. You don't need to understand everything, you just need to know the bounds of your own understanding.",2
+1qohv5a,10,"Probably a few years…. Give or take 8 months… <rim
+Shot> 
+
+“Thanks folks! I’ll be here all week!  Try the chicken!”",3
+1qnshcs,1,Setting up optuna because it's significantly better,104
+1qnshcs,2,"I’ve been using stuff like Bayesian optimisation to speed up parameter searching rather than doing just raw exhaustive grid search so doesn’t usually take all that long.
+
+If you are just brute forcing it with a full grid search then I guess catch up on emails, tidy up any bits you need to tidy up, or just put your feet up for the duration?",46
+1qnshcs,3,Job applications.,18
+1qnshcs,4,"""my code's compiling"" -> ""my model's training""   
+[https://xkcd.com/303/](https://xkcd.com/303/)",50
+1qnshcs,5,Trees don’t really benefit much from an in-depth grid search. I spend most of my time setting up feature engineering experiments and adding more features.,13
+1qnshcs,6,50 minutes per setting is extremely long. I would be down sampling your data or finding some cloud computing resources (maybe both) to speed up your training time.,8
+1qnshcs,7,10 minutes for coffee and conversation? You gotta bump those numbers up,6
+1qnshcs,8,"Not necessarily grid search, but for any longer running process I'll usually find something else to work on like documentation, cleaning up tech debt, small adhoc analyses from my backlog, or other proactive projects. If there's no pressing needs, I'll browse our bigquery instance for new datasources I find interesting or do some continuing education type reading. If it's been a particularly rough day I'll go for a walk, play a quick round of video games, or browse reddit.
+
+Documentation is always a good use of time. You can never have enough.",11
+1qnshcs,9,Use Optuna or TPE,4
+1qnshcs,10,"“Getting coffee and a conversation is only 10mins.”
+
+Not if you leave the office to get the really good artisan coffee at the place where the barista has tattoos in four different scripts including Linear A. ",5
+1qn6qhu,1,"Hey guys, I've been stuck in a decision between studying Artificial Intelligence vs Applied Mathematics with Data Driven Modelling specialization for my MSc degree.
+
+I've finished Applied Computer Science BEng and I'm currently working as a Python Developer Working Student (gonna stick for that role for \~2 years, since that's kinda the company's way of working). 
+
+I'm not that big of a fan of LLM's and ""corporate"" DS that's there just to generate more money, would love to work within Game Dev or Simulation Models for Ecology / Medicine / Smart Cities, e.g. would love to work with AI Driven traffic lights system (though my city seems pretty against the idea dealing with traffic xd).
+
+What are your guys opinions on that? Does that even matter for a future employer?
+
+Here's a quick recap of a couple of courses I'd take in each of the careers:  
+AI: Fundamentals of Optimization, Complex Networks, Probabilistic Graphical Models, Deep Neural Networks, Data Processing and Knowledge Discovery, Metaheuristics, NLP, Recommender Systems, Application of Fuzzy Techniques, Big Data Processing
+
+AM: Partial Differential Equations, Simulation of Stochastic Processes, Optimization Theory, Applied Functional Analysis, ML for Data Analysis, Unstructured Data Analysis, Advanced Topics in Dynamic Games, RL in Multi-Agent Systems, Estimation Theory",1
+1qn6qhu,2,"Hi all  I’m interviewing for a Google Data Scientist – Research role soon (early PhD / early-career). The prep guide says the coding is “statistical programming” in a shared doc (Python), not a SWE/algorithms interview.
+
+Quick coding-specific question for anyone who interviewed recently: Was the coding list/DSA-heavy (e.g., things like palindromes, 3Sum, two pointers, etc.) or was it mostly data work (pandas/dplyr, joins/merges, groupby/aggregations, cleaning, basic modeling / A/B metrics)?
+
+Also helpful (high-level is fine): How strict was syntax vs logic (since code may not be run)? Were common libraries (pandas/numpy or dplyr) assumed/allowed?",1
+1qn6qhu,3,"Try this cohort project
+
+https://docs.google.com/forms/d/1ZlPh5B2HJvQln6sQIhH4fQA08SV2yodHVU3IpnYN0OA/edit",1
+1qn6qhu,4,"Hello everyone! I have a few questions since I will finalize my higher education soon and I figured that this would be the best place to get good contructive opinions and advice. 
+
+I am currently a student in migration studies (BA and currently writing the thesis for the MA). Throughout these studies I have been able to discover different statistical methods of analysis and I have tried to focused on that whenever I had the opportunity. Turns out I really like working with stats and big datasets from formulating a research question to providing clear and comprehensible results with good visualizations. During this MA I have also done an internship at the department of the university where I basically was the 'stats guy' and did a bunch of stuff with a fresh new database and helped every researchers who were working with it. I will also use stats for my thesis. I will do a second MA next year (if I get admitted 🤞) that is much more focused on economy and includes more stats focused courses, nottably econometrics.
+
+With all of this background I would really like to find a job as a data analyst or anything related to data gathering/vizualization/ risk analysis, etc.. I was wondering if you think that my profile is something common in this job market? From what I have seen online and what information I got from my network, data analysts are needed but many job posts seem to search for profiles in computer science which is not really where I come from. (Btw I live in Scandinavia and can speak French, english and hopefully a nordic language soon)
+
+Anyway, thank you in advance for reading all of this! If you think you have anything interesting to say about this please do😁",1
+1qn6qhu,5,"Hi everyone  I’m a full-stack web dev moving into DS/ML and I’m building a small sports analytics project: an ML model that estimates **probability of a football match ending in a draw** (tracking results daily).
+
+Quick question: what’s the best way to **validate** this properly to avoid leakage — rolling time split, walk-forward CV, calibration? Also, any recommended resources for taking a model from notebook → API → deployment/monitoring (MLOps basics)?
+
+Appreciate any advice",2
+1qn6qhu,6,"No questions myself but wanted to open myself to questions for folks who are looking to transition into the field or grow their DS career. I’m a staff-level data scientist at a hyperscaler in SF that you have heard of. I’ve been in the field for 6 years now. I come from a non-conventional background (before DS I worked in various roles across warehouse ops for an ecommerce startup, management consulting, and finance). 
+
+[please don’t message me for a referral - I typically only refer folks I can vouch for personally 🙏]
+
+
+- EQ > IQ. DS is a field that attracts a lot of smart, quiet introverts. Working on sociability, networking, and “putting yourself out there” returns far higher dividends than polishing your resume or gaining more and more tech skills. It may surprise you but speaking to folks at conferences, parties, or worst case LinkedIn messaging your school alumni can open lots of unexpected doors. 
+- The same is true on the job. Surprise: people like working with those they like to be around. Landing impact and doing well in your data science role is 75% stakeholder management and 25% actually coding. The most successful DSes aren’t those with the best code, they’re those who can run the business. 
+- Data science isn’t an entry level job. An entry level data scientist typically has at least a few years work experience in an adjacent role. I see a lot of folks coming from economic consulting, analytics, product management, and academia. The reason for this is that domain knowledge and business acumen are necessary to translate your technical work into a business result.
+- Breaking into data science can be somewhat random. My best advice for those not in the industry is to look for opportunities to use data science methods to improve processes or change the business wherever you currently work. I landed my first data science role because I started applying data science methods to inventory management, then moved on to support our ads team, and eventually got a new “analytics” job title. That cracked the door open for me to enter data science.",11
+1qlb03x,1,I've built my whole career around sampling from the posterior.,707
+1qlb03x,2,Spreadsheets,568
+1qlb03x,3,"Reminds me of the guy that got set up by a friend of his 
+ After the date, the girl told her friend that she wasn't feeling it. She is not going to date some ""warehouse"" worker.",321
+1qlb03x,4,"Actually, I think that phrasing implies both playfulness and an admitted unfamiliarity with your profession.  I think that's a nice response.",376
+1qlb03x,5,I work with a lot of big dicts.,275
+1qlb03x,6,I would have proposed right there. She’s a keeper,80
+1qlb03x,7,I do not think you can do better than that. I think she has won. I would just explain what data.,49
+1qlb03x,8,Honestly it’s a valid question right? Translation: what industry do you work in,96
+1qlb03x,9,"Lol, tell them you work in the random forestry service.",82
+1qlb03x,10,BIG data,69
+1qkzkgd,1,"Hi, very simple. You go to your next interview. And the. You’ll go to your next.
+
+Interviewing is a skill, usually you’ll have to go to a few before you start feeling comfortable.
+
+Don’t sweat it brother, they’ll be more opportunities.",107
+1qkzkgd,2,"* Don't get attached to any particular companies.
+
+* I always do a self-debrief after an interview and give myself a brutally honest rating.  I jot down precisely what I think I bombed.  If it's a topic that popped up in a bunch of interviews (like, not totally out of left field) then I spend more time reviewing that topic.
+
+* What you describe looks like a dysfunctional workplace and/or hiring process.  If I was interviewing with a company I was excited about, then noticed that the hiring manager was distracted and possibly looking down on me during the interview, I would immediately stop being excited about working for them.
+
+* Try to get a lot more interviews, including mock interviews.  Interviewing is a skill and the best way to get better at them is to do more interviews.",34
+1qkzkgd,3,"Beer. 
+
+Interviewing is always a bit of crap shoot because they can ask you anything. The other day I had a screening interview for a fairly senior role and the recruiter asked me about my approach to developing a data strategy. I was caught flat footed and didn't have a great response and I'm pretty sure I won't get a call back as a result. Hell, I have a bit of a niche role within a niche industry and I've gotten rejected when applying for my role at other organizations. On the other end of the spectrum, I've absolutely nailed other interviews to the point that during the final interview, the interviewer was basically answering questions for me. 
+
+I'll also just add not too read too much into the interviewer ""smiling."" It could be a million different things. When I applied for my current role, one of the panelists was wearing an old, ratty batman t shirt. I assumed I wasn't a serious candidate at the time, but ended up being the first choice.",18
+1qkzkgd,4,"Based on that hiring manager, this absolutely would not be my dream place to work. If they can't even treat you with respect during an interview - when they should be on their best behavior to win you over - then imagine how they'd treat you as an employee. I don't know how even someone who is excellent at interviewing could do a good job when it seems like the interviewer isn't even listening to them. 
+
+It sounds like he wasn't taking the interview seriously, which makes me wonder if you even had a shot as a candidate or if they already have someone in mind; they are just required to interview a certain number of candidates before making an offer.",9
+1qkzkgd,5,I get happy that it's out of the way and the next one won't be as bad.,9
+1qkzkgd,6,"I’ve been there too. What’s helped me get over a bad interview like that is writing it down afterward — like, if this happens again, how do I want to handle it next time? Then when you get the next interview, just try to do a bit better than last time, and that’s how confidence builds. 
+
+Thinking about it as improving round by round makes the whole process more sustainable.",4
+1qkzkgd,7,"Just remember when these things happen a variety of things could be happening. 
+
+1. Had to interview 5 people externally before being allowed to promote internally 
+
+2. Was told to hire a DS person but really needs something else. 
+
+3. Is a dildo",3
+1qkzkgd,8,"My job is not my life. I play music, meet friends, study, play games and spend time with my partner.
+
+I self-value fortunately is not only dependent on my work performance snymore. O think it‘s healthy to diversify with your confidence. I still struggle with it sometimes, but I‘m doing better.
+
+Just had a exam where my professor audibly commented on my bad performance, pretty sure. It was scathing, but I believe I can get over it.",3
+1qkzkgd,9,"Just accept it. You can’t change the past, so why bother dwelling on it?
+
+You’ve already said you know you could do better and this was just a bad interview with a few things that threw you off.
+
+Don’t let it get to you, stuff like this happens, you’ll do better in the next interview having had this experience",2
+1qkzkgd,10,"My tip if that happens again: “is now still a good time?” Or some variant of that question. It might not be! 
+
+Otherwise, job hunting is a bitch and you gotta keep on keeping on.",1
+1qkw300,1,"If you use the same assumptions (e.g., priors) you will get the same answer from both methods. In order to get different results, you need to make different assumptions.
+
+Bayesian methods allow you to flexibly and easily incorporate different assumptions, but you don't get anything ""for free"" without making those additional assumptions.",11
+1qkw300,2,bayesian lets you stop tests early with credible intervals. t-test forces you to wait for predetermined sample size or you get false positives. use bayesian if you need speed,2
+1qkw300,3,"Is there some information you know about the problem that isn't being captured by the data?  If so, then a Bayesian prior may help get to the answer faster.  Otherwise its always good to use a t-test.",1
+1qjoqu2,1,"I just use whatever the org gives lmao. Right now it's VSCode, integrated jupyter window with copilot",62
+1qjoqu2,2,I exclusively use notebooks for exploratory data analysis,151
+1qjoqu2,3,"I use quarto notebooks; best of both worlds. I get executable python files with low token overhead for AI models and Git tracking, but can still generate reports and documents with graphs and tables to share my results with others.",36
+1qjoqu2,4,"I don’t think anyone should restrict themselves when it comes to developments / production workflows.
+
+If notebooks is easy and fast for quick POC, by all means.
+
+Personally, I prefer pure Python scripts for production stuffs as our tech stack includes API, CICD, orchestration tools such as airflow and kubeflow.",46
+1qjoqu2,5,"i still use notebooks a lot, but mostly as a thinking space. they are great for exploration, quick plots, and sanity checks, but I try not to let them turn into production code. what works for me is keeping notebooks very disposable and pushing anything reusable into plain python modules early. that makes it easier to test and also easier for AI tools to help, since they struggle once notebooks get long and messy. I have also seen teams treat notebooks almost like lab notes, then rebuild the final pipeline cleanly outside. curious if others have found a better balance or if notebooks are slowly losing their place.",14
+1qjoqu2,6,Look into [marimo](https://marimo.io/). It's a notebook (and imo a way nicer one than jupyter at that) but specifically designed so the notebook files are ordinary python ones that you can run and deploy as is. It also has AI integration and works well with uv.,26
+1qjoqu2,7,notebooks are great for prototyping but for deployment it is better to modularize code into scripts with clear inputs outputs and tests. keeping notebooks for exploration while enforcing versioned data and evaluation pipelines makes AI integration and GenAI workflows more reliable.,6
+1qjoqu2,8,"Yes, especially when a quick ipywidgets GUI can help with exploration although streamlit partly replaces that use case.   Generally prefer a python script that uses PyCharm cell mode though, and functions separated into a separate file plus autoreload magic",5
+1qjoqu2,9,"I do everything in classes and call it from the notebook when I'm developing. Then, it's all ready to go when I'm settled on a solution. gen ai to document everything for the next person extensively as far as structure and file usage",6
+1qjoqu2,10,"If you use VS Code, you can use Jupyter code cells and get the best of both worlds. You have Jupyter capabilities in terms of data exploration but everything resides in a python file. Databricks does a similar thing with their notebooks. 
+
+You can read more here: https://code.visualstudio.com/docs/python/jupyter-support-py#_jupyter-code-cells",5
+1qjkko5,1,"Full stack is mostly about ownership, not title. When I owned a model end-to-end, I was forced to learn logging, monitoring, and deployment. Before that, I was just a notebook person",52
+1qjkko5,2,"I like pancakes, full stack.",22
+1qjkko5,3,"Once I got paid half up front and that was a half stack,.then I got the full thing, that was a full stack.",9
+1qjkko5,4,"Fullstack data science in a feature team revolves around 6 tracks:
+
+- product, what business problem do you solve, 
+- data, as a consumer and a producer, with pipelines, tests and governance
+- project management, agile stuff in short 
+- science, your usual stuff
+- engineering, make your stuff work at scale
+- accountability, you monitore your system health (observability, finops, tokens...), your metrics data (ndcg...) and business.
+
+For an example of a story of those tracks applied in a ""you build it, you run it"" spirited data heavy feature team:
+https://medium.com/adeo-tech/you-build-it-you-run-it-a-practical-example-from-a-data-science-team-2f4853854684",5
+1qjkko5,5,"I think a lot of this comes down to how a team defines full stack. In many orgs, the handoff you describe is the intentional boundary, not a personal gap. You can learn a lot by owning the last mile for a small system, even if it is unglamorous monitoring, data validation, or retraining logic. Startups can compress these roles, but rigor often gets traded for speed, so you end up learning workarounds more than good systems. the question I always ask is whether the model actually ships and stays alive six months later. If you want more data eng exposure, it usually helps to frame it as reliability and iteration, not career development. That tends to get buy-in faster.",5
+1qjkko5,6,"The startup route is definitely the fastest trial-by-fire. I went from a large corp (where I just handed off .py files) to a small team, and suddenly I had to figure out why my Docker container crashed AWS at 3 AM. If you can't switch jobs right now, try to own the deployment of just one small internal tool. Even if it's just a simple Streamlit app or a scheduled cron job - you'll immediately run into all the real engineering headaches (dependencies, environments, latency) without waiting for permission. That's how you bridge the gap.",5
+1qjkko5,7,"yeah I've never had a role like that lol. My rolls have been a mixture of 
+
+* excel jockey
+* glorified SQL guru
+* c-suite whisperer
+*  import pandas as pd",5
+1qjkko5,8,I’m also doing Data engineering. Take that!,2
+1qjkko5,9,"“Full-stack DS” is basically: *you can own the whole loop* problem framing → data pipelines → modeling → deployment → monitoring → iteration.  
+In practice, the biggest difference isn’t the fancy model, it’s:
+
+* reproducible training pipeline
+* time-based validation (no leakage)
+* monitoring drift + model decay
+* easy ways to explain outputs (UI/visuals/feature importance)
+
+I’m building a small full-stack ML side project right now and the UI + tracking results part taught me more than most Kaggle work. Shipping something end-to-end changes how you think.",2
+1qjhf6p,1,"I read this and what stuck w me was separation of concerns. Once I started splitting routes, business logic, and db stuff into clear layers, debugging actually became less painful.",6
+1qjhf6p,2,"This a good summary of what I’ve learned myself over the past 6 months! Thanks for writing up.
+
+In particular the correct use of schemas means input validation is something much simpler, regardless of whether you’re making an API ",2
+1qjhf6p,3,This is super valuable. I’ve always wanted to learn more about good coding habits and software development from the perspective of a data scientist with a math background who never learned this stuff,3
+1qjhf6p,4,Thanks a ton for making this. It’s hard to find DS specific coding things sometimes!,1
+1qja2xv,1,"Best: Whichever hires me
+
+Worst: Whichever doesn't",183
+1qja2xv,2,"No to Home Depot, meta, Amazon",82
+1qja2xv,3,Experiences are team/org dependent. A company may have a bad culture but a specific org within that company might be cool. Focus more on finding good teams instead of labeling 50K+ size companies as good or bad.,63
+1qja2xv,4,"Website based companies (Zillow, Chewy, Pinterest etc) tend to at least provide a foundation that CAN support a healthy DS culture, in part because there is so much data to work with. However I second the previous comments here about experience being largely (~60%) driven by org and team. So the beyond avoiding publicly-known-to-be-terrible companies, it’s probably best to understand for yourself what you really value in a manager and in a team. For instance for me, I need a manager to either be smarter or kinder than I am, preferably both. Good luck!",37
+1qja2xv,5,"I am skeptical of best and worst lists because the variance within a company is often larger than across companies. What seems to matter more is whether DS is tied to a real decision loop or just reporting. Teams where models inform or automate something concrete tend to have better incentives around data quality, infra, and career growth. In contrast, roles that sit downstream of the product with vague impact tend to get squeezed when budgets tighten. For 2026 specifically, I would look less at sector labels and more at signals like ownership of metrics, iteration speed, and whether DS is involved before decisions are made. Those usually tell you more than the brand name.",9
+1qja2xv,6,"Honestly man I don't know if you have the luxury of being picky right now. Take what you can get, and if the place sucks at least it buys you time till your next move.",26
+1qja2xv,7,Avoid Merck. This place is a dumpster fire for DS.,13
+1qja2xv,8,"Be very careful with small tiny “start ups”. ChatGPT has basically lowered the bar to “idiot with a computer and a 401k” to start trying to live their “I’m gonna be Steve Jobs” dream. I’m dealing with it now and these folks are a nightmare. 
+
+Think fully AI drafted contracts that are literally impossible to complete because what it asks for doesn’t even exist. They under charge and under estimate the labor and time because they have a lot of competition. 
+
+It’s gross and weird.",11
+1qja2xv,9,What do people think of DS roles in consulting firms? Both internal or client facing DS roles. (I have an offer at the latter and the money and experience looks good. Still unsure though),2
+1qja2xv,10,Are companies hiring freshers in DS? Almost every entry level role requires at least 2 years of experience.,2
+1qinepv,1,"https://www.datascienceweekly.org/
+
+https://dataanalysis.substack.com/
+
+https://www.morgandepenbusch.com/
+
+https://datastoryteller.substack.com/",13
+1qinepv,2,"I have found it more useful to be selective rather than subscribe broadly. A lot of newsletters recycle the same surface level content and add noise. The ones that tend to stick are narrowly scoped and opinionated, usually written by practitioners reflecting on real projects rather than trends. It can also help to follow a few long-form blogs or lab posts directly instead of inbox digests. curious what level you are aiming for, practical workflows or more research and theory.",5
+1qinepv,3,Join Prachub Community,2
+1qinepv,4,"We also run **Evilworks** (data science + real projects + “no-BS” explanations). If you prefer **video**, that’s the channel. If you prefer **text**, we post write-ups on our blog too. Youtube channel is [https://www.youtube.com/@Evilwrks](https://www.youtube.com/@Evilwrks) and our blog would be  [https://www.evilworks.com/blog](https://www.evilworks.com/blog)",1
+1qinepv,5,"I know of some youtube channels that helped me to learn a lot, if you are interested please DM :)",1
+1qinepv,6,I'm a big fan of the [Data Elixir](https://dataelixir.com/) weekly free newsletter. The content is well-curated and summarized and spans a broad range of topics without being overwhelming link dumps. Most weeks there's at least one or two pieces I'm clicking on.,1
+1qi4mn8,1,"Extremely common and IMO causal inference is the most important skill for ""analytics"" since what people really care about is causal relationships.
+
+Machine learning and prediction are basically a totally separate field with separate applications (also interesting!) but anyone doing ""data analytics"" is effectively doing causal inference.",31
+1qi4mn8,2,"Common enough. My role is mostly causal inference, not like a hardcore economist at Amazon though. 
+
+Mostly design experiments (simple a/b tests and more complex geo testing using markets) and design studies that can be answered through causal inference techniques when experiments are not feasible.
+
+Haven’t applied to a new role because I’m reasonably satisfied but when I look I do see postings tailored to my specific experience. 
+
+I’m in marketing and pricing data science role",12
+1qi4mn8,3,"Very common in the marketing analytics space. A/B testing, media mix modeling (causal regression model, often bayesian and can include DAGs https://www.pymc-marketing.io/en/latest/notebooks/mmm/mmm\_counterfactuals.html), geo testing (DiD, counterfactuals, synthetic controls, etc.), interrupted time series analysis, propensity modeling (and inverse propensity score), bias correction, switchback testing, and so much more. For many brands, measuring ROI of marketing efforts is paramount",5
+1qi4mn8,4,"1) descriptive analytics
+2) statistical inference
+3) machine learning 
+4) causal inference 
+
+Pick your own adventure",3
+1qi4mn8,5,"Extremely common, at least in the gaming industry",1
+1qi4mn8,6,I would say extremely common\~,1
+1qi4mn8,7,"They’re not the default in most analytics roles, but they’re fairly common in mature orgs where experimentation is limited or expensive (marketing, pricing, marketplaces, policy, growth). Most teams still rely on descriptive stats or simple A/B tests, so causal methods are often a differentiator rather than a baseline skill. The techniques themselves transfer well; what varies is how much rigor a company supports. Framed as real-world impact estimation under constraints, this experience is very marketable.",2
+1qi4mn8,8,"I've been job hunting recently, looking at hundreds of postings, and I'm seeing causal inference listed as a desired qualification more and more often. Seeing as this is a lagging indicator I would bet it happens at a good number of companies. 
+
+As someone else mentioned, answering causal questions is essentially always what people are interested in. When we do descriptive statistics we are often doing this implicitly",1
+1qi02sq,1,Creating LaTeX tables,179
+1qi02sq,2,"- proper comments
+- documentation 
+- write tests",162
+1qi02sq,3,"I find most of the popular LLM are much better than the average DS when it comes to structuring ideas and concepts in an organized way.
+
+This makes them an excellent tool for documentation but also investigating undocumented project which are so badly structured that the most expert MLE can't even figure out what the code is doing. It's a godsend when you are being asked to debug or even refactor some old project that no one is maintening.",71
+1qi02sq,4,"For me it’s turning vague stakeholder English into a first pass of SQL or pandas that actually runs. It’s rarely perfect, but it gets me 80 percent there faster than staring at a blank editor. I still don’t trust it with edge cases, but as a starting point it’s annoyingly good.",54
+1qi02sq,5,"Tbh I still don’t find LLM’s good enough for complicated data cleaning. It’s a good enough to start with but, I haven’t found it to be performant enough for all the edge cases.",18
+1qi02sq,6,"Getting like 80% of the way there for visualizations, particularly animated visuals that stakeholders love but would take way too much of my time if I actually wrote out everything myself.",25
+1qi02sq,7,"It does most things better than we are willing to admit. Short, complex tasks are where it excels. The only place it doesn't excell currently is things that take more memory and long term vision such as strategy, architecture, connections, taking into account edge cases in some data or identifying solutions to business logic.
+
+I've effectively become a middle manager of a junior DS who has dominated leet code and the math olympiad but can't find business opportunities as well as I can.
+
+Coding side, beats us hands down in speed and quality (data types, doc strings, organisation, algorithmic choice). Speaking for claude code here",13
+1qi02sq,8,regex if you know how to prompt,8
+1qi02sq,9,"Anything that's basically a quick first pass at something, if you factor speed into it. For example, giving it an uncommented notebook and asking it to document or add comments. It'll do a good job of that extremely quickly. It'll probably have a better answer in a minute than 99% of DSs can do in an hour. The things is, that's where the AI ends. It won't create a better answer if you leave it for a day and ask again. A decent DS should be doing a better job than the AI if you give them a day to do the task.",4
+1qi02sq,10,Organizing unstructured data.,4
+1qhnugu,1,"In SaaS, a lot of the high-impact work is around understanding user behavior and retention. Projects that combine cohort analysis, funnel tracking, and feature usage tend to teach both the technical side and the business trade-offs. Forecasting revenue or churn can also be useful, especially if you can link it back to actionable insights. Anything where you can move from data to a clear recommendation usually gets noticed and is a great experience.",3
+1qhnugu,2,"Those that align with your companies P&L. That could be sales, marketing, finance, costs, pricing, product, testing, or just getting the data into a platform so that you enable others to do these things and provide value. What does your company do? What's their product?",3
+1qhnugu,3,"In SaaS, the core work involves managing data pipelines from sources like Salesforce and Stripe. These are often fragile because upstream schema changes break downstream tables.
+
+The primary focus is on churn prediction and unit economics. Calculating the exact compute cost per customer is a major project, as mapping cloud spend back to specific users is difficult. Most of the job is ensuring data quality rather than building complex models.",2
+1qhnugu,4,A/B testings to make decisions,1
+1qhldsg,1,"This sounds like a solid approach - logistic regression is perfect for interpretable risk scoring when you need to explain decisions to utility folks
+
+  
+Distance ratios are way more informative than absolute distance thresholds, and voltage consistency is clutch if you can get clean data on it. Just watch out for geographic clustering effects messing with your distance assumptions (like rural vs urban transformer density)
+
+  
+For thresholds with noisy labels, start conservative and let the field validation feedback tune your cutoffs over time rather than trying to optimize on incomplete ground truth upfront",3
+1qhldsg,2,"Logistic regression makes a lot of sense as a first pass if the goal is prioritization and explainability, not auto-fixing. Distance and voltage are strong signals, but they’re noisy and can be “wrong for the right reasons,” so I’d treat the output as a risk score, not truth. In practice people often move to tree models later for interactions, but good calibration and tiering around review capacity usually matter more than model complexity.",3
+1qhldsg,3,You need a ground truth for your outcome variable (right/wrong match) to be able to train your model..at least for an unbiased sample of your data. It's unclear if you actually have this - you said partial. ,2
+1qhldsg,4,"1. Yes
+2. Probably
+3. Yes
+4. Yes use threshold based tuning / grid search to maximize accuracy or clarify what you mean by *tier design or what you mean by ""labels are noisy"".",1
+1qhldsg,5,"do some random walks or xgboost, start small and then keep adding in new variables and such and you can expand on those models to refine them",1
+1qhldsg,6,Hmm,1
+1qhiw2d,1,"Computational neuroscience PhD who hires for DS roles weighing in. Structured data-science programs are not necessarily superior (and in many ways can be *inferior*) to highly quantitative STEM fields in terms of DS skills. Often it's up to the student to steer their experience in the lab toward computational approaches, big-data analytics, etc. If you're on a microbiology PhD track, you'll likely find yourself doing data collection, statistical analyses, problem solving, project management, etc. at a high level as a threshold of satisfying your course requirements, publishing in peer-reviewed journals, and defending your dissertation. What will set you apart if you want to be a DS *outside* the normal industries into which microbio PhDs tend to gravitate is your ability to link those skills to the business cases that your target industry cares about.
+
+I would **not care** if you finished some micro-certification on Data Camp or similar. That's pure noise, IMHO. As a STEM PhD I would want to read your publications and discuss your methods in the context of my industry.",22
+1qhiw2d,2,"I left a PhD program (math, and in particular NOT statistics) to become a data scientist. I credit every job I've gotten to having relevant personal projects I could talk intelligently about in interviews.
+
+From the other side of the zoom call, you're never going to find someone with all the skills you want when hiring for an entry or mid level role, so you don't really expect to. This is especially true when it comes to cloud tech, since that's so provider-specific. It just doesn't make sense to learn GCP, AWS and Azure before you have a job that needs one of them. What you're looking for when hiring is someone you think could learn what they need to know for the role.",25
+1qhiw2d,3,"I have a terribly non-standard background and I am a Senior DS and have worked in consulting, international banking, healthcare, FAANG, and more, all as a DS. I've been working specifically as a DS since 2015 but was working as a ""biometrician"" at a boutique environmental stats firm before that.
+
+Everything beyond my MS was in research, field work, and writing technical papers for peer review in fish and wildlife. I was an R expert (and still am, kinda) and although was not ""officially"" a statistician, I had a *very* deep background in mathematical modeling and frequentist stats. When I made the conscious decision to jump to ""industry"" instead of doing environmental work, I had the basics of SQL in my back pocket, thanks to having done a ton of data management at my boutique environmental firm.
+
+**What got me hired first was not the skillz but more how I approached a problem.** Bringing a different skill set to an organization is often times EXACTLY what a hiring manager wants, particularly if they get the signal that you're smart and can learn quickly. This is really all that matters: be smart and learn quickly and be able to show that you are or can do both. 
+
+Be able to talk about models you know and how you could apply them. (For example, I applied nesting site fidelity models from sage grouse populations to predicting whether or new patients would return to a specific hospital. Same problem, different data and biz questions.) Be able to talk about how you apply stats. Be able to show how you write functions and think about how a model you've built locally could be handled by DevOps (or yourself) and moved into prod in \[insert cloud provider of choice\].
+
+Although Python is pretty much the currency of DS these days, there are still some R shops around and there are some good hiring managers left who are toolset agnostic, so long as the work is good and can be productionized. Python is easier to productionize and if you're already an R person, is pretty easy to pick up. Syntax differences can be funky, but aren't insurmountable.
+
+Feel free to reach out via DM with specific questions if you think I can help!",15
+1qhiw2d,4,"I always look at anyone with an advanced research degree in the sciences when I look for data scientists. The ability to understand how to ask a research question and how to draw conclusions (or not) from data are, at least IMO, the hardest necessary skills to teach for a data science job. I also assume if you’re a PhD level researcher you have some level of coding experience.",5
+1qhiw2d,5,"Im a DS Director. I look for people who are good at math. I don’t really care how they came about their math training, but to understand how the ML algorithms work is important for us. I do think most or all of our team has at least one degree in math or statistics, but we’ve had a physicist, Econ and a comp sci PhD in the past. If they can carry a conversation about the linear algebra involved in ML, or how MLE works, that’s probably good enough for me.",2
+1qhiw2d,6,"From the hiring side, the strongest signal is still applied work, not completed tracks. Structured courses are fine to build baseline skills, but they mostly answer “did you try” not “can you do the job.” What usually moves someone from interesting to credible is a small number of projects where the problem, data cleaning, assumptions, and decisions are clearly explained, ideally tied to a real question. Your research background actually helps a lot if you frame it as hypothesis driven analysis and messy data handling. I’ve never expected a career switcher to finish every ladder, I care more that they can take a vague question and turn it into a usable insight without hand holding.",2
+1qhiw2d,7,"I pivoted from process technology and work ds occupations in the processing domain, in such niches the hiring is often less hard on ds skills if you have the business understanding of how to turn ds into profit.
+
+I would suggest finding a ds niche that is close to your phd work, do some private projects and focus on being able explain them to business people.",2
+1qhiw2d,8,"From the hiring side, the biggest credibility signal is not finishing every possible course, it is evidence you can translate messy questions into analysis and explain the results clearly. A PhD already helps a lot there, especially if you can frame your research work in terms of data cleaning, assumptions, tradeoffs, and decision making. Structured tracks are fine to fill gaps, but nobody I know checks whether someone completed an entire ladder. One or two solid projects where you show end to end thinking, SQL pulls, Python analysis, and a clear takeaway matter way more. If you can talk through why you chose certain methods and what you would do differently with more time or data, that usually moves you from interesting to hireable.",2
+1qhiw2d,9,"If you are doing a PhD, saying that you are going to be able to do DS because you did DataCamp is going to be laughable. It's like trying to learn microbiology because you did some silly online certification.
+
+You are still a student. Most universities have certifications in something useful that grad students can take, many places you can use your credits for a masters in a different field (albeit related) instead of using them for a masters in your field.
+
+You could also take classes in statistics, etc. It's typically covered by the tuition remission. unless you are in some shitty program.
+
+I don't know about microbiology, but I'm assuming there has to be a subfield that's more based on experiments or modeling.
+
+There are also some summer programs for PhD students on data science that have scholarships. Erdos institute has one but it's not the only one.",2
+1qhiw2d,10,"Pick up a MS in biostatistics en route to the PhD or at least take the mathematics statistics sequences and some classes on applied uses of generalized linear models. Why not write your dissertation in something data heavy? Are you already studying in a medical center? If so network! Throwing out domain knowledge is pretty silly. 
+
+Get good at programming. R might make more sense than Python in life sciences. Learn both. There’s so many opportunities to contribute to open source software in life sciences 
+
+I work at a research hospital as a software developer with an emphasis on data. The PhDs in hospitals usually make more money in research than an entry data analyst. Working with collaborators that are statistically literate is a game changer in healthcare research",1
+1qh8z6e,1,Meanwhile applicants and new grads and outsiders trying to career change into DS are up (insert giant percentage here) percent,126
+1qh8z6e,2,5 years data science experience. Masters degree in data science. I’ve applied for 50 jobs and have only gotten three interviews. One of them ghosted me during the third round which was so odd,74
+1qh8z6e,3,Im sure this is in no way confounded by changes in the usage of Indeed as a platform. r datascience always delivering the best science.,21
+1qh8z6e,4,This article smells.  Entry level DS hiring is not doing that well.  Same with SWE.  The entry level layer is evaporating and getting merged with Senior/Lower Middle Management.,5
+1qh8z6e,5,Can someone find reference to this “indeed study”? This article says DS is doing particularly bad by referring to “indeed study” lol https://www.businessinsider.com/gruesome-tech-jobs-data-scientists-analytics-indeed-2025-11,3
+1qh8z6e,6,"Those non techs who are targeting data science jobs directly or transitioning their careers into DS roles directly, they should go first with data analyst roles, get experience of atleast 2-3yrs in this role then try to switch into DA role.",2
+1qh8z6e,7,"Guys I need to understand why BLS says growth of data scientist jobs is 34%, incredibly damn faster than most usual jobs. Yet a quick peer into subredditz people with masters aren't getting jobs. So is that statistic wrong?",2
+1qh8z6e,8,As an employer I’m not hiring as long the circus runs the show,1
+1qh8z6e,9,"hm, 36% is a lot, have inpact on all industry",1
+1qh8z6e,10,"I couldnt post anythin so i will ask for it here, im starting so study data science and i have a pretty solid plan of study, but im wondering if someonde could take a video call with me and help me showing the ways and what to avoid for now, it would be good to have some people with experience helping me :) (sorry if there is problems whit the english, im brazilian and my english is still improving)",1
+1qh0m1y,1,"Tell your boss your long term goals for your cater and ask their advice. Preface it with a statement acknowledging that you want to prepare yourself for your long term goal and that it’s okay that neither is the long term goal. Emphasize that you have a lot to learn and see both roles as valuable. 
+
+Believe it or not sharing long term career goals is a good thing, even if they’re outside of his team. Good managers will help you get there.",5
+1qh0m1y,2,"If your goal is AI/ML and algorithm design, the support-heavy path can help your intuition but it is easy to get pigeonholed there. You learn failure modes deeply, but you rarely get credit for creating new methods. The customer project path is usually better if you can negotiate real ownership of algorithm pieces instead of pure integration. I would push your manager for a hybrid role where you both design or prototype changes and then see them through deployment. Also ask explicitly how people on each path have moved into algorithm roles before. That answer tells you a lot.",3
+1qh0m1y,3,"Honestly, neither path really gets you to AI/ML. both sound like side quests that keep you “useful” but not growing. Debugging teaches pain tolerance, integration teaches patience, but neither builds real innovation muscle. If your manager actually cares about growth, they’d carve out time for R&D or internal prototyping, not force you to choose between two flavors of stagnation.",2
+1qh0m1y,4,"The role that best prepares you for AI/ML and algorithm design is the one that consistently forces you to frame ambiguous problems, build models under constraints, and translate algorithms into real decisions not the one that only optimizes code or reports metrics.
+
+From a Mu Sigma decision-sciences perspective, preparation for AI/ML is less about job titles and more about decision ownership and modeling depth.",1
+1qh0m1y,5,"A training program from industry mentors, real projects with code and professionals to guide you",1
+1qh0m1y,6,"If your goal is algorithm/design depth, the “customer support + deep analysis” path can be surprisingly good **if you turn it into structured learning**:
+
+* write postmortems on failures (root cause + mitigation)
+* turn recurring issues into robust tests
+* propose measurable improvements (latency, accuracy, edge-case handling)
+
+But you also need time to actually build/ship things. I’d personally do a hybrid approach:
+
+* keep the role that gives you exposure to hard edge cases
+* build one side project where you own the full pipeline end-to-end (even a small one)
+
+That combination = real-world debugging + actual algorithm building = strong MLE profile.",1
+1qh0m1y,7,if your goal is AI or algorithm design focus on which path gives you influence over problem framing and evaluation not just tasks. support work helps only if you are learning failure modes and shaping metrics otherwise it becomes reactive tuning. integration work helps only if you can question specs and validate whether the system actually works in the real world. i would push your manager for ownership of error analysis metric definition or design reviews because that is where algorithm designers are really developed.,1
+1qh0m1y,8,"If your end goal is AI/ML and algorithm design, I would bias toward the path that keeps you closest to building and modifying systems, even if it is not perfect. Deep support work teaches you how algorithms fail in the real world, which is valuable, but it can trap you in reactive mode with little room to design new things. Integration work at least keeps you writing code and understanding system boundaries, which is easier to evolve into ownership of algorithms later.
+
+That said, the ideal move is usually not choosing one extreme. I would push your manager for explicit time or scope around algorithm ownership, even small pieces, validation logic, prototypes, or improvements rather than just glue work. Career stagnation tends to happen when your role stops producing artifacts that look like design or code. Debugging builds intuition, but building things is what usually gets you labeled as an algorithm engineer.",1
+1qh0m1y,9,"If the goal is real AI or algorithm design, I would bias toward whichever path gets you closest to owning a problem end to end, even if the work feels less glamorous. Deep support work teaches you how and why algorithms fail in the wild, which is valuable, but it can stall if you never get to change the design that caused the failure. Pure integration has the opposite risk, you ship a lot but rarely make core decisions.
+
+In practice, the people I see move into stronger ML or algorithm roles are the ones who combine failure analysis with proposing and implementing fixes. I would push your manager for a hybrid scope where you debug edge cases and then actually redesign or prototype changes, not just tune knobs or write reports. Titles matter less than whether you can point to concrete algorithmic decisions you made and systems you improved because of real-world behavior.",0
+1qgv0ij,1,"Hi! I’m a last-year econometrics student doing an internship at an energy sector company. For my thesis, I need to build statistical models to forecast solar power plant generation for each region, using weather forecasts and pyranometer sensor measurements. I have some background in statistics and time series, but I’ve never worked with electricity forecasting before.
+
+Data i have:
+
+* Aggregated energy fed into the grid at 15-minute resolution, plus total installed capacity
+* Pyranometer measurements of solar irradiance (W/m²)
+* Weather forecast data (made 1 hour before the timestamp)
+* Locations of solar plants and weather stations
+
+Any suggestions for learning materials (papers, books, tutorials, example projects) and common methods for this type of forecasting would be really appreciated.",1
+1qgv0ij,2,"Hi,
+
+  
+I am getting my MS in applied data analytics (graduation May 2026) and am struggling to even get interviews at this point. I got my undergraduate degree in Computer Science in 2023 but could not find a job in the field due to small state university, lack of internships and just general job market. I returned to school to get my MS because I really enjoyed the intro data science courses I took in undergrad. I also hoped the market would reset by the time I graduated.
+
+  
+My current master's program is an in-person program at a big university, and I have really learned a lot, but I can't seem to land an interview. I created a portfolio website from scratch using my web development skills from undergrad and put all of data science projects on there. Although some of them are somewhat small and there are only 6 or so on the website.
+
+Is there any advice out there other than just shotgun approach more applications? Any secret keywords when job searching or specific job search engines to use?
+
+  
+Thanks for any advice anyone has got!",1
+1qgv0ij,3,I'm a junior in university and I want to apply to internships. My major is data science. Where should I apply?,1
+1qgv0ij,4,"One pattern I see a lot is people over-optimizing for tools instead of problem framing. Early on, it helps to focus on core stats, data wrangling, and being able to explain why a model should exist at all. Small end to end projects where you define the question, deal with messy data, and communicate trade-offs tend to be more valuable than stacking certificates. the transition is usually less about learning one more library and more about demonstrating how you think about data in context.",1
+1qgv0ij,5,"Hi everyone,
+
+I’m at a career crossroads and would appreciate some grounded advice. I have 5 years of experience in the insurance/reinsurance domain, working in catastrophe modeling, risk analytics, data cleaning, and geocoding using in house tools. My work has involved heavy data analysis, stakeholder interaction, and translating model outputs into business insights.
+
+I want to change domains and am evaluating two paths:
+
+1. MS abroad 2026 (Data Science / Analytics / related tech programs)
+2. MBA in India (to pivot into consulting / strategy / management roles)
+
+My key questions: For someone at 5 years experience, which path offers a more realistic and sustainable domain switch? How do recruiters view prior domain experience in each case? Any regrets from people who chose MS vs MBA (or vice versa)? Are there risks of being “overqualified but underexperienced” in either path? My priority is long-term career satisfaction and growth, not just immediate compensation.
+
+Thanks in advance...would really value insights from people who’ve faced a similar situation.",3
+1qgv0ij,6,"Learning resource, especially for Maths",1
+1qflxse,1,"this is a nice example of where understanding the underlying linear algebra and sparse representations pays off more than tuning at the surface level. a lot of performance issues in applied ML end up being data movement problems rather than model problems, and vstacking that many rows is a classic trap. using a Kronecker construction to express repetition without materializing it is a good illustration of thinking in operators instead of arrays. I also like that this came out of profiling rather than guessing. In production settings, that mindset often matters more than any single trick.",12
+1qflxse,2,"Nice writeup. This is a good example of the hard part not being the model, but how you move data around at scale. In practice, a lot of ML code misses benchmarks because of exactly this kind of hidden allocation or replication step. I have seen similar wins from avoiding explicit expansion and letting linear algebra do the work implicitly. It also highlights why profiling matters more than clever modeling once you are in production. Out of curiosity, did you consider alternatives like inverted indices or pruning before the comparison, or was the latency budget tight enough that you needed to stay fully vectorized?",3
+1qflxse,3,"Why not do something like 
+cv = CountVectorizer(binary=True)
+x_docs = cv.fit_transform() # N Docs x Words
+x_ocr = cv.transform() # 1 x Words
+sim = x_ocr.dot(x_docs.T) # 1 x N Docs
+
+On binary data the dot will evaluate to # Words common between ocr and each doc vector?",2
+1qflxse,4,"this is a good example of where the real win comes from understanding the underlying ops, not just swapping libs. the kron trick makes sense once you think about how sparse structure is represented, but it’s not something most people reach for by default. in my experience, perf issues at this scale are almost always about avoiding materialization rather than making one function faster. also appreciate the point about ai tools, they help explore options, but they rarely have the context to spot these mathy shortcuts. nice writeup, this kind of detail is way more useful than generic “optimize your code” advice.,,,",2
+1qflxse,5,This is excellent info.  Are you able to shed light on how AI was useful but old-school coding came to the rescue?,2
+1qflxse,6,"Embed the content of the files with a sentence transformer, store the resulting embeddings in an index e.g using FAISS and do ANN retrieval to get the most similar files to the new OCR scan. It will be almost instant if you are just searching with 1 document. I guarantee less than 10ms easily.
+
+Sparse lexical retrieval is very inconvenient for large amounts of documents hence why people have traditionally resorted to things like ElasticSearch or Apache SOLR to do this type of thing.",2
+1qflxse,7,Thanks for sharing! Love these performance tricks,2
+1qflxse,8,"sometimes, a bit of obscure math knowledge can make a huge difference",2
+1qflxse,9,Error generating reply.,1
+1qflxse,10,"Nice write-up  Kron for “repeat a row” is a really clean trick for sparse ops.  
+One extra thing that might be worth mentioning for readers: for this kind of overlap count you can often avoid materializing the repeated matrix at all  e.g. using sparse broadcasting / elementwise ops + reduction, or even `X.minimum(v)` style patterns depending on the sparse format (CSR/CSC).",2
+1qf9zxw,1,I'm an MLE and have no idea what LLD is.,26
+1qf9zxw,2,"Big tech asks LLD, real ML companies don't. Stick with ML system design - that's where the value is.",10
+1qf9zxw,3,"It depends a lot on how the team defines “ML engineer.” In practice, if the role owns production code, services, or pipelines, some level of LLD and basic OOP shows up pretty often, even if it is not labeled that way. You might not get textbook design patterns, but you will get questions that test whether you can structure code that is testable, extendable, and not a one-off notebook. Teams that treat MLE as research plus glue care less about this, while platform or product-facing teams care a lot. I would not go deep into patterns for their own sake, but you should be comfortable explaining how you would design and evolve a small ML service or pipeline over time. That usually matters more than pure DSA once you are past the screen.",3
+1qf9zxw,4,"From what I have seen, it depends a lot on the company and how they define the MLE role. If the role is closer to software engineering with ML on top, then basic LLD and OOP concepts come up fairly often. Things like designing a feature pipeline class or structuring a training service.
+
+If it is more research or modeling heavy, they usually focus more on ML fundamentals and system design at a higher level. I would not go deep into patterns, but being comfortable explaining clean class design, interfaces, and tradeoffs is a safe bet. It rarely hurts, and it can help you stand out when interviews lean practical.",2
+1qf9zxw,5,"This job market is a dumpster fire. Anything and everything is on the table. I've been asked about low level CPU internals for ML engineer positions. I've been asked about NLP learning for robotic ML interviews. I've been asked to show how well I can vibe code, how to implement a custom loss function and code an ML model from scratch using only numpy, presentations on prior projects, tests, on-site projects. Once I was asked to code a live solution to a geology problem after getting a 15 minute PowerPoint presentation on geological processes. Another time, the interviewer handed me an unsolved problem in probability theory and asked me to solve it. 
+
+You can be asked anything even tangentially related to computing and then be graded on it. This job market is an experience in humiliation, superstition, cargo culting, rejection, and self-flagellation. 
+
+Just do your best and hope you get lucky. Try not to sweat the rejection or let it affect your mental health too much. Companies are out of their minds right now, and we all need to remember that we are more than what they test for in a broken interview process.",1
+1qf9zxw,6,I will be starting to study Data Science and see where it lands me. I am BTech undergrad CSE 2025 passout and want to explore the domain. What should my first steps be?,1
+1qf9zxw,7,"From what I have seen, it depends a lot on the company and how close the role is to production work. Teams that treat MLEs as software engineers who happen to work on ML will care about LLD, clean interfaces, and basic design patterns. If the role is more research or modeling focused, it comes up far less.
+
+I would not go deep into academic OOP theory, but being comfortable explaining how you would structure a training pipeline, inference service, or feature store is useful. Even simple class design and separation of concerns goes a long way. The signal they usually want is whether you can build and maintain ML systems, not just train models once.",1
+1qf9zxw,8,"It really depends on how the company defines the MLE role. wherein in teams where MLEs are closer to software engineers who own production systems, some form of LLD or object design tends to come up, even if it is not framed explicitly as design patterns. In more research leaning or modeling focused roles, it is often secondary to data, modeling, and evaluation discussions. In practice, being able to reason about code structure, interfaces, and trade-offs usually matters more than memorizing patterns. job titles hide a lot of variation here, so the safest bet is to be comfortable explaining how you would structure a real system at a high level and at a code level.",1
+1qf9zxw,9,"
+
+I'm an MLE ",1
+1qf9zxw,10,What do you do to prep for ML System design? I'm a new grad looking to go MLE,1
+1qdrqh6,1,"What is he actually asking you to solve? It’s probably more a NLP type task like TF-IDF + cosine similarity or a BM25 keyword matching task. 
+
+Feels like a LLM is overkill unless he wants some kind of intelligent capability to query the contents. If so I’d suggest looking into Ollama for local hosting a LLM as you can choose pretty much any model you want and run a vectorDB like Chroma for you RAG element. You’ll need to make sure you get your chunking done correctly and if you can nail your metadata tags it’ll help massively for retrieval.",25
+1qdrqh6,2,"Start with basic semantic similarity vector search and then into more advanced rag techniques like hybrid search, deep research and graphRAG. 
+
+If you don’t need to generate an answer you can do a lot with a local model, it’s just doing embeddings essentially.
+
+
+You’re gonna need a clever process for ingesting your documents unless they are squeaky clean also. ",26
+1qdrqh6,3,"Why do you need an LLM? Just do a mixture of elastic search with similarity search. 
+
+
+Let users search for defined words / phrases or let them type a few sentences that get passed into a similarity search model that scores documents by match and returns them past a threshold ",8
+1qdrqh6,4,"You're trying to do document search, and llm doesn't do that in the way you're thinking. 
+
+
+Effectively you want to do something like OCR, turning PDFs and images into unstructured text, then chunk the text, compute embeddings and vectorize, and then store in a vector database. 
+
+
+From there you can do document similarity search by querying the vector database. An agentic system can make that query and then return the retrieved context, sharing it with an LLM, which is usually called RAG.
+
+
+You don't actually need an LLM to do document similarity search.
+
+
+I'm not familiar with vendors that you might use to do this locally, so I can't help you there.",6
+1qdrqh6,5,LLM + RAG here no?,3
+1qdrqh6,6,"Are you in a microsoft or google environment? What your boss actually wants is a RAG, and they're honestly not hard or expensive to set up in these environments unless you need 1000% perfect results every time. 
+
+Miscrosoft Azure, for example, let's you point an LLM at a sharepoint and tell it to RAG the contents and the connect it to an agent. it's pretty easy.",5
+1qdrqh6,7,I'm a bit confused why he wants an LLM. Is it just to enable natural language searches? What's wrong with the current system? What's your budget for running it?,4
+1qdrqh6,8,"Why do you need an llm for search a document or even read it.  It is a straightforward nlp.
+
+Can you explain why r u looking for llm",2
+1qdrqh6,9,"If you want it all local etc. you will need a fairly powerful in-house server with a large amount of VRAM/GDDR and CPU cores. You can use pretty much any LLM for this, although for local I'd recommend open source models like ollama since you have a decent likelihood of maintanence at 0 cost. All of these models are pre-trained and you can do RAG-like stuff. You just pass them the docs (or set up an OCR front end to do so first) and explain what you want. Inference is where you are going to run into issues hardware-wise - bigger models will tend to be better but require more powerful servers. If your boss just wants this for e.g. a couple of laptops, he is deeply mistaken- he",1
+1qdrqh6,10,"For that use case, the hard part is usually not the model but the retrieval layer around it. If the goal is document identification rather than synthesis, you want something that does embeddings well, is stable, and can be deployed on prem without surprises. The LLM then mostly acts as a query interpreter on top of search.
+
+I would evaluate options based on how transparent the retrieval is, how much control you have over chunking and metadata filters, and how predictable the outputs are under edge cases. In practice, simpler models paired with a solid vector store and strict prompting often outperform larger models for legal or compliance constrained setups. The risk is less hallucination and more overconfidence, so strong guardrails and evaluation matter more than raw model capability.",1
+1qdpz1b,1,"No matter the state of the market, ghosting a candidate after they had a call with you or invested any amount of time beyond just applying is a sign of a poorly mismanaged recruitment team. Sorry you had that experience.",102
+1qdpz1b,2,"""The Market"" is absolutely never an excuse to do this to an applicant.",47
+1qdpz1b,3,"I decided that if I don't get hired, that I'd put any such case studies on GitHub and on my blog. 
+
+That way it's not wasted time; it's an opportunity to showcase a quick project to another client or employer.",94
+1qdpz1b,4,which company was this so that we may all avoid it and shame them?  I am sorry for your experience.  That's horrible.,20
+1qdpz1b,5,"I was ghosted many times recently:
+
+* A large insurance company ghosted me during the offer negotiations. I had counter offered within their range (not aggressively either). I was working with an HR rep, who didn't show up for our negotiation call and then I got an email saying my application had been withdrawn. The Hiring Manager had no idea.
+* AirBnB ghosted me twice for 2 different positions with 2 different teams. I had been told that I had passed the round and then the recruiter stopped replying.
+* I was ghosted by Pinterest in September. Same thing: passed the technical screen, never heard back. Recruiter reached back out Monday of this week to schedule the next round.
+* Completed the entire process with Block. Recruiter was supposed to schedule a call with me and the Hiring Manager to discuss offer terms. Never got a call, never got an email response.
+
+It's hard to not blame myself in some of these cases, like the insurance example since I did counter-offer them, but ghosting is a shitty practice and becoming all too common. I highly doubt any company is using code from a case study for themselves if they actually have existing Data Scientists. What's really happening is that the market is flooded with good candidates and they don't give a fuck about burning a bridge with you because someone just as good or possibly better will come along.",32
+1qdpz1b,6,they are just absolute mfckers,9
+1qdpz1b,7,"This is unfortunately common, especially when case studies are used as a low-cost filter rather than a serious evaluation step. In many teams, the hiring process is not well owned, so candidates end up doing real work without anyone feeling responsible for closing the loop.
+
+Saying no to case studies is reasonable, but it depends on how they are framed. I am more comfortable when the scope is clearly time-boxed, discussed live, and obviously synthetic. If it looks like unpaid consulting or has unclear evaluation criteria, that is usually a signal about how the team treats candidates and, often, employees.
+
+The market does amplify this behavior, but it is also a reflection of weak hiring discipline. In my experience, teams that value rigor tend to be more respectful of candidate time as well.",4
+1qdpz1b,8,"Definitely the employer. The market is trash right now, but that's still no excuse.",2
+1qdpz1b,9,"I've seen more as a company quality signal than just the market. ghosting after unpaid work usually means either weak process or no real ownership on their side. the trade off people don’t mention is that case studies are often used when they dont know how else to evaluate, which is already a smell. i’ve started pushing back unless there’s real context, timebox, and feedback baked in. interesting that they reached out first too, that makes it worse. saying no filters out some noise, even if it shrinks the funnel.,,,",2
+1qdpz1b,10,"That frustration is very justified. Case studies can be reasonable when they are tightly scoped and followed by real feedback, but in practice they often turn into free labor or a filtering step no one bothers to close the loop on. A lot of companies also underestimate how much time they are asking for, especially when they initiate the outreach. I have started pushing back by asking for time limits, context on how it is evaluated, and whether there will be a live discussion afterward. If they cannot answer that, it is usually a signal about how they treat candidates more generally.",2
+1qdc3uq,1,"""training question"" aka take home assignment",3
+1qd7eq3,1,"I interviewed for a senior position with them 3 or 4 years ago. Studied for a couple of months, spent over a month interviewing with them. Was essentially promised the position and then next thing I heard was that the position has been terminated and they were no longer hiring for it.
+
+
+Hopefully your experience goes better. ",75
+1qd7eq3,2,"Been some time since I took it, but I recall the SQL and Python questions being pretty standard (I'd say around medium-difficulty?). The behavioral questions were a bit tough – but that's probably because I didn't invest more time into preparing for them, so make sure your prep's balanced. Also, my biggest struggle was the machine learning/applied modeling round; I didn't get enough practice whiteboarding & I may have missed being clear about trade-offs and constraints. Make sure to brush up on common [Google interview questions](https://www.interviewquery.com/interview-guides/google-data-scientist) for product sense/cases too, good luck!",19
+1qd7eq3,3,"research or product DS? If product, expect mostly SQL questions, if research, some python for sure. Then your standard data/ML fundamentals/statistics questions. I have only interviewed for a junior position though",13
+1qd7eq3,4,"For research: 
+
+- Python, nothing crazy but the trick is you have to code without any IDE help. Typical, map, filter, reduce operations with standard data structure (dicts, list, tuple, set).
+- Statistics: please, master stats 101, like seriously, the interview is a mixture of university exam question and how you would solve a real problem. The real challenge is about which topic you will get, ask for your HR contact to narrow down what you should know.
+
+Source: I went (successfully) through both product and research interview processes.",11
+1qd7eq3,5,"They'll push you hard on SQL and coding (expect LeetCode medium problems at minimum), statistical fundamentals, product sense, and your ability to design experiments and measurement frameworks. The bar is legitimately high, and you'll need to be sharp on all fronts. That said, a month is actually plenty of time to prepare if you're strategic about it. Focus on practicing common [Google data science interview questions](https://www.interviews.chat/questions/google-data-scientist) that cover A/B testing scenarios, metric design, and how you'd approach ambiguous business problems. Get comfortable explaining your thought process out loud since they care as much about how you think as what you know.
+
+The good news is that Google's interview structure is fairly predictable, and there's tons of information available from others who've been through it. You should be drilling SQL queries daily, revisiting probability and statistics fundamentals, and doing mock interviews where you talk through case studies. The product sense rounds can feel intimidating, but they're really just testing if you can think like a data scientist who partners with product teams - how would you measure success for a feature, what metrics matter, what could go wrong. If you put in focused preparation over the next few weeks, you'll walk in ready. This is absolutely doable for someone at the senior level - just treat the prep like a sprint, not a marathon.",3
+1qd7eq3,6,"About 10-15 years ago a ""How to interview at Google"" list made the rounds online. One of the points that always stuck with me (for every interview setting, not just Google) was, ""Be honest about your skills. If you say you're a 10/10 in Python, we'll have Guido van Rossum interview you. Seriously.""",1
+1qd7eq3,7,"I did it a few years ago in Europe, and it was entirely stats questions. That could be due to my training though.
+
+
+They seemed particularly interested in one of my past papers, so I think that's how I got noticed.
+
+
+I did terribly - just bricked it! It's definitely a challenging process, but the rewards look pretty amazing. ",1
+1qd7eq3,8,"I prepped for research about a year ago and mocked with a lot of people who went through it. It's mostly about knowing your fundamentals front to back so that you can use them to solve problems. Also, being to then code them up in Python.
+
+Python: Simulations, statistical inference, basic ML algos (KNN, regression, etc.) and alike from scratch
+
+Stats: Deep understanding of theory and inference, probability, distributions, hypothesis testings, causal inference
+
+They will ask questions revolving around having understanding intuition around these subjects and applying them to solve problems",1
+1qd7eq3,9,"I mean grind stata scratch SQL questions and look at the job description. Its going to differ by segment. I would imagine some data scientist are doing experimentation work and you'd probably awnt to know A/B testing etc. Others might be more stats/ml oriented. Its tech they probably have structured process. I will say that my recent tech data science interview have usually included one algorithm style leet code questions, which is usually what stumped me. Also google puts a six month cool down period if you fail.",1
+1qd7eq3,10,"It's great that you have a Google Sr. DS interview coming up. Focusing on data structures, algorithms, and system design will be crucial, so consider reviewing key concepts and practicing coding problems relevant to the role.",-2
+1qd3z2h,1,"It’s not unrealistic, but there is a learning curve that has more to do with the platform than the analysis itself. Most of the friction comes from access controls, workbench setup, and understanding the data model rather than heavy Python work. You can absolutely stay R-first once you are inside the environment, plenty of people do.
+
+Where Python tends to sneak in is for plumbing tasks or examples in the docs, not for the core analysis. If you are comfortable reading Python and tweaking snippets, you will probably be fine. The bigger investment is time spent getting approved, learning the cohort builder, and figuring out which tables actually answer your question.",3
+1qd3z2h,2,"hey python is not that hard. I started my career with R, 11 years ago. Now, I extensively use python and I'm reasonably proficient at it. You can take help from Claude/ChatGpt to help you with that. These LLM tools are really good at writing python code for some reason. And also, I'm happy to collaborate as well if it's a personal project you are doing for fun.",2
+1qd3z2h,3,"You shouldn’t have any issues. AoU does support R, but here are a few things to keep in mind:
+
+Watch your RAM: You can't increase the memory limit, so make sure your code is optimized and you aren't doing anything too memory-intensive.
+
+Stick to Legacy: Don't use the new workspace they just launched last week. Stick to the legacy one for now.
+
+OMOP : AoU is based on a modified OMOP structure, so you can't just plug and play with standard OHDSI R packages.
+
+I personally found the demonstration workspaces very helpful, specifically the Nature Medicine step count one. Highly recommend checking that out as a template.",1
+1qd3z2h,4,"If you can code well in R, you'd likely be able to pick Python up pretty quickly if you wanted to go that route. 
+
+But with that said, you can probably do it R fairly easily anyway. Just depends on what sort of API All of Us has.",1
+1qd3z2h,5,"Access to granular data will be a bigger hurdle than the coding, unless you’re already working with the data in an official capacity.",0
+1qd3z2h,6,"It depends on what you mean by work with it. The harder parts tend to be the access model, the data schema, and the analysis environment, not Python syntax itself. A lot of the workflow is opinionated and geared around their notebooks and tooling, which can be more friction than the actual modeling. If you are comfortable reasoning about messy clinical data and cohort definitions, the language gap is usually secondary. That said, you should expect some overhead translating examples and docs, since most are Python-first, so factor that into the project scope rather than assuming it is just a data pull and analysis step.",0
+1qd3z2h,7,"https://www.researchallofus.org/data-tools/data-access/
+
+I'd recommend just spending a couple of hours messing around trying to access the data and seeing if there's anything relevant for your project. You might not be able to access individual-level data though.",0
+1qd3z2h,8,"It is not unrealistic, but the difficulty is usually not Python syntax. In practice, working with All of Us is more about navigating access controls, data schemas, and the analysis environment than writing clever code. A lot of the workflow is constrained by their platform, and you end up adapting to how data is stored and queried rather than building things your own way.
+
+If you are comfortable in R, that is usually fine for analysis and modeling. Where Python tends to show up more is in preprocessing pipelines or when you hit scale and performance limits. The harder part is understanding the cohort definitions, missingness, and clinical quirks in the data. Those issues will dominate your time more than the language choice.",0
+1qd3z2h,9,I personally found it hard to work with massive datasets only because I use genomic data and it takes a looong time to just bring in the data to my working environment - but this might also just be me not knowing efficient codes. Otherwise I don’t find it that difficult if you already know how to code. Data access is documented pretty well.,0
+1qd3z2h,10,Python has plotnine which is a copy of ggplot2 and siuba which i believe is a copy of dplyr?,-1
+1qcp6k6,1,Companies do not restrict asking just some data structures. So you need to practice all types of questions ideally. Check the company tags to see what data structures your target company focuses more on.,25
+1qcp6k6,2,"AI Engineer: leetcode/neetcode DSA, up to heap and priority queues. The neetcode roadmap is pretty solid.
+
+Data Scientist: leetcode pandas. Compliment with CodeSignal ML.",18
+1qcp6k6,3,I would focus on knowing real skills and not how to solve stupid arbitrary puzzles.,14
+1qcp6k6,4,At some point the exact topic list matters less than being able to apply what you already know when it’s live. People cover all the right areas and still blank once they’re on a call explaining things out loud. I would even suggest you use interviewcoder or smth to cheat/just to stay oriented if their brain locks up. Studying more topics doesn’t always fix that part,6
+1qcp6k6,5,"I was interviewing for Senior Staff and Principal level roles recently. I believe I had interviews with 52 companies, made the final round 14 times, 6 offers. I was never given a single leetcode problem. The closest I experienced was a so-so company asking me to write a K Means function from scratch but they also let me use Google.",10
+1qcp6k6,6,"It depends a lot on the kinds of roles you are targeting and how interview-heavy they are. For data science and applied ML roles, arrays, hashing, and basic patterns cover a surprising amount of what actually comes up. Trees and graphs show up less often, but when they do, interviewers usually expect conceptual comfort rather than deep algorithmic tricks. I would prioritize being fluent at explaining your thinking and trade-offs over expanding into every topic. In practice, weak communication around simple problems hurts more than not knowing an obscure structure. If you do branch out, stacks and queues are usually the highest return before going much deeper.",1
+1qcp6k6,7,Know enough basics esp of SQL and Python where you can answer simple questions but before leetcode have some foundational knowledge.,1
+1qcp6k6,8,"i think sticking to ""easy"" should be good for now, especially because of how much more they tend to focus on viz tools and stats",1
+1qcp6k6,9,"Personally, I stopped doing leetcode and still have a great job. I got it through a process of 2 interviews where we just spoke about my experiences and how they relate to the research my company was pursuing at the time. 
+
+Leetcode is just memorizing short solutions to problem classes in the form of minimum examples. I think it has some marginal time-saving utility, but in truth I think it's a waste of time and doesn't build any important skills. I would much rather just look at a candidate's transcript and discuss what they learned in their coursework, which projects they've enjoyed, etc. I don't want some weird stressful interview process that incentivizes lying to outcompete other applicants.  
+
+I think the interview process of typical workplaces have become incredibly disrespectful to candidates and I prefer to not be a part of it.",1
+1qcp6k6,10,"What you have already covers a big chunk of what actually comes up. I’d add stacks and basic trees, not to go deep, but to be comfortable reading and modifying solutions. For data roles, interviews often care more about how you reason through data transformations and edge cases than exotic algorithms. I’ve seen people over-index on grinding LeetCode and under-prepare for explaining trade-offs or debugging imperfect code. If you can solve medium problems in those core areas and talk clearly about your approach, you’re in good shape. Trees beyond basics usually have diminishing returns unless the role is very algorithm-heavy.",1
+1qc6mv2,1,"I'm fed up with these types of posts.
+
+Nobody is going to give you a problem on a silver platter!
+
+Also, this is something you can clearly research by going to library and looking for what others have done as a thesis, talking to professors about thesis they have directed, looking up undergrads who have done thesis and where they are now.
+
+Your first decision should not be ""I'm going to google or post on reddit for an answer""",22
+1qc6mv2,2,"You would be better served by formulating your own question. Make a list of interests/hobbies you have, then think about potential ideas related to that.",5
+1qc6mv2,3,"One thing that tends to be underappreciated is that quant research is often less about fancy models and more about problem formulation, assumptions, and evaluation under realistic constraints. A solid dissertation can focus on a narrow question like signal stability, feature decay, or regime sensitivity and go deep rather than trying to build an end to end trading system. Topics that analyze why certain ML approaches fail or overfit in noisy, low signal settings are usually more aligned with real quant work than yet another predictive model. It also helps to be explicit about data leakage, transaction costs, and non stationarity, since those are the gaps that show up quickly in interviews. If you can clearly articulate what would break your approach in practice, that already puts you ahead of many projects.",3
+1qc6mv2,4,HUH Skill issue. But good luck,3
+1qc6mv2,5,"For quant roles, people usually care less about fancy models and more about whether you understand data, assumptions, and evaluation. Good topics are often things like testing predictability in financial time series, feature stability, regime shifts, or comparing simple models under realistic constraints like transaction costs and noise.
+
+What tends to be overdone is “throw a neural net at prices and beat the market.” What stands out more is careful analysis of why something works or stops working, or showing that a simple model with good validation beats a complex one. If your dissertation shows you can reason about leakage, nonstationarity, and robustness, that maps very well to how quant research is actually done.",2
+1qc6mv2,6,Try applying time series analysis to modeling and predicting spot gold market prices.,1
+1qc6mv2,7,"I was in a similar spot and one thing I wish I’d done earlier was focus less on “fancy models”..
+
+For quant-aligned dissertations, topics around time-series behavior (regime shifts, non-stationarity, drawdowns, survival/RUL-style modeling) tend to translate better than generic deep learning benchmarks.",2
+1qbx8bd,1,"Just by eye balling it, it looks like the red curve is fit to the blue data and the blue curve is fit to the combined red and blue data sets. But also this feels like what hypothesis testing is for, so they probably should just do that and skip this figure",75
+1qbx8bd,2,My guess is that they've simply applied a kernel density estimation on the data which does not match the histograms. Most likely because the data is skewed and not symmetrical,15
+1qbx8bd,3,"Yeah something funny going on!
+
+log10(.179) is around -.747, log10(.388) \~= -.4. 
+
+So the reported values match the *fitted* curves. But the fitted curves don't match the histograms - as another commenter said, it looks like the means were swapped across groups, but not the variance",14
+1qbx8bd,4,"Putting aside curve-fitting issues, I would be concerned that they have ignored potential cell- and subject-level random effects. I don't see any information on the statistical test, but it seems like such a small p-value could only be obtained assuming independence between all measurements.",3
+1qbx8bd,5,"I wonder if they first estimated it, and when plotting made a mistake. The mean of the blue distribution seems to plotted with the red curve, but using the standard deviation of the blue distribution ",2
+1qbx8bd,6,"I wonder if that blue bit of mass at -2.25 doesn’t shift the blue fitted curve left. Clearly, the blue histogram is not from a Gaussian distribution and it seems they are forcing in a Gaussian curve, so…",2
+1qbx8bd,7,"yeah something seems off with the curve fitting here. if you're comparing two populations that should be distinct, forcing them into normal distributions might be hiding the actual biological variation. might be worth trying a non-parametric test or at least checking the residuals to see if normal is even appropriate. also that p-value being so tiny makes me wonder about sample size issues or if there's batch effects in play",2
+1qbx8bd,8,"The underlying question is whether a statistically significant difference exists between these 2 populations, thereby allowing for the rejection of the null hypothesis, which I strongly doubt is feasible. Regrettably, this information is not included in the caption.",2
+1qbx8bd,9,Did they publish the data? Can you request it from the authors?,2
+1qbx8bd,10,Error generating reply.,1
+1qbtoyf,1,"I have worked for 5 different companies in the past 12 years and all 5 were in completely different industries.
+
+You don't need to do anything special. You need to pitch your experience in the context of the industry you are applying for. Talk about the similarities not the differences. If *they* bring up the differences, pitch it as a positive, that you have unique experience that no other candidate can offer.",18
+1qbtoyf,2,"Domain knowledge only takes you that last mile, most companies don’t see it as a major barrier. The key thing will be if your projects are spoken about in a way that can potentially apply to their use cases, your stack matches their stack(like 60-80%), and they like you. 
+
+Testing for domain knowledge specifics means they are targeting for a certain type of DS that you wouldn’t fit anyway without experience in the industry. You won’t find out which positions those are until you’re deep in the interview, but that’s just luck.  Vast majority of situations that won’t be a problem you have to deal with.",11
+1qbtoyf,3,"I would suggest you to try your hands on doing a small project in your target industry, highlighting transferable skills and learning key tools like cloud/spark to ease the switch.",5
+1qbtoyf,4,"Domain experience is not a significant factor when switching to mid-level or below roles. But for senior+ levels, it is the most important factor because you’ll be expected to lead mid and junior level scientists. 
+
+At 4.5 years of experience, you’re in the mid-level range (Senior is 6 years of experience). I’d recommend the following steps:
+
+- Identify your target domain. Your target domain could be a science domain like recsys or dynamic pricing. It could also be a business domain like marketing or operations
+
+- Do one project (not more than one) that tackles a common problem in your target domain. Build a good GitHub repo for this project and use the readme section to explain this project in detail using the STAR format. Your hiring managers may not read your GitHub before the interview, but doing this will give you sufficient knowledge to explain this project in the interview when assessed for science depth
+
+- Decide whether you want to be DS or MLE/AS. If you want to be MLE/AS, do Leetcode and be comfortable with it. Also, practice ML design",5
+1qbtoyf,5,"Switching domains is easier than it looks. Domain knowledge helps, but it’s rarely the deal-breaker. Most teams hire you for how you think and build, not because you already know their business inside out.
+
+I’ve switched domains myself, and what mattered wasn’t the industry label, it was showing I could deliver end-to-end work. Once recruiters saw real projects and outcomes, the “but you’re from X industry” concern faded fast.
+
+Think of domain like learning traffic rules in a new country. You already know how to drive. You just need a short adjustment period, not a new license.
+
+What helped me was framing my experience clearly in one place so people focused on skills, not background. A simple portfolio that tells your story makes this much easier, something like this: [https://saramitchell.professionalsite.me/](https://saramitchell.professionalsite.me/)
+
+Funny truth: companies say “domain knowledge is critical,” then happily hire someone who learns it in 90 days.
+
+If you add one finance-related project and a bit of cloud exposure, you’re already qualified enough to make the jump.",4
+1qbtoyf,6,"The domain knowledge thing gets overstated a bit, especially once you are past junior level. In practice, most teams care whether you can take a messy problem, make reasonable assumptions, and ship something that holds up in production. Coming from defense can be a harder narrative sell, but it helps to frame your work in terms of decision impact, constraints, and iteration rather than the domain itself. Private sector interviews often probe how you handle ambiguity and trade-offs more than whether you know the industry already. Small, targeted projects can help, but only if they mirror how the work actually gets used, not just a polished notebook. I would also pay attention to how teams talk about experimentation and deployment, since that usually signals whether your background will translate cleanly.",1
+1qbtoyf,7,"Switching domains is usually easier than it looks on this sub. Domain knowledge matters, but it is rarely the gating factor people make it out to be, especially once you are past the junior stage.
+
+What tends to transfer well is problem framing, modeling judgment, and the ability to explain tradeoffs to non technical stakeholders. Those skills show up in every industry. Defense to private sector is less about relearning math and more about adapting to different incentives, timelines, and risk tolerance.
+
+Targeted projects can help, but I would not over index on them. Hiring managers usually care more about whether you have taken messy problems to production and owned outcomes. If you can translate your experience in those terms and show curiosity about the new domain, most teams are willing to teach you the rest.",1
+1qbtoyf,8,Why change ? Spacex about to reverse merge into Tsla. You be making bank if you know how to position yourseld,1
+1qbtoyf,9,"I did the same transition. You have a lot skills dont sell yourself short. I assume you have solved a lot of different, compels problems being a contractor. You are more competitive than someone who got a shit boring analyst job that made 2 dashboards in a year. 
+
+Itll take a lot of applications, but everything does now with the bots and spam on every job board. Hang in there.",1
+1qbtoyf,10,Agree domain is important but not a deal breaker. I’m hiring for a role in pharma but honestly prioritizing DS skills first. Anyone interested DM please…,1
+1qbhvqw,1,Evergreen listing? That's just cat fishing or fraud.,176
+1qbhvqw,2,">One reason is that job postings don’t always mean active hiring. Many companies keep evergreen listings open to collect resumes, test the market, or maintain a talent pipeline “just in case.” 
+
+
+It's the LinkedIn version of messing around on dating apps without the intention of actually going out on a date ",176
+1qbhvqw,3,"This has been a thing in Canada for years, not sure if it's the same for the US, but the companies create job listings, claim there were no qualified applicants, then claim they need cheap foreign labour for the job.",96
+1qbhvqw,4,"They say ""we can't find talent"", they mean we need someone to do an entire team job, to not burn himself, and to accept a low paycheck as well as no remote job.
+
+Good luck.",31
+1qbhvqw,5,companies put up job postings with no intention of filling those non existent jobs to signal growth of the company to investors. Those jobs never existed nor were the companies ever planning on filling those,13
+1qbhvqw,6,If interviews were paid you'd see fewer bogus jobs.,7
+1qbhvqw,7,It’s fake job postings to feed the narrative that there’s a “Labor shortage”. It’s fuel so that these companies can continue to increase H1B hiring and offshore,8
+1qbhvqw,8,"There's an easy fix to this. Require any posted position to post up a bond that is a percentage of the mean total compensation (including stock award and fringe benefits) of the company.  It doesn't need to be disruptive or be a lot, just something that adds a cost to wasting people's time. You could make it 0.1% of that total comp. Or maybe that's not enough and it needs to be more. I have no idea the exact number, but a study can figure out at what point it's adding friction with no benefit and where it's got the most utility to discourage bad actors enough for them to stop. Continuing my analogy, basically make them post up the equivalent of what they'd pay for something like 2 hours of compensation of their average employee. They're going to occupy the attention and time of literally hundreds of hours of other people's unpaid time that will be applying for that job anyway, so as a fraction of the real cost this has on society it's peanuts.
+
+If they fill the position, great, when they submit their new employee's first IRS withholding, they are allowed to submit that payment minus the bond they posted for the employee's position. The company gets their money back in full, effectively making it cost nothing in monetary terms to search for and hire the person.
+
+If they don't fill the position, that sucks, but Dept of Labor keeps the bond. Company pays a financial cost, which makes them think next time about how they market the position and who they're targeting to apply for it, and hopefully they'll be better next time and not create a time-waster for otherwise qualified individuals that are being baited by a company that is using AI to post and repost the same position every day so that at any given time they'll have 50 qualified candidates that they can hire and onboard at a moment' notice. This kind of thing generates value for some companies by converting other people's wasted time into a way to quickly have a pool of candidates ready to go at any moment, instead of spending real resources into doing a search for a real position that will be filled. For companies that are generating, posting, and then taking the job postings down automatically with software tools that don't cost any of their own human time, they are wasting the human time and energy of people in society that aren't being compensated. The value of convenience they're getting for (essentially) free is paid for by wasting other people's time, so a forfeited job posting bond is the relatively tiny cost that is borne on them for having the right to waste this much human capital and human energy.
+
+The money is only deducted from the first IRS withholding payment. This forces a compliance with actually hiring someone, since they're creating a transfer payment from the company to a taxpayer and therefore generating federal income taxes and payroll taxes.
+
+If they want to keep paying the fee to have this convenience, that's fine, but every time it incurs a new fee. I don't care what fund the fee gets added to since it's a disincentive from participating in this anti-social manipulative and time-wasting behavior for people chasing an invisible carrot. But maybe you could use the money to fund career development services for the public.
+
+I'm sure you can figure out some loopholes in that basic concept, as I came up with this plan in 1 minute. But I'm confident you can run something like this without making it onerous on the company that is hiring and give them an economic incentive for only using applicants time when they are actually serious about hiring. Could possibly use median total comp instead of mean, but I chose mean because it captures the weight of the salaries of senior leadership to prevent a possible loophole where chief officers are payed 100 million a year compensation while the median employee makes $10 an hour where their entire shell company's job is farming applicants for positions that pay $150 an hour. We get rid of all loopholes like this to make companies pay a real tangible cost for wasting time and things would be much better for everyone.",23
+1qbhvqw,9,"I lost my job in august. I've been getting interviews pretty regularly (2 to 3 a week), but some of the positions have been up for months or taken months. There are a lot of different things I've found being on this market
+
+1. Most places would rather hire a perfect candidate rather than hire at all. Meaning if you aren't perfect in jumping through whatever hoops they've laid in front of you they won't take a chance. You can't be 90 percent perfect, you have to jump through their specific hoops.
+2. Many places started moving only months after the jobs were posted. I think there is a lot of wait and see in the job market.
+3. I found that there was really large burst of activity at teh end of last year where people were trying to fill existing open positions. I am curently in final rounds with a few places and waiting to hear back from a few that are signaling offers. So for me this confirms a wait and see approach.
+4. I've found the places that are interviewing for real are two places. Its either places that had a recent turn over or if this is some new initiative team. I don't think there is a lot of actual posting where companies are expanding head count on 'existing' teams.  Most every interview that I had multiple stages with were places where there was a clear mandate i.e. new team that is going to be working on building out X or to resolve some existing major issues. I don't think any manager on established is growing their head counts.",5
+1qbhvqw,10,"I remember people saying they should report companies that do this because they don't respond to domestic applicants and then try to get cheap foreign workers instead.  There were several sites companies will use to try and procure foreign workers, I think the government should take them down or fine them for this.",5
+1qb5g4v,1,Does it support CPU multi-threading? Multi-GPU training? Does it support all usual stuff you would do to XGBoost (SHAP Tree feature importances etc)? Can I just use this as a drop-in replacement for my XGBoost classifiers?,3
+1qb5g4v,2,On training?? My laptop just stopped sweating 😂 Nice work!,2
+1qalzjc,1,"Hey everyone I'm a neuroscientist with 7 years of experience post-phd. I have been very successful, winning multiple grants and publishing numerous first and co-author papers in top journals. I work with moderately sized datasets and have used the follow techniques: GLMs, mixed models, random forrest classifiers, HMMs, PCA, and various clustering techniques. I am seriously considering leaving academia because despite my CV, it almost impossible to get a job due the uncertainty around funding and  the fact that last year everything was cancelled so this market is insane. My problem is I have used only R, I dont use these skills on a day to day basis  and I know my code sucks. I have started learning python and sql this month. I'm looking to do something related to healthcare. How would you suggest I spend my time in the next 12 months? The school I work at has a MS in health data analytics and AI as well as an MPH program with a focus on data analytics. Would these be worth it or should I just get proficient in the commonly used python libraries and SQL and build a portfolio? Thanks for any help.",2
+1qalzjc,2,"There are a couple of opportunities we are looking to fill for an AI Learning platform 
+
+* **Statistical Assistants and Excel Experts** – Spreadsheet Manipulation for AI Agent Training - This project involves using your professional experience to design questions related to your occupation as a Statistical Assistant. Applicants must Have 4+ years full-time work experience in this occupation; **Be based in the US, UK, or Canada**
+* **Data Scientist - India.** Hourly contract - Are proficient in Python, SQL, and familiar with libraries such as Pandas, NumPy, Scikit-learn, and PyTorch/TensorFlow. This role is ideal for analytical thinkers **based in India.** You should excel at turning large-scale data into actionable insights and enjoy working at the intersection of machine learning, experimentation, and real-world applications. 
+
+  
+DM with your brief profile",1
+1qalzjc,3,"Hi everyone! I’m a Geoscientist with a background in hydraulic fracturing operations. I’m currently transitioning into Data Science and I’m eager to apply my analytical skills to both geological and broader business challenges.
+
+I'm looking for community insights on a few points:
+
+* **Model Focus:** Given my background in O&G, which models or techniques should I master first? (e.g., Time-Series, Spatial Data, or Predictive Maintenance?)
+* **Career Path:** Is it realistic to jump into freelance work, or should I secure a corporate role first to build a solid foundation?
+* **Community:** Any recommendations for groups or forums for STEM professionals pivoting to DS? 
+
+Looking forward to your advice! :)",1
+1qalzjc,4,"Hi all! I finished my PhD a few months ago, and I'm now applying to data scientist and applied scientist roles and would really appreciate some feedback on my resume if anyone has any time?",1
+1qalzjc,5,"I am trying to enter into data science, interested in going to health science domain. Prev experience was frontend web development.
+Started reading ISLP.
+Want to get my hands dirty with mathematics, stats. 
+I want to do this for next 2 months and see whether this is the field I want, either on my on learnings and projects, do masters, or go back to web development.
+Any suggestions for next steps to take?",1
+1q85xuw,1,"About a year ago I was doing Cursor with Jupyter Notebooks, now I'm all Claude code. Instead of doing Jupyter Notebooks, and I just make a folder/project and have Claude code set up the pipelines, feature engineering, and modeling with python scripts.
+
+It's so much faster than my old workflow which could take a week. Now it takes half a day at most. 
+
+The tools have also just gotten way better. I remember before I had a lot of issues with hallucinations with Cursor + Sonnet 3.5 and doing weird things with my PyTorch models but I rarely get that now with Claude Code + Sonnet 4.5
+
+I do check everything often. Sometimes I'll have a script to test things or create a plot and check that everything looks sensible. Sometimes I will review the code directly. ",42
+1q85xuw,2,"Personally, I don't use AI to code at all to be honest.
+
+I like to read docs and error messages (when they are good) lol, but people on my team usually just ask standard ChatGPT for some sketch of what the code for some task would look like and iterate from there.
+
+In my current and my previous company I haven't met anyone who would go full-on AI IDE vibe coding style.
+
+We usually all worked from the terminal / IDEs with AI features disabled. In my experience, people don't want to leave their current workflow to try some new things.
+
+Once you know your language's API well enough, AI tool feel ""unnecessary""? If I start using Python instead of R for my job, I would do the same ChatGPT approach, but working in R for the past 7 years I know the API well enough to not need it.",42
+1q85xuw,3,"What changed for me is caring less about the specific tools and more about where they sit in the loop. A lot of the gains come from collapsing context switching rather than from any single model or editor. Once code, experiments, and notes live close together, iteration speeds up even if the underlying tech is similar.
+
+I am also more skeptical of raw productivity multipliers. Most of the real wins show up in exploratory phases, not in the last mile where correctness and debugging dominate. The stack matters, but only insofar as it reduces friction when you are testing ideas. Past that point, the bottleneck tends to move back to problem formulation and evaluation, which no tool really fixes.",7
+1q85xuw,4,im seeing less convergence on a single stack and more convergence on patterns. most teams i talk to still code in notebooks or lightweight app frameworks but the real shift is AI being embedded as a co-worker for refactoring exploration and documentation rather than a magic answer box. the biggest productivity gains usually come once people standardize prompts evaluation checks and repo conventions so the assistant behaves predictably across projects. tool choice matters but workflow discipline and shared patterns seem to matter more than which model or editor you use.,5
+1q85xuw,5,"Agreed that productivity has skyrocketed. Frankly, our team is now down to 2-3 people and we've been asked to do the work of what used to be an entire 3rd party company (that no longer exists) of roughly 20 people. So yup AI replaced an entire company with only 3 people.  We use a combination of ChatGPT and Claude. Combine that with VSCode, RStudio, Jupyter Notebook, a lot of AWS infrastructure and we have all the tools to run our data science team.",30
+1q85xuw,6,"I have been using claude code for developing packages and webapp. For data related tasks like eda, cleaning, I like to use an extension called Jovyan because it suits my notebook workflow",3
+1q85xuw,7,Super interesting workflow! I’m curious about the transition to Marimo—what was the biggest pain point with Jupyter that made you switch?,3
+1q85xuw,8,Anybody have tools that work well with jupyter notebooks? Been struggling to get agents to play nice with notebooks.,2
+1q85xuw,9,>,4
+1q85xuw,10,"I almost exclusively work with Gemini. Not a DS yet, but currently in my undergrad years and serving as RA. The project requires a real ton of Python.  
+My problem is that I can (and love to) brainstorm and form the math foundation for the current project, but coding isn't really my taste up to now. I often spent days working out the right math that makes a plausible DL model, consulted with the PI, and let Gemini do the code for me.
+
+Pre-model data engineering and model workings is all math so I handle that reasonably. The model is coded by Gemini and I check it frequently for updates. This is basically what went through 2025 and is still going now.  
+Actually for now I think I'd better start to use Gemini to teach myself how to code an entire model from scratch, rather than let it write the full script.",2
+1q7eznu,1,post your homework somewhere else thx,6
+1q7eznu,2,Error generating reply.,1
+1q6k1xl,1,Are the jobs in the room with us right now???,191
+1q6k1xl,2,"The table in this article with the fastest growing “in demand” skills is chock full of generalist, human-centric skills which would seem to cut against its premise.",65
+1q6k1xl,3,AI skills meaning what? Using an AI coding tool? ,27
+1q6k1xl,4,I think it’s all misguided and misplaced hype.,51
+1q6k1xl,5,"The desperation by tech CEOs is getting out of hand.
+
+> Hiring data shows companies increasingly favor specialized, AI-adjacent skills over broad generalist roles. Do you think this is applicable to data science roles?
+
+I think if you state your conclusion from this one article of badly sourced survey data like that, you aren't right for a data science role.",16
+1q6k1xl,6,AI skills help you be a generalist. It knows how to do a lot of simple things. It can't do complicated things or things in great depth.,59
+1q6k1xl,7,Interview Query is a load of crap. Their website is also horrible and their answer keys for problems are written by chat gpt,6
+1q6k1xl,8,"BS. 
+
+Would like to see the methodology used to arrive at the number. First, due diligence, e.g. how are duplicate postings or reposted jobs handled. Second, ar difference between job ads and actual hires. Likely, some AI based fake jobs published just to send a message. Likely, those actually hired don't match job description, especially in this area. 
+
+There is metric shitton of tech in this world: hardware, embedded systems, controllers, security systems, databases, etc etc. 53% of all these people are now building LLMs?? More likely, people have given up on advertising actual jobs on LinkedIn",3
+1q6k1xl,9,Generalizing that generalists are getting left behind is an entertaining bit of irony.,4
+1q6k1xl,10,"What does it mean by AI skills ? The skill of efficiently prompt an AI chatbot OR use an  AI code writer (like cursor) ?  OR Does it mean the skill to deploy AI models and built agents to do tasks ?   
+  
+There is lot more hype than actual productive material about this AI thing.",3
+1q64yb5,1,"This matches a pain point I keep running into with agentic systems. Once the logic gets even mildly complex, unconstrained agents feel brittle and hard to debug because everything is entangled. The graph based framing makes it much easier to reason about failure modes and to fix one step without breaking five others. I also like the idea of letting a more freeform agent live inside a bounded node when you actually want exploration. Curious how you handle versioning and testing of the graph itself as it grows, since that seems like the next maintainability cliff.",1
+1q64yb5,2,"Graph based agent + more control, modularity and maintainability.",1
+1q64yb5,3,"This is spot on - I have been thinking about this problem for several weeks, and my working mental model is that 'constrained agents' are actually more human-like in their execution than AI-only agents:
+
+* Repetitive / predictable tasks are aligned to our 'System 1' thinking; the unpredictability of LLMs makes them a poor fit for tasks that could be automated with RPA (not to mention token cost) 
+* On the other hand, RPA breaks when things change, are dynamic, or require 'System 2' problem solving. This is were LLMs can fill a critical gap; the outcomes are less predictable, but with sufficient experience / context, they can be quite good
+
+  
+\[for those not familiar with Daniel Kahneman's '[Thinking Fast and Slow](https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow)', here's an [overview](https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking) of his concept of System 1 / System 2 thinking\]",1

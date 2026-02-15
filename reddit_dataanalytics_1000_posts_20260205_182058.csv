@@ -1,0 +1,890 @@
+post_id,title,body,created_utc,score,num_comments,url
+1qwqf0o,Looking for Retail Data Analysis Project Ideas / References,"Hi everyone,
+
+I’m working on building a retail data analysis portfolio project and wanted to ask if anyone here has worked on or built a good retail analysis project that they’d be willing to share or let me refer to.
+
+I’m mainly looking for project ideas, problem statements, datasets, or dashboards that reflect real-world retail use cases (sales analysis, customer behavior, inventory, forecasting, etc.).
+
+Any links, GitHub repos, or brief descriptions would be really helpful.
+
+Thank you in advance.. I would really appreciate your time and help! 😊",1770310029.0,1,0,https://www.reddit.com/r/dataanalytics/comments/1qwqf0o/looking_for_retail_data_analysis_project_ideas/
+1qwntks,Angry analyst built a free data layer modeling tool after years of wrestling with 40‑page tracking docs – looking for feedback,"After enough projects where we debated attribution models and dashboards while working off inconsistent, poorly‑documented events, I realized my real anger was aimed at those monstrous Word files we used as tracking plans. Dozens of pages, different versions flying around, devs implementing from an old copy, analysts updating another, and endless Slack threads to reconcile what was “the latest.” It was slow, brittle, and made coordination with my analyst colleagues and stakeholders a constant headache.
+
+That pushed me to treat data layer and event design as a first‑class artifact. I’ve built a tool that acts like a **schema designer for tracking**: you define events, properties, and entities in one place and export a structured data layer spec that can be implemented via GTM/GA4 or custom tracking. The goal is to make analytics requirements explicit, versionable, and shared, instead of buried in documents and email attachments.
+
+A big part of what I’d like to build with this is **community‑driven templates**: common event models for e‑commerce, SaaS, content sites, etc., that we can improve together. The hope is that, as a community, we can converge on better naming, properties, and conventions rather than every team starting from scratch with a blank Word file.
+
+The tool is free, and I genuinely want to keep it that way for as long as possible so analysts and smaller teams can use it without friction. If you find real value in it, a donation would be greatly appreciated to help keep it free and fund new features (better integrations, export formats, collaboration features, etc.).
+
+I’m curious how people here think about this problem:
+
+* Do you maintain a formal tracking plan / event catalog today, and how do you keep it synchronized across devs, analysts, and stakeholders?
+* Would you like a similar tool for other kinds of documentation?
+* Any pitfalls you’ve hit with enforcing conventions across multiple teams that I should consider while designing templates and workflows?
+
+If you’re interested in this space, I’d be grateful if you’d take a look and share thoughts, **you can find the link the comments!**  
+  
+I built it to fix my own frustration with spec chaos, but I’d love to shape it around what the broader analytics community actually needs",1770304302.0,0,1,https://www.reddit.com/r/dataanalytics/comments/1qwntks/angry_analyst_built_a_free_data_layer_modeling/
+1qwjfm2,Resume roast (for fresher),hey guys I have been applying to data analyst intern position pls help me with my resume as for now I only got one interview in which I messed up ,1770292868.0,1,6,https://www.reddit.com/r/dataanalytics/comments/1qwjfm2/resume_roast_for_fresher/
+1qwgm7s,How do teams measure email productivity in practice?,"Email response time is often mentioned as an important metric, but in day to day work it feels hard to measure in a consistent way. Most inboxes only show unread counts, which does not really reflect performance or workload.
+
+For teams that rely heavily on email, how do you evaluate productivity without relying only on anecdotes or complaints?",1770283044.0,2,0,https://www.reddit.com/r/dataanalytics/comments/1qwgm7s/how_do_teams_measure_email_productivity_in/
+1qvwr95,"By using Google Analytics, Hex, Metabase, Mixpanel etc.. I got frustrated","I’ve worked in product dev for a while, and my frustration has been that most analytics tools mostly give vanity metrics that you can do very little with. The real understanding still requires manual digging, interviews etc. The most value i got from the ""old"" tools is the video recording by sitting hours by watching users and empathise.
+
+So i built a product called peeke\[dot\]app, the AI analyzes historical behavior, forms hypotheses, and interviews users at the right moment and do analytics on the context.
+
+Please let me hear your thought on whats missing today?",1770230122.0,2,0,https://www.reddit.com/r/dataanalytics/comments/1qvwr95/by_using_google_analytics_hex_metabase_mixpanel/
+1qvjt2a,"Can I get a Job solely with Data Analytics? (Excel, SQL, Python and PowerBi)","Hi! I am a student currently pursuing MCA, and I'm in my final year. I tried doing full-stack web development, but I don't want to get into this programming stuff anymore. I have no experience whatsoever. So, I want to switch to data analytics, as everyone says its easy to do and no programming skills are required for these jobs and internships. How much of this is real? Also, how easy is it to enter the job market with only data analytics without needing any programming stacks (like Java or Python full stack)? How high is the pay, and how good is the market for these jobs in India? Please help! Thank you!",1770196287.0,0,0,https://www.reddit.com/r/dataanalytics/comments/1qvjt2a/can_i_get_a_job_solely_with_data_analytics_excel/
+1qubnmt,Data analytics learning material,"Among all the free and paid courses, trainings, and bootcamps how do you choose which one is better? Based on what do you make a decision?
+
+What should I be looking for in a course?",1770075431.0,5,4,https://www.reddit.com/r/dataanalytics/comments/1qubnmt/data_analytics_learning_material/
+1qu6hto,Does anyone else see the writing on the wall for data analytics as a whole?,"I know it's not going to be completely obsolete in five years, but I feel like a majority of the jobs in the last 5 years are going to be gone, maybe more. I am currently employed at a FAANG role in what I predict may be one of my last roles in this industry. 
+
+What is your backup plan? Where do you see this industry going? My only hope is my experience and the qualitative insights I can provide may be my only saving grace.",1770063807.0,126,61,https://www.reddit.com/r/dataanalytics/comments/1qu6hto/does_anyone_else_see_the_writing_on_the_wall_for/
+1qu08kp,"What are some good suggestions for getting started in a career for data science and/or data analytics?
+Advice","Hi everyone,
+
+  
+Just a little bit about me. I recently graduated with a bachlor of science in computer science in December 2025. Currently pursung an MBA with a focus is data analytics. I have been pretty undecisive with my career direction for a bit of time now but finally have narrowed it down a little bit. I know for sure I don't want to be a developer and yes, I realized this the last semester of getting my bachelors but I figured people pivot all the time career wise, so I obviosuly just finished my last few classes. Out of most careers, data science/analytics has stuck out to me more than others and I have a strong interest to start a career. However, I am wondering if there are any certifications that would be useful or any suggestions for certificate programs? I am in the military, and we have funding for certifications but I don't want to waste the money on something that may not help me start a career. I also would like suggestions on where to get started, open to free resources as well obviously. ",1770050729.0,8,5,https://www.reddit.com/r/dataanalytics/comments/1qu08kp/what_are_some_good_suggestions_for_getting/
+1qsp0r8,“Learn Python” usually means very different things. This helped me understand it better.,"People often say *“learn Python”*.
+
+What confused me early on was that Python isn’t one skill you finish. It’s a group of tools, each meant for a different kind of problem.
+
+This image summarizes that idea well. I’ll add some context from how I’ve seen it used.
+
+**Web scraping**  
+This is Python interacting with websites.
+
+Common tools:
+
+* `requests` to fetch pages
+* `BeautifulSoup` or `lxml` to read HTML
+* `Selenium` when sites behave like apps
+* `Scrapy` for larger crawling jobs
+
+Useful when data isn’t already in a file or database.
+
+**Data manipulation**  
+This shows up almost everywhere.
+
+* `pandas` for tables and transformations
+* `NumPy` for numerical work
+* `SciPy` for scientific functions
+* `Dask` / `Vaex` when datasets get large
+
+When this part is shaky, everything downstream feels harder.
+
+**Data visualization**  
+Plots help you think, not just present.
+
+* `matplotlib` for full control
+* `seaborn` for patterns and distributions
+* `plotly` / `bokeh` for interaction
+* `altair` for clean, declarative charts
+
+Bad plots hide problems. Good ones expose them early.
+
+**Machine learning**  
+This is where predictions and automation come in.
+
+* `scikit-learn` for classical models
+* `TensorFlow` / `PyTorch` for deep learning
+* `Keras` for faster experiments
+
+Models only behave well when the data work before them is solid.
+
+**NLP**  
+Text adds its own messiness.
+
+* `NLTK` and `spaCy` for language processing
+* `Gensim` for topics and embeddings
+* `transformers` for modern language models
+
+Understanding text is as much about context as code.
+
+**Statistical analysis**  
+This is where you check your assumptions.
+
+* `statsmodels` for statistical tests
+* `PyMC` / `PyStan` for probabilistic modeling
+* `Pingouin` for cleaner statistical workflows
+
+Statistics help you decide what to trust.
+
+**Why this helped me**  
+I stopped trying to “learn Python” all at once.
+
+Instead, I focused on:
+
+* What problem did I had
+* Which layer did it belong to
+* Which tool made sense there
+
+That mental model made learning calmer and more practical.
+
+Curious how others here approached this.
+
+https://preview.redd.it/6v32ytmndtgg1.jpg?width=1200&amp;format=pjpg&amp;auto=webp&amp;s=dbbf107c4c7e9304893763ee7855f5035b2281d6
+
+  
+",1769921642.0,69,5,https://www.reddit.com/r/dataanalytics/comments/1qsp0r8/learn_python_usually_means_very_different_things/
+1qsi8pv,Help make my resume better for a data analyst job,"I need help with making my resume more impactful but I dont know what to say. I dont want to use AI because employers can tell whenever AI is used and I need human eyes to tell me what needs to be said to make it more impactful such as using STAR. What should I say?
+
+**Education** 
+
+**Graduated**
+
+**Bachelor of Science in Management Information Systems** 	       **GPA: 3.48** 
+
+Dean’s List:  six semesters
+
+
+
+**Personal Project** 
+
+SQL and Excel project 2026 - technical case study in both programs for advancing skill sets
+
+
+
+**Academic Projects** 
+
+• SQL Project- Created a structured query language database with multiple relational tables
+
+• Business intelligence project- Built multiple data models utilizing Power Query and Power Pivot • Python Project- Developed a line graph in Python code 
+
+
+
+**Technical Skills**
+
+ • Tableau, Excel, PowerPoint, Visio, Access, Python, SAP 4/Hana, PL/SQL, BI, Netsuite, ERP
+
+
+
+**Analytic Internship Experience** 
+
+**Operations Analyst Intern**                                 	          		**June 2023 – August 2023** 
+
+• Generated value by providing equity settlement statuses using Broadridge platform 
+
+• Utilized Excel for strategic technology solutions for uncovering data discrepancies
+
+• Presented with a team about what was learned during the internship program
+
+• Verified information and accurately updated data using Microsoft Excel
+
+
+
+**Research Analyst Intern**         				**September 2022 – December 2022** 
+
+• Built a database using SQL containing 1000 different records for research purposes 
+
+• Created graphs in Microsoft Excel as numerical models by applying critical thinking skills 
+
+• Inserted CSV files from Excel into Microsoft SQL Server, which added data to the database
+
+• Presented data findings with management increasing our knowledge in career diversity
+
+• Led an event that increased the Career Services Instagram account by 100 within one week
+
+
+
+**Project Manager Intern**						    **June 2022 – August 2022** 
+
+• Analyzed data sets to uncover discrepancies before communicating them to management 
+
+• Validated a hand inventory count of 3,000 parts and saved the company $800 
+
+• Utilized Excel for data manipulation, including creating and managing pivot tables 
+
+• Built data visualization charts from pivot tables for managers to use in shareholder meetings
+
+• Collaborated with different department managers ensuring that parts were accounted for
+
+
+
+**Intern**	 						                       **September 2020 - May 2021**
+
+• Marketed and directed product sales to consumers during the station’s community days
+
+• Designed flyers and other marketing materials for company events using Canva
+
+• Performed manual data entry of customer information into customer service spreadsheets
+
+
+
+**Work Experience**  
+
+**Pharmacy Technician**	 			                       		  **May 2025 - Present** 
+
+• Informed pharmacists whenever any kind of issues came up that needed to be fixed 
+
+• Processed the medication roll set up under six minutes on average for pharmacists' review
+
+• Loaded medication spools on machines once a co-worker initiates the paperwork
+
+",1769903163.0,7,3,https://www.reddit.com/r/dataanalytics/comments/1qsi8pv/help_make_my_resume_better_for_a_data_analyst_job/
+1qs9uow,Forward-Simulated Latent Stochastic Dynamical Systems for Longitudinal Failure Regimes,"I’ve been experimenting with whether synthetic data can encode failure as a dynamical outcome rather than a labeling rule. So, I built three open synthetic longitudinal datasets and posted them on Kaggle that were generated by forward-simulating latent dynamical systems, rather than fitting statistical templates or injecting noise into trends.
+
+The motivation was to see whether synthetic data could encode failure as a dynamical outcome, not as a labeling rule.
+
+The core idea is simple:
+
+regimes (failure, burnout, collapse) emerge from dynamics, not from thresholds applied to labels.
+
+Each system is modeled as a latent state vector \`x(t)\` evolving under coupled stochastic dynamics:
+
+dx = f(x) dt + σ(x) dW
+
+Observable variables are emitted \*downstream\* of these latent states, enforcing causal consistency and preventing physically or biologically impossible combinations.
+
+\---
+
+\## How the dynamics actually work
+
+Across all datasets:
+
+\* Latent state is integrated with RK4 for numerical stability over long horizons
+
+\* Positive feedback loops drive acceleration near failure (e.g. wear ↑ → heat ↑ → wear ↑)
+
+\* Hazard-based regime transitions use instantaneous hazard rates:
+
+P(transition) = 1 - exp(-λ(x) Δt)
+
+\* Once critical stress is exceeded, system parameters themselves change, suppressing recovery (hysteresis / scarring)
+
+This makes recovery asymmetric: decline is fast, recovery is slow or incomplete.
+
+\---
+
+\## Datasets (very briefly)
+
+Industrial Pump Failure
+
+Latent wear, heat, and efficiency evolve as coupled SDEs.
+
+Failure is a \*\*runaway instability\*\*, not a scripted endpoint.
+
+Maintenance alters dynamics but never resets state.
+
+\* 379k rows · 150 machines
+
+\* \~0.1% failure, \~7% critical
+
+\---
+
+2) Human Performance &amp; Burnout
+
+Fatigue and stress act as memory-bearing accumulators.
+
+Burnout emerges when recovery capacity is exhausted; afterward, recovery elasticity is permanently reduced.
+
+\* 975k rows · 140 agents
+
+\* Stressed \~24.61%, Burnout \~1.8%, persistent once entered
+
+\---
+
+3) Ecological Stress &amp; Collapse
+
+Interacting populations and resources under stochastic shocks.
+
+After collapse, \*\*governing equations change\*\*, enforcing irreversibility.
+
+\* 1.2M rows · 100 ecosystems
+
+\* Collapse \~22%, stress window brief
+
+\---
+
+Kaggle links are in a comment below for anyone who wants to explore the data.
+
+\---
+
+Happy to discuss the physics modeling or share implementation details.",1769883582.0,1,1,https://www.reddit.com/r/dataanalytics/comments/1qs9uow/forwardsimulated_latent_stochastic_dynamical/
+1qs6c7n,How do I become job-ready after my MSc program?,"Hi everyone,
+
+I’m currently a **first-year Data Management &amp; Analysis student** in a **1-year program**, and I recently transitioned from a **Biomedical Science background**. My goal is to move into **Data Science** after graduation.
+
+I’m enjoying the program, but I’m struggling with the *pace and depth*. Most topics are introduced briefly and then we move on quickly, which makes it hard to feel confident or “industry ready.”
+
+Some of the topics we cover include:
+
+* Data preprocessing &amp; EDA
+* Supervised Learning: Classification I (Decision Trees)
+* Supervised Learning: Classification II (KNN, Naive Bayes)
+* Supervised Learning: Regression
+* Model Evaluation
+* Unsupervised Learning: Clustering
+* Text Mining
+
+My concern is that while I understand the **theory**, I don’t feel like that alone will make me employable. I want to **practice the right way**, not just pass exams.
+
+So I’m looking for advice from **working data analysts/scientists**:
+
+* How would *you* practice these topics outside lectures?
+* What should I be building alongside school (projects, portfolios, Kaggle, etc.)?
+* How deep should I go into each model vs. focusing on fundamentals?
+* What mistakes do students commonly make when trying to be “job ready”?
+* Given my biomedical background, are there specific niches or project ideas I should lean into?
+
+My goal is to finish this program **confident, employable, and realistic about my skills**, not just with a certificate.",1769875816.0,9,0,https://www.reddit.com/r/dataanalytics/comments/1qs6c7n/how_do_i_become_jobready_after_my_msc_program/
+1qr4xsp,Advice on starting please?,"Can anyone help with some advice for getting started please, specifically the kind of things that are required early on and what a ‘typical day’ looks like - I don’t 100% trust what ChatGPT tells me.
+
+I am looking to move into a data analysis role at entry level.
+
+I have done the Microsoft Learn SQL basics learning path, am currently practicing and getting used to writing queries.
+
+What other things do I need to know before starting a role? I’ve had a variety of previous roles in admin and finance in different business areas so I have fairly broad knowledge. I can use excel for basic functions and can probably refresh myself on pivot tables fairly easily (though charts are going to be hard work).
+
+What is a typical day in an entry level job like?
+
+Edited to Add: I should probably note that I am UK based and am learning while on maternity leave",1769778361.0,9,13,https://www.reddit.com/r/dataanalytics/comments/1qr4xsp/advice_on_starting_please/
+1qqvmlt,A visual summary of Python features that show up most in everyday code,"When people start learning Python, they often feel stuck.
+
+Too many videos.  
+Too many topics.  
+No clear idea of what to focus on first.
+
+This cheat sheet works because it shows the parts of Python you actually use when writing code.
+
+A quick breakdown in plain terms:
+
+**→ Basics and variables**  
+You use these everywhere. Store values. Print results.  
+If this feels shaky, everything else feels harder than it should.
+
+**→ Data structures**  
+Lists, tuples, sets, dictionaries.  
+Most real problems come down to choosing the right one.  
+Pick the wrong structure and your code becomes messy fast.
+
+**→ Conditionals**  
+This is how Python makes decisions.  
+Questions like:  
+– Is this value valid?  
+– Does this row meet my rule?
+
+**→ Loops**  
+Loops help you work with many things at once.  
+Rows in a file. Items in a list.  
+They save you from writing the same line again and again.
+
+**→ Functions**  
+This is where good habits start.  
+Functions help you reuse logic and keep code readable.  
+Almost every real project relies on them.
+
+**→ Strings**  
+Text shows up everywhere.  
+Names, emails, file paths.  
+Knowing how to handle text saves a lot of time.
+
+**→ Built-ins and imports**  
+Python already gives you powerful tools.  
+You don’t need to reinvent them.  
+You just need to know they exist.
+
+**→ File handling**  
+Real data lives in files.  
+You read it, clean it, and write results back.  
+This matters more than beginners usually realize.
+
+**→ Classes**  
+Not needed on day one.  
+But seeing them early helps later.  
+They’re just a way to group data and behavior together.
+
+Don’t try to memorize this sheet.
+
+Write small programs from it.  
+Make mistakes.  
+Fix them.
+
+That’s when Python starts to feel normal.
+
+Hope this helps someone who’s just starting out.
+
+https://preview.redd.it/olgtmxe80fgg1.jpg?width=1000&amp;format=pjpg&amp;auto=webp&amp;s=1909a42fca7dbb884084219b3858ecad2677d73b
+
+  
+",1769747614.0,9,1,https://www.reddit.com/r/dataanalytics/comments/1qqvmlt/a_visual_summary_of_python_features_that_show_up/
+1qqsspk,Which of the following elective course options at Santa Clara University's MIS program will help me be better prepared for a career in data analytics?,"So I am currently majoring in MIS at SCU. I am starting my major classes, currently learning intro to python and soon to take intro to SQL next quarter. At SCU i have to take 3 electives for the MIS program. Below I have attached a link that shows the required courses as well as a link with course descriptions in the MIS department:
+
+course reqs: [https://www.scu.edu/business/isa/academics/](https://www.scu.edu/business/isa/academics/)
+
+course descriptions: [https://www.scu.edu/business/isa/academics/courses/](https://www.scu.edu/business/isa/academics/courses/)
+
+I am leaning towards OMIS 114: data science with python,
+
+OMIS 112 data visualization, as well as OMIS 118 social media analytics. I am curious if you guys think these are the best course options for me. If not, which courses do you think sound like they would better prepare me for a career in data analytics and why? I am also considering double majoring or minoring in Business Analytics as the reqs. are similar so feel free to comment on that as well.
+
+Thanks!!",1769739745.0,1,0,https://www.reddit.com/r/dataanalytics/comments/1qqsspk/which_of_the_following_elective_course_options_at/
+1qpkykm,Opinions on the area: Data Analytics &amp; Big Data,"I’ve started thinking about changing my professional career and doing a postgraduate degree in Data Analytics &amp; Big Data. What do you think about this field? Is it something the market still looks for, or will the AI era make it obsolete? Do you think there are still good opportunities?",1769627724.0,12,5,https://www.reddit.com/r/dataanalytics/comments/1qpkykm/opinions_on_the_area_data_analytics_big_data/
+1qpcdr9,Hey I have built a chatting with Database in english no SQL request. I have video as a demo.,,1769609457.0,5,4,https://www.reddit.com/r/dataanalytics/comments/1qpcdr9/hey_i_have_built_a_chatting_with_database_in/
+1qp4od2,Can anyone tell me if they had tried freelancing? I am planning to start freelancing on ZoopUp? is this okay?,,1769584942.0,0,0,https://www.reddit.com/r/dataanalytics/comments/1qp4od2/can_anyone_tell_me_if_they_had_tried_freelancing/
+1qoxiwp,Are data analyst jobs dead for freshers?,"What has your job hunt experience been like in the current market?
+
+Are there any alternative ways to enter data analytics or pivot into DA after working in other roles?
+
+What strategies have worked for you?",1769564268.0,13,7,https://www.reddit.com/r/dataanalytics/comments/1qoxiwp/are_data_analyst_jobs_dead_for_freshers/
+1qobyof,Are data analytics course in Thane beginners dependent on good math?,"As I was doing research on a course on data analytics in Thane, one of the questions continued to cross my mind, and this was how much math do beginners actually need. Many are afraid as they believe that analytics is highly mathematical.  
+  
+In my experience, the larger problem in the beginning is to make sense of the data flow and posing the correct questions, rather than complicated formulas. Novices find it difficult to follow the teaching that is not presented in sequence. Some of learners I interviewed have stated that things were made clearer as they pursued coherent learning and others stated that they attained the same clarity as they undertook learning at Quastech IT Training and Placement Institute, Thane.  
+  
+I am still in the exploration phase and attempting to eliminate myths prior to getting down to business.  
+  
+To people already in analytics, did math slow you down, or was it easier than you thought so?",1769515339.0,4,1,https://www.reddit.com/r/dataanalytics/comments/1qobyof/are_data_analytics_course_in_thane_beginners/
+1qnuudt,Job post → must-haves → evidence checklist for junior Data Analysts (template inside),"If you’re applying for junior Data Analyst roles, a common mistake is doing generic prep and then getting filtered because your resume/portfolio doesn’t match the job post.
+
+How to use the screenshot:
+
+1. Copy the JD into your notes (Notion works) and mark Required vs Preferred.
+2. For each Required item, write the evidence/link you can point to (resume bullet, dashboard, repo, memo, slides).
+3. Build 2 portfolio projects that cover most Required items (not random projects).
+
+Rule of thumb: if you’re missing several Required items, pause applications and build the projects first.
+
+Optional copy/download version: [link](https://www.noetify.app/resources/data-analyst-job-post-checklist)",1769465649.0,36,2,https://www.reddit.com/r/dataanalytics/comments/1qnuudt/job_post_musthaves_evidence_checklist_for_junior/
+1qntd7q,Do you use AI in your work?,"It doesn’t matter if you work with Data, or if you’re in Business, Marketing, Finance, or even Education.
+
+
+
+Do you really think you know how to work with AI?
+
+Do you actually write good prompts?
+
+
+
+Whether your answer is yes or no, here’s a solid tip.
+
+
+
+Between **January 20 and March 2**, Microsoft is running the **Microsoft Credentials AI Challenge**.
+
+
+
+This challenge is a Microsoft training program that combines **theoretical content and hands-on challenges**.
+
+You’ll learn how to use AI the right way: how to build effective prompts, generate documents, review content, and work more productively with AI tools.
+
+
+
+A lot of people use AI every day, but without really understanding what they’re doing — and that usually leads to poor or inconsistent results.
+
+This challenge helps you build that foundation properly.
+
+
+
+At the end, besides earning **Microsoft badges** to showcase your skills, you also get a **50% exam voucher** for Microsoft’s new AI certifications — which are much more practical and market-oriented.
+
+
+
+These are **Microsoft Azure AI certifications** designed for real-world use cases.
+
+
+
+How to join
+
+1. Register for the challenge here: [https://learn.microsoft.com/en-us/credentials/microsoft-credentials-ai-challenge](https://learn.microsoft.com/en-us/credentials/microsoft-credentials-ai-challenge)
+2. Then complete the modules in this collection (this is the most important part, and doing this collection you will help me): [https://learn.microsoft.com/pt-br/collections/eeo2coto6p3y3?&amp;sharingId=DC7912023DF53697&amp;wt.mc\_id=studentamb\_493906](https://learn.microsoft.com/pt-br/collections/eeo2coto6p3y3?&amp;sharingId=DC7912023DF53697&amp;wt.mc_id=studentamb_493906)
+
+",1769462457.0,5,0,https://www.reddit.com/r/dataanalytics/comments/1qntd7q/do_you_use_ai_in_your_work/
+1qmdyyn,Suggestion on DA,"hi i am 19 years old and currently doing graduation, i am in my 2nd year right now with BBA ( bachelor of business administration )   
+i am currently going through many options to build career in and i have no idea good data analytics is for me, i have studied it in my 1st year it was kinda good but i don't know what to do   
+is this a wise choice to do ? it will take about 6 months to completely learn it with a paid course is it really worth doing ? i have also done a Digital Marketing course earlier and it is just too little work with very less growth option for now   
+if you have any other suggestion than data analyst for me please let me know ",1769330830.0,8,8,https://www.reddit.com/r/dataanalytics/comments/1qmdyyn/suggestion_on_da/
+1qm09kq,Insights needed | Am I considered a data analyst?,"Hi! My current work revolves around finding invalid traffic. We use SQL, dashboards and data story telling to justify investigation. I want to be expert on what I do and somehow lean towards data analytics/data science. Any tips or things I need to study? ",1769291916.0,3,0,https://www.reddit.com/r/dataanalytics/comments/1qm09kq/insights_needed_am_i_considered_a_data_analyst/
+1qlz3wc,"Hi , is anyone know how fix it","https://preview.redd.it/etxchwck5dfg1.png?width=1066&amp;format=png&amp;auto=webp&amp;s=b9e66c8a3fcc4742f846c4e0151b43a30f5a43ed
+
+  
+",1769289225.0,1,3,https://www.reddit.com/r/dataanalytics/comments/1qlz3wc/hi_is_anyone_know_how_fix_it/
+1qldqcg,Does switching between AI tools feel fragmented to you?,"I use a bunch of AI tools every day and it drives me nuts that GPT has no clue what I told Claude.  
+Feels like each tool lives in its own little bubble, and I end up repeating context all the time.  
+Workflows break, stuff gets duplicated, and instead of saving time it just slows me down.  
+Was thinking, is there a ""Plaid for AI memory"" kind of thing? connect once, manage memory and permissions in one place.  
+Like a single MCP server that holds shared memory so GPT knows what Claude knows and agents don't need to re-integrate.  
+Seems like that could remove a ton of friction, but maybe I'm missing something.  
+How are people handling this now? homebrew? some service I'm not aware of?  
+Not sure how privacy and permissions would work though, that's my main worry.  
+Anyway, curious if others feel the same or if I'm just overthinking it.",1769230347.0,1,2,https://www.reddit.com/r/dataanalytics/comments/1qldqcg/does_switching_between_ai_tools_feel_fragmented/
+1qka0wi,"I audited an LLM’s ""thought process"" on Kaggle. Here is the SQL it ran to win.","I challenged an LLM Agent to solve the *Spaceship Titanic* Kaggle problem from scratch. 
+
+**Result:** It hit the top 30% leaderboard in under 30 minutes.
+
+But the score isn't the point. The point was that I could **see how the LLM went from data to results**.
+
+With [Mantora](https://github.com/josephwibowo/mantora) capturing the session, the agent's strategy wasn't a mystery. I saw the exact SQL queries that led to its decisions, proving it wasn't hallucinating features, it was interviewing the data.
+
+https://preview.redd.it/1y57k5rrgzeg1.png?width=3146&amp;format=png&amp;auto=webp&amp;s=e1702fbc69299fc5ce2bdf2997542a04b5ba45bd
+
+Here is the exact SQL evidence from the session receipt:
+
+**1. It found the ""Golden Feature"" immediately.** I watched the agent run: SELECT CryoSleep, AVG(CAST(Transported AS INTEGER))... The result showed CryoSleep=True had an **81% transport rate** (vs 32% for False).
+
+*Insight:* The agent didn't ""hallucinate"" that CryoSleep was important. It queried the stat, saw the 0.81 correlation, and locked it in as a primary feature.
+
+**2. It engineered ""Spending"" behavior (Query #9)** It ran complex aggregations on 5 different spending columns (RoomService, Spa, VRDeck), splitting by Transported status. 
+
+*Insight:* It discovered that transported passengers spent significantly less on luxury amenities (e.g., Avg Spa spend: **61** vs **564**).
+
+**3. It discovered the ""Child"" anomaly (Query #10)** It didn't just look at raw age. It ran a CASE WHEN query to bucket passengers into groups (0-12, 13-19, etc).
+
+*Insight:* It found that children (0-12) had a **69.9%** transport rate, significantly higher than any other age group.
+
+If we are going to rely on LLMs to automate data science, we need the ability to audit their work just as we would a human peer. A flight recorder provides that necessary oversight, ensuring that as we delegate execution, we retain full visibility into the ""why"" behind the results. Trust requires evidence.
+
+**Repo:** [https://github.com/josephwibowo/mantora](https://github.com/josephwibowo/mantora)
+
+  
+**Sample of mantora output**  
+
+
+═══════════════════════════════════════════════════════════════
+
+⚠️ MANTORA SESSION — WARNINGS
+
+═══════════════════════════════════════════════════════════════
+
+
+
+Session: Spaceship Titanic Data Analysis
+
+Created: 2026-01-22T10:20:09.512042+00:00
+
+
+
+───────────────────────────────────────────────────────────────
+
+SUMMARY
+
+───────────────────────────────────────────────────────────────
+
+• Tables: \`group\_sizes\`, \`train\`
+
+• Warnings: NO\_LIMIT
+
+• Blocks: —
+
+• Stats: 13 tool calls · 242 ms
+
+───────────────────────────────────────────────────────────────
+
+TIMELINE
+
+───────────────────────────────────────────────────────────────
+
+\#1  \[10:20:12 +3183ms\]  QUERY  ✅  —  query
+
+\#2  \[10:20:15 +6323ms\]  QUERY  ✅  train  query
+
+\#3  \[10:20:24 +14780ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#4  \[10:20:29 +20003ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#5  \[10:20:35 +26014ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#6  \[10:20:40 +30538ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#7  \[10:20:44 +35023ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#8  \[10:20:49 +39807ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#9  \[10:20:55 +45638ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#10  \[10:21:02 +52542ms\]  QUERY  ⚠️  train  NO\_LIMIT
+
+\#11  \[10:21:05 +55888ms\]  QUERY  ✅  train  query
+
+\#12  \[10:21:11 +62074ms\]  QUERY  ✅  train  query
+
+\#13  \[10:21:15 +65689ms\]  QUERY  ⚠️  group\_sizes  NO\_LIMIT
+
+───────────────────────────────────────────────────────────────
+
+STEP DETAILS
+
+───────────────────────────────────────────────────────────────
+
+
+
+\*\*Step 1 — QUERY\*\* (✅, 21ms, t+3183ms)
+
+SHOW TABLES;
+
+\*\*Step 2 — QUERY\*\* (✅, 53ms, t+6323ms)
+
+DESCRIBE train;
+
+\*\*Step 3 — QUERY\*\* (⚠️ NO\_LIMIT, 13ms, t+14780ms)
+
+SELECT Transported, COUNT(\*) as count, ROUND(COUNT(\*) \* 100.0 / (SELECT COUNT(\*) FROM train), 2) as percentage
+
+FROM train
+
+GROUP BY Transported;
+
+\*\*Step 4 — QUERY\*\* (⚠️ NO\_LIMIT, 28ms, t+20003ms)
+
+SELECT 
+
+COUNT(\*) as total\_rows,
+
+COUNT(PassengerId) as PassengerId\_count,
+
+COUNT(HomePlanet) as HomePlanet\_count,
+
+COUNT(CryoSleep) as CryoSleep\_count,
+
+COUNT(Cabin) as Cabin\_count,
+
+COUNT(Destination) as Destination\_count,
+
+COUNT(Age) as Age\_count,
+
+COUNT(VIP) as VIP\_count,
+
+COUNT(RoomService) as RoomService\_count,
+
+COUNT(FoodCourt) as FoodCourt\_count,
+
+COUNT(ShoppingMall) as ShoppingMall\_count,
+
+COUNT(Spa) as Spa\_count,
+
+COUNT(VRDeck) as VRDeck\_count,
+
+COUNT(Name) as Name\_count,
+
+COUNT(Transported) as Transported\_count
+
+FROM train;
+
+\*\*Step 5 — QUERY\*\* (⚠️ NO\_LIMIT, 13ms, t+26014ms)
+
+SELECT HomePlanet, COUNT(\*) as count, AVG(CAST(Transported AS INTEGER)) as transport\_rate
+
+FROM train
+
+GROUP BY HomePlanet;
+
+───────────────────────────────────────────────────────────────
+
+Session ID: f08cb62d-0588-4212-82b3-986cf08b13de",1769123697.0,5,0,https://www.reddit.com/r/dataanalytics/comments/1qka0wi/i_audited_an_llms_thought_process_on_kaggle_here/
+1qjyzh1,"Hi,  Is web scraping an important skill in data analysis?",,1769099011.0,6,19,https://www.reddit.com/r/dataanalytics/comments/1qjyzh1/hi_is_web_scraping_an_important_skill_in_data/
+1qjv11p,CRM vs Data Analyst,"Hi everyone,
+
+I’m currently at a crossroads in my career and would really appreciate some honest advice from people working in the field.
+
+I recently finished a contract with the Portuguese Air Force, where I worked in Public Relations and content management. While I have solid experience in content creation and communication, I’ve realized that this is not the area I want to pursue professionally anymore.
+
+I hold a Master’s degree in Data-Driven Marketing from NOVA IMS, with a specialization in CRM and Market Research. During the program, I had exposure to Big Data concepts, Python, Salesforce, and data analysis, although mostly at an academic level. I also have basic SQL skills, completed a Power BI course, and I’m considering taking the Microsoft Power BI certification in the coming months.
+
+My medium-term goal is to work for a technology company like Microsoft, ideally in areas such as:
+
+* Business Applications
+* Customer Insights
+* Data / Marketing Analytics
+
+Right now, I’m unsure which path I should focus on:
+
+**1) CRM / Customer Analytics**  
+(Dynamics 365, Customer Insights, marketing automation, customer journeys)
+
+**2) Data Analyst / BI**  
+(Power BI, SQL, possibly Python later, dashboards, business insights)
+
+My questions:
+
+1. Based on your experience, which path offers better long-term career prospects?
+2. Is a CRM-focused profile too niche, or is it actually an advantage when combined with data skills?
+3. Is the Microsoft Power BI certification worth it in terms of employability?
+4. If you were in my position today, what would you focus on in the next 6–12 months?
+
+I’m not trying to become a data scientist overnight. I’m looking for a solid, realistic path that keeps doors open in tech and analytics.
+
+Thanks in advance 🙏
+
+*P.S.: I also hold a Bachelor’s degree in Multimedia and two postgraduate diplomas — one in Digital Marketing and another in Branding &amp; Content Marketing.*",1769089808.0,7,4,https://www.reddit.com/r/dataanalytics/comments/1qjv11p/crm_vs_data_analyst/
+1qjtfkz,Help needed,"Hello everyone,
+
+I’m pursuing my Master’s in Data Analytics and currently looking for a final project topic.
+
+My interests include Python, SQL, and Machine Learning.
+
+Could you please suggest some real-world or industry-oriented project ideas?
+
+Any guidance or dataset recommendations would be really helpful.
+
+Thank you!
+
+",1769085448.0,4,5,https://www.reddit.com/r/dataanalytics/comments/1qjtfkz/help_needed/
+1qjo0ts,"Roast my resume. Data Analyst | Python | SQL | Power BI I want raw, unfiltered feedback — formatting, content, buzzwords, weak bullets, fake impact… nothing is off-limits. Trying to break into serious data roles, so destroy it now before recruiters do.",,1769066368.0,19,10,https://www.reddit.com/r/dataanalytics/comments/1qjo0ts/roast_my_resume_data_analyst_python_sql_power_bi/
+1qjnxx1,Looking for internship,"Hi, I am from Bangladesh. And actively looking for a remote internship in Data analytics or Business analytics or related. 
+
+If anyone can help me or can refer me for in this matter, I will be very much grateful!!!",1769066089.0,0,0,https://www.reddit.com/r/dataanalytics/comments/1qjnxx1/looking_for_internship/
+1qixwbz,What should I learn next after Pandas? Any roadmap suggestions?,"Should I learn SQL next or Excel?
+
+The first thing I focused on was Pandas because I already knew the basics of Python. It took me about three weeks to become comfortable with Pandas, including understanding DataFrames and Series, core Pandas operations, data wrangling, and EDA. I also know how to customize charts and create visualizations using Seaborn. I don’t really like Matplotlib when making charts.
+
+So, should I still improve my Pandas skills by learning more advanced topics, or is this a good point to stop and focus on other tools?
+
+I want to be a data analyst after college. It’s totally fine if it’s an entry-level or junior role, I just want to get started after i graduate.",1769002140.0,16,8,https://www.reddit.com/r/dataanalytics/comments/1qixwbz/what_should_i_learn_next_after_pandas_any_roadmap/
+1qi3ht4,Will these projects help in a Data Analytics career? Need advice,"I’m doing an AI-powered Data Analytics course that includes 2 mini projects + 4 major projects, covering real-world datasets and business use cases:
+
+Ride-Sharing Data Analysis – peak hours, revenue trends, customer clustering, dashboards
+
+Airbnb Analysis – pricing, locations, amenities impact, seasonal trends
+
+Telecom Churn Analysis – EDA, ML models (logistic regression, decision trees), retention strategies
+
+IPL Data Analysis – match &amp; player performance, team trends, visualizations
+
+IMDB Movies Capstone – ratings vs budget, genre profitability, actors/directors analysis
+
+Brazilian E-Commerce Capstone – KPIs, customer behavior, sales trends, reviews &amp; payments
+
+Tools involve EDA, visualization, dashboards, clustering, ML models, and business insights.
+
+👉 Do these projects look strong enough for a Data Analyst role?
+
+👉 Would they help in building a portfolio that recruiters care about?
+
+👉 Anything missing that I should add?
+
+Would love honest feedback from people already in analytics 🙏",1768921589.0,6,5,https://www.reddit.com/r/dataanalytics/comments/1qi3ht4/will_these_projects_help_in_a_data_analytics/
+1qi2woe,Data Pipelines Market Research,"Hey guys 👋
+
+I'm Max, a Data Product Manager based in London, UK.
+
+With recent market changes in the data pipeline space (e.g. Fivetran's recent acquisitions of dbt and SQLMesh) and the increased focus on AI rather than the fundamental tools that run global products, I'm doing a bit of open market research on identifying pain points in data pipelines – whether that's in build, deployment, debugging or elsewhere.
+
+I'd love if any of you could fill out a 5 minute survey about your experiences with data pipelines in either your current or former jobs:
+
+[Key Pain Points in Data Pipelines](https://forms.office.com/Pages/ResponsePage.aspx?id=h4TwKF-VnESHtuE9oA1bTOODL5dK7f5AliFR2zj7Z5hUMzQ1VUdKWE5aRDVRTkUyS0Y1RU9LMEE5SiQlQCN0PWcu)
+
+To be completely candid, a friend of mine and I are looking at ways we can improve the tech stack with cool new tooling (of which we have plans for open source) and also want to publish our findings in some thought leadership.
+
+Feel free to DM me if you want more details or want to have a more in-depth chat, and happily comment below on your gripes!",1768920223.0,3,0,https://www.reddit.com/r/dataanalytics/comments/1qi2woe/data_pipelines_market_research/
+1qhzppk,Can I work as aا freelance data analyst without learning visualization tools like Power BI,,1768911845.0,3,16,https://www.reddit.com/r/dataanalytics/comments/1qhzppk/can_i_work_as_aا_freelance_data_analyst_without/
+1qgvm5x,How I designed a leadership-ready Power BI revenue &amp; churn dashboard - Exec Reviews,"I recently built a complete Power BI dashboard focused on revenue,
+
+growth, and customer churn — designed for leadership reviews.
+
+It includes:
+
+• Executive KPIs
+
+• Revenue trend &amp; variance
+
+• Churn movement logic
+
+• Clean, presentation-ready visuals
+
+• Executive KPIs,Churn - Tooltips
+
+Would love feedback from the community.",1768800774.0,23,9,https://www.reddit.com/r/dataanalytics/comments/1qgvm5x/how_i_designed_a_leadershipready_power_bi_revenue/
+1qgdg9x,Data Analytics: Real Career Growth or Overrated Field?,"I'm 17 years old and thinking seriously about pursuing data analytics as a career.
+
+I'm not looking for hype or the “digital nomad” image. I'm interested in whether this path actually works in real life.
+
+I’d like to know:
+
+- Is data analytics a dependable career long-term?
+- Can it realistically provide stable income and career growth?
+- What does progression look like after the entry level?
+- Based on real experience, is the field overhyped or genuinely solid?
+
+I’d really value honest opinions from people who are already working in the field or hiring data analysts.",1768754699.0,25,11,https://www.reddit.com/r/dataanalytics/comments/1qgdg9x/data_analytics_real_career_growth_or_overrated/
+1qgafjb,Need help for uni project easy!,"Hi everyone,
+
+I’m a first-year university student studying **Data Science (BUT Science des Données)**, and I’m currently working on a university project about the **Data Analyst** profession.
+
+I’m looking to get **real-world perspectives** from people actually working in the field (not marketing articles or school brochures). If you’re a Data Analyst and have a few minutes, your input would be extremely helpful.
+
+Here are the questions I’m researching:
+
+* What studies did you pursue, and through which institution or path?
+* How long have you been working as a Data Analyst?
+* What are, in your opinion, the main pros and cons of this job?
+* How does the current job market look for Data Analyst roles?
+* Which technical **and** non-technical skills are essential to succeed in this role?
+* What advice would you give to a student trying to improve employability (projects, internships, tools to master, mistakes to avoid)?
+
+Any answers, even short ones, would be greatly appreciated.  
+Thanks in advance for your time and for sharing your experience.  
+(dont hesitate to DM me if its sensitive information)
+
+",1768747666.0,7,2,https://www.reddit.com/r/dataanalytics/comments/1qgafjb/need_help_for_uni_project_easy/
+1qfni5e,"I built a Sports API (Football live, more sports coming) looking for feedback, use cases &amp; collaborators","Hey everyone 👋 I’ve been building a Sports API and wanted to share it here to get some honest feedback from the community. The vision is to support multiple sports such as football (soccer), basketball, tennis, American football, hockey, rugby, baseball, handball, volleyball, and cricket.
+
+Right now, I’ve fully implemented the football API, and I’m actively working on expanding to other sports. I’m currently looking for:
+
+•	⁠Developers who want to build real-world use cases with the API
+
+•	⁠Feedback on features, data coverage, performance, and pricing
+
+•	⁠People interested in collaborating on the project The API has a free tier and very affordable paid plans. You can get an API key here:
+
+👉 https://sportsapipro.com (Quick heads-up: the website isn’t pretty yet 😅 UI improvements are coming as I gather more feedback.) Docs are available here:
+
+👉 https://docs.sportsapipro.com I’d really appreciate any honest opinions on how I can improve this, what problems I should focus on solving, and what you’d expect from a sports API. If you’re interested in collaborating or testing it out, feel free to DM me my inbox is open. Thanks for reading 🙏",1768680731.0,2,0,https://www.reddit.com/r/dataanalytics/comments/1qfni5e/i_built_a_sports_api_football_live_more_sports/
+1qfnhwu,"I built a Sports API (Football live, more sports coming) looking for feedback, use cases &amp; collaborators","Hey everyone 👋 I’ve been building a Sports API and wanted to share it here to get some honest feedback from the community. The vision is to support multiple sports such as football (soccer), basketball, tennis, American football, hockey, rugby, baseball, handball, volleyball, and cricket.
+
+Right now, I’ve fully implemented the football API, and I’m actively working on expanding to other sports. I’m currently looking for:
+
+•	⁠Developers who want to build real-world use cases with the API
+
+•	⁠Feedback on features, data coverage, performance, and pricing
+
+•	⁠People interested in collaborating on the project The API has a free tier and very affordable paid plans. You can get an API key here:
+
+👉 https://sportsapipro.com (Quick heads-up: the website isn’t pretty yet 😅 UI improvements are coming as I gather more feedback.) Docs are available here:
+
+👉 https://docs.sportsapipro.com I’d really appreciate any honest opinions on how I can improve this, what problems I should focus on solving, and what you’d expect from a sports API. If you’re interested in collaborating or testing it out, feel free to DM me my inbox is open. Thanks for reading 🙏",1768680716.0,2,0,https://www.reddit.com/r/dataanalytics/comments/1qfnhwu/i_built_a_sports_api_football_live_more_sports/
+1qdvbet,"MS student graduating soon, resume review + career advice needed ,feeling stuck and anxious","Hello to who ever is reading this post,  
+I need honest feedback on my resume because I genuinely don’t know if it’s good or bad anymore.
+
+I’ve rewritten this resume so many times that I’ve completely lost perspective. Some days I feel like it’s solid and other days I look at it and feel like it’s probably the reason I’m not getting interviews.
+
+I’ve tried to do all the “right” things. Keep it one page. Use impact and metrics. Focus on relevant experience and projects. Tailor it to analytics roles. Avoid fluff. Make it ATS friendly. And still, I’m barely getting callbacks, which makes me think something is wrong with how I’m presenting myself.
+
+At this point I don’t even know what to improve. I don’t know if my bullets are too weak, if I’m underselling my experience, if my projects don’t sound impressive, or if the whole resume just doesn’t stand out at all. I also don’t know if I’m trying too hard to sound professional and ending up sounding generic.
+
+I’m really looking for blunt, honest feedback. Not “this looks fine” but what actually needs to change. What looks bad. What looks confusing. What would make you pass if you were screening resumes. And what would actually make this resume stronger.
+
+If you’ve reviewed resumes or hired for analytics or data roles, I’d especially appreciate your perspective. I’m open to rewriting entire sections if that’s what it takes. I just don’t want to keep applying with a resume that’s holding me back without realizing it.
+
+I can share the resume if that helps. Thanks to anyone who takes the time to look or respond.",1768510061.0,8,1,https://www.reddit.com/r/dataanalytics/comments/1qdvbet/ms_student_graduating_soon_resume_review_career/
+1qcgwbn,Is it better to take an offline data analytics class in Bangalore or stick to an online one?,"Choosing between an offline data analytics class in Bangalore and an online course can be confusing. This thread discusses the pros and cons of both options, including learning experience, flexibility, networking, and job support, to help you decide what suits you best.",1768375154.0,5,8,https://www.reddit.com/r/dataanalytics/comments/1qcgwbn/is_it_better_to_take_an_offline_data_analytics/
+1q9l624,Feedback Request: Global Health Analysis Dashboard (Power BI),"Hi everyone,  
+I’m learning Power BI and I built this *Global Health Analysis Dashboard* to practice KPI storytelling and visuals.  
+I’m looking for honest feedback on:
+
+1. Visual design (layout, spacing, fonts, colors)
+2. Chart choice (are these the best visuals for these metrics?)
+3. Storytelling (does the dashboard tell a clear story?)
+4. What improvements would make it look more *professional*?
+
+",1768092797.0,5,0,https://www.reddit.com/r/dataanalytics/comments/1q9l624/feedback_request_global_health_analysis_dashboard/
+1q8wmfj,Data analytics projects,Can someone suggest me some data analytics projects to add on my resume?,1768025764.0,20,4,https://www.reddit.com/r/dataanalytics/comments/1q8wmfj/data_analytics_projects/
+1q6xxm1,how do I make a mini-project as as a newbie data analyst? :((,,1767834948.0,9,4,https://www.reddit.com/r/dataanalytics/comments/1q6xxm1/how_do_i_make_a_miniproject_as_as_a_newbie_data/
+1q6q97u,Job market reality check: Europe / Canada vs Jordan for data &amp; analytics roles?,"Hi everyone,
+
+I’m looking for some honest perspectives on the job market in Europe (especially Spain/EU) and Canada compared to Jordan, particularly for roles in data, analytics, and data engineering.
+
+For context:
+I’m a Jordanian national with a BSc in Computer Science and currently working as a Data Engineer / IT Development Specialist in the compliance tech space (large-scale data ingestion, ETL pipelines, analytics, dashboards, etc.). I previously worked in information management and analytics for an international NGO. My work is very data-heavy and applied.
+
+I’m currently applying for a Master’s in Big Data Analytics in Spain, and I want to be honest: the main motivation is seeking a better financial future and quality of life in the long term. While I’m grateful to be employed in Jordan, salaries, growth, and long-term financial security here feel very limited, even in technical roles.
+
+My questions are:
+	•	How realistic is it to break into the EU job market after a Master’s in Spain (as a non-EU citizen)?
+	•	How does the salary vs cost of living actually compare to Jordan in practice (not just on paper)?
+	•	Is Canada currently more realistic than Europe for tech/data roles, or is it equally saturated?
+	•	For someone with experience (not entry-level), is the move “worth it” financially over a 5–10 year horizon?
+
+I’m not expecting miracles, just trying to make an informed decision before committing time, money, and relocation. Any honest experiences — positive or negative — would be really appreciated.
+
+Thanks in advance.",1767816773.0,1,1,https://www.reddit.com/r/dataanalytics/comments/1q6q97u/job_market_reality_check_europe_canada_vs_jordan/
+1q698r9,Learning Partner for Data Analytics,"Hi, looking for a learning partner, by the way I know basics of all sql, python, powerbi, excel. I want to do advanced stuff and build some great projects, looking for someone who can give about 3-4 hours everyday with serious focus.",1767771589.0,30,59,https://www.reddit.com/r/dataanalytics/comments/1q698r9/learning_partner_for_data_analytics/

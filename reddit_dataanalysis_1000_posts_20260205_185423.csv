@@ -1,0 +1,1574 @@
+post_id,title,body,created_utc,score,num_comments,url
+1qwn9w0,How do you document business logic in DBT ?,,1770303025.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qwn9w0/how_do_you_document_business_logic_in_dbt/
+1qwjj9v,Need a guidance....,,1770293177.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qwjj9v/need_a_guidance/
+1qwgoaj,The reality no one tells you about. 🥲 But salary credit hone pe sab theek lagta hai (Everything feels fine when salary is credited). #dataanalyst #corporatereality #excel,,1770283269.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qwgoaj/the_reality_no_one_tells_you_about_but_salary/
+1qwgef1,How do you validate product hypotheses quickly without writing SQL every time?,"I’m the only analysts at a \~50 people company. We have a warehouse, dbt, dashboards, the whole setup but I still spend half my day answering things like. Love the job, but some days it feels like I’m just an interface between Slack and the warehouse.
+
+I want to do deeper analysis, but the constant “quick questions” never stop.
+
+Would love to hear what actually helped others tools, processes, or mindset changes.
+
+",1770282215.0,0,6,https://www.reddit.com/r/dataanalysis/comments/1qwgef1/how_do_you_validate_product_hypotheses_quickly/
+1qw3tt2,Business/Marketing podcasts recommendations,"I am a beginner data analyst with a Bachelor's in business. I am aiming to work as a data analyst in a marketing/business consulting company or department.  
+my technichal skills are good, but I think I am lacking in figuring out how to apply data analysis to business in general.
+
+So I hope that you recommend podcasts that talk about real business challenges, so that I get an Idea about what's there and how to use data analysis in real life.",1770245629.0,4,4,https://www.reddit.com/r/dataanalysis/comments/1qw3tt2/businessmarketing_podcasts_recommendations/
+1qw01cu,"hi , anyone know how fix this error in Rstudio","https://preview.redd.it/wh004wbufjhg1.png?width=968&format=png&auto=webp&s=c0d4fb57781bcda7c48519072c756d0c3f528c11
+
+https://preview.redd.it/7ovgh6lvfjhg1.png?width=695&format=png&auto=webp&s=09762a5ef2130715e1778d3660269cf0879e8999
+
+",1770237150.0,3,5,https://www.reddit.com/r/dataanalysis/comments/1qw01cu/hi_anyone_know_how_fix_this_error_in_rstudio/
+1qvy4z0,Best Order to Learn,"I am planning to learn the following programs (over the course of a couple years, maybe longer): Tableau, Excel, Power BI, Python, SQL, and R. 
+
+
+My question is, what order do you suggest I learn them? Also, would this just be WAY to much to learn?
+
+
+Thanks!",1770233054.0,34,17,https://www.reddit.com/r/dataanalysis/comments/1qvy4z0/best_order_to_learn/
+1qvs39y,I built an interactive country rankings tool as my first indie app — would love feedback 🙏,"Hi,
+
+I recently launched my first indie SaaS project, [**https://country-rankings.com**](https://country-rankings.com/), and I’d really love some honest feedback from this community.
+
+I aggregate country-level datasets from public sources and present them as interactive, explorable visualizations (rankings, comparisons, trends and relationships), so it’s easier to spot patterns and tell data stories across countries. One specific goal I’m working toward is making it easy to export both visualizations and raw data so they can be reused in reports, research, or presentations.
+
+A few things I’d especially love your thoughts on:
+
+* Is this kind of tool useful or interesting for researchers, analysts, or data folks?
+* Do the visualizations make the data easier to understand, or are there parts that feel confusing or unnecessary?
+* What would you expect or want more of if you were using this for analysis or research?
+
+This is my first time building and launching something like this on my own, so all feedback — positive or critical — is very welcome. I’m mainly trying to learn whether I’m solving a real problem and how I can improve it.
+
+Thanks a lot for your time and feedback — it means a lot 🙏",1770220141.0,6,1,https://www.reddit.com/r/dataanalysis/comments/1qvs39y/i_built_an_interactive_country_rankings_tool_as/
+1qvi9j6,"I built a ""AI chart generator"" workflow… and it killed 85% of my reporting busywork","Over the break I kept seeing the same thing: my analysis was fine, but I was burning time turning tables into presentable charts.
+
+So I built a simple workflow around an AI chart generator. It started as a personal thing. Then a teammate asked for it. Then another. Now it's basically the default ""make it deck-ready"" step after we validate numbers.
+
+Here's what I learned (the hard way):
+
+**1) The chart is not the analysis — the spec is**
+
+If you just say ""make a chart"", you'll get something pretty and potentially wrong.
+
+What works is writing a **chart spec** like you're handing it to an analyst who doesn't know your context:
+
+* **Goal:** what decision does this chart support?
+* **Metric definition:** formula + numerator/denominator
+* **Grain:** daily/weekly/monthly + timezone
+* **Aggregation:** sum/avg/unique + filters
+* **Segments:** top N logic + ""Other""
+* **Guardrails:** start y-axis at 0 (unless rates), no dual-axis, show units
+
+**2) ""Chart-ready table"" beats ""raw export"" every time**
+
+I keep a rule: **one row = one observation**.
+
+**If I have to explain joins in prose, the chart step will be fragile.**
+
+**3) Sanity checks are the difference between speed and embarrassment**
+
+Before I share anything:
+
+* totals match the source table
+* axis labels + units are present
+* time grain is correct
+* category ordering isn’t hiding the story
+
+**The impact**
+
+This didn't replace analysis. It replaced the repetitive formatting loop.
+
+Result: faster updates, fewer review cycles, and less ""can you just change the colors / order / labels"".If you want to try the tool I'm building around this workflow: [ChartGen.AI](http://ChartGen.AI) (free to start).",1770190554.0,0,12,https://www.reddit.com/r/dataanalysis/comments/1qvi9j6/i_built_a_ai_chart_generator_workflow_and_it/
+1qvfukx,Seeking Alternatives for Large-Scale Glassdoor Data Collection,"# Seeking Alternatives for Large-Scale Glassdoor Data Collection
+
+## Project Context
+
+I've built a **four-phase data pipeline** for analyzing Glassdoor company reviews:
+
+1. **Web scraping** Forbes Global 2000 companies using Selenium/BeautifulSoup
+2. **Custom Chrome extension** for Glassdoor link collection with DuckDuckGo integration  
+3. **AI-powered scalable data collection** via Apify and Make workflows
+4. **Comprehensive analysis** with 20+ visualizations and interactive PowerBI dashboard
+
+## Current Dataset
+
+**After cleaning:** 6,971 employee reviews from 127 major US corporations with 24 structured data fields (ratings, job titles, locations, review content, metadata)
+
+**Before cleaning:** ~11,900 records
+
+## The Challenge
+
+I'm trying to scale up to **500K+ records** for more robust analysis, but hitting major roadblocks:
+
+### What I've Tried:
+- ❌ **Apify** - Works but costs $500+ for the volume I need
+- ❌ **Firecrawl** - No success due to Glassdoor's protections
+- ❌ **Selenium** - Blocked by anti-bot measures
+- ❌ **BeautifulSoup** - Same issue with strict policies
+
+### The Problem:
+Glassdoor has **extremely strict anti-scraping policies** and sophisticated bot detection that makes large-scale data collection nearly impossible without significant cost.
+
+## What I'm Looking For
+
+**Alternative approaches or tools** for gathering large-scale employee review data that either:
+- Bypass Glassdoor's restrictions more cost-effectively
+- Use alternative legitimate data sources (datasets, APIs, academic access)
+- Implement creative workarounds within ethical/legal boundaries
+
+## Question for the Community
+
+Has anyone successfully collected large-scale employee review data (100K+ records) without breaking the bank? What methods or alternatives would you recommend?
+
+Any suggestions for:
+- Cost-effective scraping services or tools?
+- Pre-existing Glassdoor datasets (Kaggle, academic sources)?
+- Alternative platforms with similar data but more accessible?
+- Proxy/rotation strategies that actually work?
+
+---
+
+**Tech Stack:** Python, Selenium, BeautifulSoup, Apify, Make, Chrome Extensions, PowerBI
+
+**Budget:** Looking for solutions
+
+Thanks in advance! 🙏",1770182453.0,2,3,https://www.reddit.com/r/dataanalysis/comments/1qvfukx/seeking_alternatives_for_largescale_glassdoor/
+1qv8mdx,Looking for 3-4 Serious Learners - Data Analytics Study Group (Beginner-Friendly),,1770162944.0,3,1,https://www.reddit.com/r/dataanalysis/comments/1qv8mdx/looking_for_34_serious_learners_data_analytics/
+1qv3vnj,An analysis of my Whatsapp chat with my now ex girlfriend using my custom built tool,"I built a tool called Staty on [iOS](https://apps.apple.com/us/app/staty-chat-statistics/id6757274430) and [android](https://play.google.com/store/apps/details?id=com.jkbhf.staty). It analyzes a lot of different stats like who responds faster, who starts more conversations, time analysis, time of day, top emojis/words, streak and predictions. All analysis happens completely on device (except sentiment which is optional).
+
+Would love to hear your feedback and ideas!!",1770151946.0,107,39,https://www.reddit.com/r/dataanalysis/comments/1qv3vnj/an_analysis_of_my_whatsapp_chat_with_my_now_ex/
+1qv3ljs,Best ways to clean data quickly,What are some tricks to clean data as quick and efficiently as possible that you have discovered in your career?,1770151319.0,0,6,https://www.reddit.com/r/dataanalysis/comments/1qv3ljs/best_ways_to_clean_data_quickly/
+1qv2ukw,Looking for feedback on a self-deployed web interface for exploring BigQuery data by asking questions in natural language,"I built BigAsk, a self-deployed web interface for exploring BigQuery data by asking questions in natural language. It’s a fairly thin wrapper over the Gemini CLI meant to address some shortcomings it has in overcoming data querying challenges organizations face.
+
+I’m a Software Engineer in infra/DevOps, but I have a few friends who work in roles where much of their time is spent fulfilling requests to fetch data from internal databases. I’ve heard it described as a “necessary evil” of their job which isn’t very fulfilling to perform. Recently, Google has released some quite capable tools with the potential to enable those without technical experience using BigQuery to explore the data themselves, both for questions intended to return exact query results, and higher-level questions about more nebulous insights that can be gleaned from data. While these certainly wouldn’t completely eliminate the need for human experts to write some queries or validate results of important ones, it seems to me like they could significantly empower many to save time and get faster answers.
+
+Unfortunately, there are some pretty big limitations to the current offerings from Google that prevent them from actually enabling this empowerment, and this project seeks to fix them.
+
+One is that the best tools are available in a limited set of interfaces. Those scattered throughout the already-lacking-in-user-friendliness BigQuery UI require some foundational BigQuery and data analysis skills to use, making their barrier to entry too high for many who could benefit from them. The most advanced features are only available in the Gemini CLI, but as a CLI, using it requires using a command-line, again putting it out-of-reach for many.
+
+The second is a lack of safe access control. There's a reason BigQuery access is typically limited to a small group. Directly authorizing access to this data via the BigQuery UI or Gemini CLI to individual users who aren't well-versed in its stewardship carries large risks of data deletion or leaks. As someone with experience working professionally with managing cloud IAM within an organization, I know that attempts to distribute permissions to individual users while maintaining a limited scope on them also requires considerable maintenance overhead and comes with it’s own set of security risks.
+
+BigAsk enables anyone within an organization to easily and securely use the most powerful agentic data analysis tools available from Google to self-serve answers to their burning questions. It addresses the problems outlined above with a user-friendly web interface, centralized access management with a recommended permissions set, and simple, lightweight code and deployment instructions that can easily be extended or customized to deploy into the constraints of an existing Google Cloud project architecture.
+
+Code here: [https://github.com/stevenwinnick/big-ask](https://github.com/stevenwinnick/big-ask)
+
+I’d love any feedback on the project, especially from anyone who works or has worked somewhere where this could be useful. This is also my first time sharing a project to online forums, and I’d value feedback on any ways I could better share my work as well.",1770149647.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qv2ukw/looking_for_feedback_on_a_selfdeployed_web/
+1qv215y,ALL function DAX,,1770147846.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qv215y/all_function_dax/
+1qv13ba,GH Copilots agent struggles with notebooks,,1770145786.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qv13ba/gh_copilots_agent_struggles_with_notebooks/
+1quvzeo,"Can someone enlighten me, how is it cheaper to build data centers in space than on earth?",,1770134861.0,26,57,https://www.reddit.com/r/dataanalysis/comments/1quvzeo/can_someone_enlighten_me_how_is_it_cheaper_to/
+1quvimi,How I Learned SQL in 4 Months Coming from a Non-Technical Background,"Sharing my insights from an article I wrote back in Nov, 2022 published in Medium as I thought it may be valuable to some here.
+
+For some background, I got hired in a tech logistics company called Upaya as a business analyst after they raised $1.5m in Series A. Since the company was growing fast, they wanted proper dashboards & better reporting for all 4 of their verticals.
+
+They gave me a chance to explore the role as a Data Analyst which I agreed on since I saw potential in that role(especially considering pre-AI days). I had a tight time frame to provide deliverables valuable to the company and that helped me get to something tangible.
+
+The main part of my workflow was SQL as this was integral to the dashboards we were creating as well as conducting analysis & ad-hoc reports. Looking back, the main output was a proper dashboard system custom to requirements of different departments all coded back with SQL. This helped automate much of the reporting process that happened weekly & monthly at the company.
+
+I'm not at the company anymore but my ex-manager said their still using it and have built on top of it. I'm happy with that since the company has grown big and raised $14m (among biggest startup investments in a small country like Nepal).
+
+Here is my learning experience insights:
+
+1. Start with a real, high-stakes project
+
+I would argue this was the most important thing. It forced me to not meander around as I had accountability up to the CEO and the stakes were high considering the size of the company. It really forced me to be on my A-game and be away from a passive learning mindset into one where you focus on the important. I cannot stress this more!
+
+2. Jump in at the intermediate level
+
+Real-world work uses JOINs, sub-queries, etc. so start immediately with them. By doing this, you will end up covering the basics anyways (especially with A.I. nowadays it makes more sense)
+
+3. Apply the 80/20 rule to queries
+
+20% or so of queries are used more than 80% of the time in real projects.
+
+JOINS, UNION & UNION ALL, CASE WHEN, IF, GROUP BY, ROW\_NUMBER, LAG/LEAD are major ones. It is important to give disproportionate attention to them.
+
+Again, if you work on an actual project, this kind of disproportion of use becomes clearer.
+
+4. Seek immediate feedback
+
+Another important point that may not be present especially when self-learning but effective. Tech team validated query accuracy while stakeholders judged usefulness of what I was building. Looking back if that feedback loop wasn't present, I think I would probably go around in circles in many unnecessary areas.
+
+Resources used (all free)  
+– Book: “Business Analytics for Managers” by Gert Laursen & Jesper Thorlund  
+– Courses: Datacamp Intermediate SQL, Udacity SQL for Data Analysis  
+– Reference: W3Schools snippets
+
+Quite a lot has changed in 2026 with AI. I would say great opportunity lies in vast productivity gains by using it in analytics. With AI, these same fundamentals can be applied but for much more complex projects & in crazy fast timelines which I don't think would be imaginable back in 2022.
+
+Fun Fact: This article was shared by 5x NYT best-selling author Tim Ferriss too in his 5 Bullet Friday newsletter.",1770133819.0,73,24,https://www.reddit.com/r/dataanalysis/comments/1quvimi/how_i_learned_sql_in_4_months_coming_from_a/
+1quqji5,"Hi everyone, I'm looking for the best free online course that teaches Data Analysis specifically in WPS Spreadsheet. I already know it's available on WPS Academy, but I want to know if there are better options out there",,1770121437.0,1,3,https://www.reddit.com/r/dataanalysis/comments/1quqji5/hi_everyone_im_looking_for_the_best_free_online/
+1qunonk,Full Outer Join PowerQuery,"Hey Everybody
+
+I want to join 9 csv-files to one query via full outer join. I've used PowerQuery, loaded them all in the editor one-by-one and then joined/merged them. That worked fine. 
+
+However, after i combined them i had to manually expand each column which takes like 2-3 minutes each to load. It's just two columns per file/query and give or take 60k rows. Is there an easier or more efficient way? 
+
+It feels like it shouldn't take that long for that amount of data.
+
+  
+Thanks for any tips. ",1770111609.0,2,8,https://www.reddit.com/r/dataanalysis/comments/1qunonk/full_outer_join_powerquery/
+1qujdq8,[Discussion] [data] 30 Years of mountain bike racing but zero improvement from tech change.,,1770096292.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qujdq8/discussion_data_30_years_of_mountain_bike_racing/
+1qub4in,Optimised Implementation of CDC using a Hybrid Horizon Model(HH-CDC),,1770074114.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qub4in/optimised_implementation_of_cdc_using_a_hybrid/
+1qu58l9,Anybody get the Data Analytics Skills Certificate from WGU?,,1770061120.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qu58l9/anybody_get_the_data_analytics_skills_certificate/
+1qu3m5o,"In companies with lots of data, what actually makes it so hard to reach solid conclusions?","In many companies, data is everywhere: dashboards, tools, reports, spreadsheets...
+
+Yet when a real decision has to be made, it still feels surprisingly hard to reach clear, solid conclusions without endless back-and-forth. What gets in the way?
+
+\- Is it scattered data?  
+\- Conflicting numbers?  
+\- Too many dashboards and not enough answers?  
+\- Spending hours preparing data only to end up with inconclusive insights?
+
+From your experience inside companies, what makes turning data into **clear, defensible decisions** so difficult today? I would like to know your point of view.",1770057734.0,3,5,https://www.reddit.com/r/dataanalysis/comments/1qu3m5o/in_companies_with_lots_of_data_what_actually/
+1qu2j05,Annual Survey Scans,,1770055493.0,1,3,https://www.reddit.com/r/dataanalysis/comments/1qu2j05/annual_survey_scans/
+1qu1vtr,Secret SQL Tricks to use everyday and improve productivity,[https://peggie7191.medium.com/secret-sql-cool-tricks-to-improve-productivity-cc408a1b0da6](https://peggie7191.medium.com/secret-sql-cool-tricks-to-improve-productivity-cc408a1b0da6),1770054172.0,3,1,https://www.reddit.com/r/dataanalysis/comments/1qu1vtr/secret_sql_tricks_to_use_everyday_and_improve/
+1qu1bxo,Chrome extension to run SQL in Google Sheets,"I used to do a lot of data analysis and product demos in Google Sheets, and many tasks were hard to do with formulas alone.
+
+So I built a clean way to run real SQL directly inside Google Sheets. Data and queries stay entirely in the browser.
+
+This is free and may be useful for anyone facing the same problem:  
+[https://chromewebstore.google.com/detail/sql4sheets-run-real-sql-i/glpifbibcakmdmceihjkiffilclajpmf](https://chromewebstore.google.com/detail/sql4sheets-run-real-sql-i/glpifbibcakmdmceihjkiffilclajpmf)
+
+https://reddit.com/link/1qu1bxo/video/p5bhxh7c84hg1/player
+
+",1770053005.0,4,1,https://www.reddit.com/r/dataanalysis/comments/1qu1bxo/chrome_extension_to_run_sql_in_google_sheets/
+1qtz6rl,$5k one time opportunity for those who’ve worked on building systems for start-ups,"Inviting Founders and Early Operators to help document and review data systems they’ve built or managed at mid-size startups (20–150 people). We want to analyze the architecture behind:
+
+Core BI Layers: Dashboards, metrics, cohorts, and funnels.
+
+Operational Reporting: 30+ key queries across Product, Ops, and Finance.
+
+
+Stakeholder Logic: How data flows from schema to decision-maker.
+
+
+Who This Is For:
+
+Experienced Founders: You have built or managed non-trivial internal systems in high-growth environments.
+
+Startup Veterans: Prior experience in a high-growth startup environment (20–150 people) is required.
+
+Domain Agnostic: We value architectural complexity over specific industry experience.
+
+
+Availability: You can commit to a short-term, clearly scoped research engagement.
+
+Apply here 
+https://t.mercor.com/1RaTF 
+
+",1770048512.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qtz6rl/5k_one_time_opportunity_for_those_whove_worked_on/
+1qtwis8,"LF Expert Validator in Qualitative Content Analysis (Hsieh & Shannon's Conventional Approach, 2005)","Good day! I’m a graduating student in Psychology and Counseling and I am currently in the analysis phase of my research.  
+  
+I am looking for a QUALIFIED VALIDATOR for my study, specifically, someone with expertise or experience in conducting or teaching *Qualitative Content Analysis (QCA)*, preferably using the conventional approach by *Hsieh and Shannon (2005).*  
+  
+If you have a background in **qualitative research, psychology, counseling, education, gender and social media studies or** related fields and are willing to serve as a validator, I would greatly appreciate your assistance. Your guidance and feedback will be very valuable to the completion of my paper.  
+  
+Please feel free to comment below or send me a direct message if you are interested.  
+  
+Thank you very much for your time and support.
+
+",1770042539.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qtwis8/lf_expert_validator_in_qualitative_content/
+1qtopc1,"How to Learn and Survive in Data Archiving Industry Domain as Product Manager, Product Analyst","Hey Guys I Joined as Product Analyst ( Competitor analysis , Market Research ) In a Data Archiving Company and i have zero Knowledge about Archiving Space. how to get Confidence and Learn everything, Archiving, Compliance, Data Retrieval and Etc... How to Survive here. I am Making of use of AI still i cant able to understand the Concepts. Please make it easy for me Guys. Where to Start ? 
+
+I am Not good in Technical Things. ",1770017865.0,3,3,https://www.reddit.com/r/dataanalysis/comments/1qtopc1/how_to_learn_and_survive_in_data_archiving/
+1qtmj9f,Why is analytics instrumentation always an afterthought? How do you guys fix this?,"Hey everyone,
+
+I work as a Product Analyst at a fairly large company, and I’m hitting a wall with our engineering/product culture. I wanted to ask if this is just a ""me"" problem or if the industry is just broken.
+
+The cycle usually goes like this:
+
+1. PMs rush to launch a new feature (chatbots, new flows, etc.).
+2. No one writes a tracking plan or loops me in until *after* launch.
+3. Two weeks later, they ask ""How is the feature performing?""
+4. I check the data, and realize there is next to nothing being tracked.
+5. I have to go beg a PM and developer to track metrics, and they put it in the backlog for next sprint (which effectively means never).
+
+I feel like half my job is just chasing people to instrument basic data so I can do the analysis I was hired to do.
+
+**My question to you all:** How do you solve this? Is there a better way than manually defining events in Jira tickets and hoping devs implement them?
+
+Would love to hear how all of you handle this.",1770010556.0,2,1,https://www.reddit.com/r/dataanalysis/comments/1qtmj9f/why_is_analytics_instrumentation_always_an/
+1qtc4b4,Messy spreadsheets,"Have you ever dealt with messy spreadsheets or CSV files that take forever to clean? I’m just  curious, how bad does it actually get for others?",1769983014.0,9,11,https://www.reddit.com/r/dataanalysis/comments/1qtc4b4/messy_spreadsheets/
+1qsyyuq,How to improve Poor Technical Skills,,1769953839.0,3,1,https://www.reddit.com/r/dataanalysis/comments/1qsyyuq/how_to_improve_poor_technical_skills/
+1qsye83,Confused about folders created while using multiple Conda environments – how to track them?,"I’m confused about Conda environments and project folders and need some clarity. A few months ago, I created multiple environments (e.g., Shubhamenv, booksenv) and usually worked like this:
+
+conda activate Shubhamenv
+
+mkdir project_name → cd project_name
+
+Open Jupyter Lab and work on projects
+
+Now, I’m unsure:
+
+How many project folders I created
+
+Where they are located
+
+Whether any folder was created under a specific environment
+
+My main question: Can I track which folders were created under which Conda environment via logs, metadata, or history, or does Conda not track this? I know environments manage packages, but is folder–environment mapping possible retrospectively, or is manual searching (e.g., for .ipynb files) the only option? Any best practices would be helpful.",1769952316.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qsye83/confused_about_folders_created_while_using/
+1qsvelp,Looking for feedback on tool that compares CSV files with millions of rows fast.,"I've been working on a desktop app for MacOS and Windows, that compares large CSV files fast. It finds added, removed, and updated rows, and exports them as CSV files.
+
+**YouTube Demo** \- [https://youtu.be/TrZ8fJC9TqI](https://youtu.be/TrZ8fJC9TqI)
+
+Some of my tests finding added, removed, and updated rows. Obviously, performance depend on hardware. But should be snappy enough.
+
+|Each CSV file has|Macbook M2Pro|Intel I7 laptop (Win10)|
+|:-|:-|:-|
+|**1M rows, 69MB size**|\~1 second|\~2 seconds|
+|**50M rows, 4.6GB size**|\~30 seconds|\~40 seconds|
+
+**Download** from lake3tools.com/download ,unzip and run.
+
+**Free License Key** for testing: `C844177F-25794D81-927FF630-C57F1596`
+
+Let me know what you think.",1769943011.0,4,1,https://www.reddit.com/r/dataanalysis/comments/1qsvelp/looking_for_feedback_on_tool_that_compares_csv/
+1qssxpn,"Metrics, KPI and OKR.","Hi. I’m a self taught data analyst. I have good understanding of SQL and spreadsheets, currently doing my first project. I know what descriptive statistics and inferential statistics and A/B testing and their uses, but my brain freezes when facing a business problem. I can’t think of assumptions or what to tell and not to tell from the data because I don’t want to have a misleading project, and I know the domain knowledge comes with doing or even after landing the job. But I feel overwhelmed when not understanding context. I want to know the business to the extent that data analyst should worry about. Like for me I only know 2 metrics like conversion rate and bed occupancy rate that’s it. Can you please share the metrics or the objectives you commonly approach and name the industry that you work in. Thank you for your time ",1769934403.0,6,14,https://www.reddit.com/r/dataanalysis/comments/1qssxpn/metrics_kpi_and_okr/
+1qsq9m3,First data analytics project — RFM customer segmentation. Looking for honest industry feedback.,"Hi everyone,
+
+This is my **first data analytics project**, and I’m trying to understand how close (or far) it is from real industry work.
+
+I built a **Customer Segmentation System using RFM analysis**. I’ve attached a project design image that explains the full flow.
+
+**What it currently does:**
+
+* Takes sales data (CSV / Excel)
+* Performs RFM feature engineering
+* Applies K-Means clustering
+* Labels customers into segments (VIP, Loyal, Regular, Lost)
+* Generates an Excel report for business users
+
+**What I want feedback on:**
+
+1. Is this kind of segmentation actually used in companies today?
+2. What are the biggest gaps between this project and real-world industry systems?
+3. What would you add or change if this were used by a marketing team? ",1769925404.0,21,7,https://www.reddit.com/r/dataanalysis/comments/1qsq9m3/first_data_analytics_project_rfm_customer/
+1qsptkz,What are your thoughts on AI in Spreadsheets? Have they worked for you or no?,"[SheetXAI in action \(Disclaimer, I own this company\)](https://reddit.com/link/1qsptkz/video/6vi33i3kktgg1/player)
+
+",1769924028.0,0,7,https://www.reddit.com/r/dataanalysis/comments/1qsptkz/what_are_your_thoughts_on_ai_in_spreadsheets_have/
+1qsoy80,“Learn Python” usually means very different things. This helped me understand it better.,"People often say *“learn Python”*.
+
+What confused me early on was that Python isn’t one skill you finish. It’s a group of tools, each meant for a different kind of problem.
+
+This image summarizes that idea well. I’ll add some context from how I’ve seen it used.
+
+
+
+**Web scraping**  
+This is Python interacting with websites.
+
+Common tools:
+
+* `requests` to fetch pages
+* `BeautifulSoup` or `lxml` to read HTML
+* `Selenium` when sites behave like apps
+* `Scrapy` for larger crawling jobs
+
+Useful when data isn’t already in a file or database.
+
+
+
+**Data manipulation**  
+This shows up almost everywhere.
+
+* `pandas` for tables and transformations
+* `NumPy` for numerical work
+* `SciPy` for scientific functions
+* `Dask` / `Vaex` when datasets get large
+
+When this part is shaky, everything downstream feels harder.
+
+
+
+**Data visualization**  
+Plots help you think, not just present.
+
+* `matplotlib` for full control
+* `seaborn` for patterns and distributions
+* `plotly` / `bokeh` for interaction
+* `altair` for clean, declarative charts
+
+Bad plots hide problems. Good ones expose them early.
+
+
+
+**Machine learning**  
+This is where predictions and automation come in.
+
+* `scikit-learn` for classical models
+* `TensorFlow` / `PyTorch` for deep learning
+* `Keras` for faster experiments
+
+Models only behave well when the data work before them is solid.
+
+
+
+**NLP**  
+Text adds its own messiness.
+
+* `NLTK` and `spaCy` for language processing
+* `Gensim` for topics and embeddings
+* `transformers` for modern language models
+
+Understanding text is as much about context as code.
+
+
+
+**Statistical analysis**  
+This is where you check your assumptions.
+
+* `statsmodels` for statistical tests
+* `PyMC` / `PyStan` for probabilistic modeling
+* `Pingouin` for cleaner statistical workflows
+
+Statistics help you decide what to trust.
+
+
+
+**Why this helped me**  
+I stopped trying to “learn Python” all at once.
+
+Instead, I focused on:
+
+* What problem did I had
+* Which layer did it belong to
+* Which tool made sense there
+
+That mental model made learning calmer and more practical.
+
+Curious how others here approached this.
+
+https://preview.redd.it/vzmyyz7xctgg1.jpg?width=1200&format=pjpg&auto=webp&s=de483a629adcdb50a5530f3aa8c58e5e4dee1894
+
+  
+",1769921426.0,156,11,https://www.reddit.com/r/dataanalysis/comments/1qsoy80/learn_python_usually_means_very_different_things/
+1qsmwi5,Is there a way to export reddit answers for data analysis?,,1769915481.0,3,2,https://www.reddit.com/r/dataanalysis/comments/1qsmwi5/is_there_a_way_to_export_reddit_answers_for_data/
+1qsk1cu,Dataset: Global Country Indicators,"Hi everyone 👋
+
+I’ve just published a new Kaggle dataset that combines multiple global indicators into a single clean table. It’s designed for **EDA, visualization**
+
+""https://www.kaggle.com/code/ahmedsalehworks/global-country-information-dataset-eda""  
+you can read it and ask me if you have any tips",1769907767.0,5,1,https://www.reddit.com/r/dataanalysis/comments/1qsk1cu/dataset_global_country_indicators/
+1qscas7,Free pdf books online for business domain knowledge,I wanna be a data analyst for business and wanna know its domain knowledge in detail to be able to make effective business decisions ask questions for business problems amd find solutions,1769889001.0,3,8,https://www.reddit.com/r/dataanalysis/comments/1qscas7/free_pdf_books_online_for_business_domain/
+1qsakoi,Loading data into R,"Hi all, I’m in grad school and relatively new to statistics software. My university encourages us to use R, and that’s what they taught us in our grad statistics class. Well now I’m trying to start a project using the NCES ECLS-K:2011 dataset (which is quite large) and I’m not quite sure how to upload it into an R data frame.
+
+Basically, NCES provides a bunch of syntax files (.sps .sas .do .dct) and the .dat file. In my stats class we were always just given the pared down .sav file to load directly into R.
+
+I tried a bunch of things and was eventually able to load something, but while the variable names look like they’re probably correct, the labels are reporting as “null” and the values are nonsense. Clearly whatever I did doesn’t parse the ASCII data file correctly.
+
+Anyway, the only “easy” solution I can think of is to use stata or spss on the computers at school to create a file that would be readable by R. Are there any other options? Maybe someone could point me to better R code? TIA!",1769885151.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qsakoi/loading_data_into_r/
+1qrxhs9,"Hi , is someone know the wrong","https://preview.redd.it/i4loc6x2hngg1.png?width=843&format=png&auto=webp&s=648726b06b30437403ef68bbd610c95cfe65c217
+
+",1769850128.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qrxhs9/hi_is_someone_know_the_wrong/
+1qrtu1l,How/What are the AI data tools leveraged at your workplace?,"Hey analysts, 
+
+I am interested in knowing how do y'all leverage AI to increase your productivity and analysis simultaneously keeping your/ your company's data private?",1769837641.0,0,13,https://www.reddit.com/r/dataanalysis/comments/1qrtu1l/howwhat_are_the_ai_data_tools_leveraged_at_your/
+1qrtc4j,Is it okay to include a YouTube-guided SQL project in a beginner data analyst portfolio?,"I’m learning SQL for a junior data analyst role. I’ve been following a structured YouTube SQL project where the instructor walks through the analysis and queries.
+
+I write the queries myself, understand the logic, and plan to modify the dataset/questions and add my own insights.
+
+Is it acceptable to include such a project in my portfolio if I clearly mention that it was inspired by a guided tutorial?
+
+I want to avoid misrepresenting my work but still show my SQL and analysis skills.",1769836135.0,2,8,https://www.reddit.com/r/dataanalysis/comments/1qrtc4j/is_it_okay_to_include_a_youtubeguided_sql_project/
+1qrp0js,How I think about candidates for data analyst roles,"This comes up a lot here, so sharing what I’ve seen from the hiring side.
+
+Strong candidates aren’t always about tools/code. They show:
+
+	•	problem definition
+
+	•	trade-offs
+
+	•	communication
+
+Most fail because they show what you built, not why.
+
+I broke this down in a 40 second video if that’s useful: https://vm.tiktok.com/ZNRAtoboL/
+
+Curious how others here evaluate projects.",1769824060.0,1,4,https://www.reddit.com/r/dataanalysis/comments/1qrp0js/how_i_think_about_candidates_for_data_analyst/
+1qrbi0n,"Experiences, tips, and tricks on you data stack/organization","Hi everyone,
+
+I’m currently working with BQ and dbt in core mode. 
+
+The organization is ok, we have some process, but it's not perfect. I'm looking to optimize the data stack in all its aspects (technical, organization, scoping, etc.).
+
+Do you have any experiences, tips, or best practices like
+
+**1. Life changing THE thing you consider must-have or amazing in your data stack**
+
+* What are the *game-changers* or optimizations that have significantly improved your data stack?
+* Any examples of configurations, macros, or packages that saved you a ton of time?
+
+**2. Detecting Issues in Ingested Data**
+
+* What **techniques or mechanisms** do you use to identify problems in your data (e.g., duplicate events, weak signals like inconsistencies between clicks and views, etc.)? Best if automatized but taking everything !
+* Do you have tools or scripts to automate this detection?
+
+**3. Testing**
+
+* How do you handle testing for:
+   * **Technical changes** that shouldn’t impact tables (e.g., refactoring)?
+   * **Business logic changes** that modify data but require checking for edge cases?
+* Currently, I’m doing a row-by-row comparison to spot inconsistencies, but it’s tedious and well not perfect (hello my 3 PRs of this week...). Do you have better alternatives?
+
+**4. Dashboarding and need scoping**
+
+* What are your **preferred methods** for designing dashboards or delivering analyses?
+* How do you scope efficiently, ensuring that the Sales at the bottom **will** use your dashboard, because it helps them (hello my 2 weeks on two unused dashboards :') )
+* Do you use specific frameworks (e.g., AARRR, OKRs) or tools to automate report generation?
+
+Thanks all !",1769793238.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qrbi0n/experiences_tips_and_tricks_on_you_data/
+1qr9o2a,Excel for Data Analyst,"Hello everyone,
+
+I’m currently preparing to transition into a **Data Analyst** role and want to strengthen my **Excel skills** specifically for data analysis.
+
+I do have some prior experience with Excel, but it has been fairly basic and repetitive — mainly working with general tables, VLOOKUP, and data validation. I haven’t had the chance to explore Excel in depth, especially for analytical tasks.
+
+I’m now looking for a structured course (free or paid) that focuses on **Excel from a data analyst perspective**. I’ve come across a few options but am unsure which would be the most relevant and practical for my goal:
+
+1. **Maven Analytics Excel courses** on Udemy (multiple courses available)
+2. **Kyle Pew’s Excel courses** on Udemy
+3. **Excel for Data Analysts by Luke Barousse** (free on YouTube)
+
+I’m feeling a bit confused about which of these would be the most suitable and focused for someone aiming to become a data analyst.
+
+I’d really appreciate any guidance or recommendations from those who have taken these courses  or any other courses or have experience learning Excel for analytics.
+
+Thank you in advance!",1769789376.0,15,12,https://www.reddit.com/r/dataanalysis/comments/1qr9o2a/excel_for_data_analyst/
+1qr6bwk,UPDATE: sklearn-diagnose now has an Interactive Chatbot!,,1769781867.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qr6bwk/update_sklearndiagnose_now_has_an_interactive/
+1qr4d97,I want some portfolio feedback,"Here's my GitHub [portfolio](https://github.com/lastjuror0/Data-Analyst-Portfolio/tree/main). It's still unfinished and I haven't personalized it yet, but all the projects that I have done are uploaded. I'm hoping you guys can give me some feedback on my projects, especially my personal project 'end-to-end-goodreads-clustering.' I’m also considering building a more narrowly focused project, since my current projects are fairly broad. Additionally, I’d love advice on how to get started looking for volunteer or internship opportunities.",1769776829.0,7,1,https://www.reddit.com/r/dataanalysis/comments/1qr4d97/i_want_some_portfolio_feedback/
+1qr3rvg,I built a small tool that auto-analyzes CSVs because I’m tired of setting up charts every time,"I work with CSVs a lot and got tired of repeating the same setup every time
+
+(KPIs, missing values, basic charts, checking what looks off).
+
+
+
+So I built a small web tool that analyzes a CSV automatically — no setup, no accounts.
+
+
+
+You just upload a file and it gives you:
+
+\- row / column stats
+
+\- missing data warnings
+
+\- basic charts
+
+\- things that look unusual
+
+
+
+It’s free and still rough around the edges.
+
+I’m not selling anything — I’m genuinely looking for feedback from people who work with data.
+
+
+
+What feels confusing?
+
+What’s useless?
+
+What would you expect it to do next?
+
+
+
+Link: [https://ode-data-engine.vercel.app](https://ode-data-engine.vercel.app)
+
+",1769775153.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qr3rvg/i_built_a_small_tool_that_autoanalyzes_csvs/
+1qr1a40,Python Crash Course Notebook for Data Engineering,"Hey everyone! Sometime back, I put together a **crash course on Python** specifically tailored for Data Engineers. I hope you find it useful! I have been a data engineer for **5+ years** and went through various blogs, courses to make sure I cover the essentials along with my own experience.
+
+Feedback and suggestions are always welcome!
+
+📔 **Full Notebook:** [Google Colab](https://colab.research.google.com/drive/1r_MmG8vxxboXQCCoXbk2nxEG9mwCjnNy?usp=sharing)
+
+🎥 **Walkthrough Video** (1 hour): [YouTube](https://youtu.be/IJm--UbuSaM) \- Already has almost **20k views & 99%+ positive ratings**
+
+💡 Topics Covered:
+
+**1. Python Basics** \- Syntax, variables, loops, and conditionals.
+
+**2. Working with Collections** \- Lists, dictionaries, tuples, and sets.
+
+**3. File Handling** \- Reading/writing CSV, JSON, Excel, and Parquet files.
+
+**4. Data Processing** \- Cleaning, aggregating, and analyzing data with pandas and NumPy.
+
+**5. Numerical Computing** \- Advanced operations with NumPy for efficient computation.
+
+**6. Date and Time Manipulations**\- Parsing, formatting, and managing date time data.
+
+**7. APIs and External Data Connections** \- Fetching data securely and integrating APIs into pipelines.
+
+**8. Object-Oriented Programming (OOP)** \- Designing modular and reusable code.
+
+**9. Building ETL Pipelines** \- End-to-end workflows for extracting, transforming, and loading data.
+
+**10. Data Quality and Testing** \- Using \`unittest\`, \`great\_expectations\`, and \`flake8\` to ensure clean and robust code.
+
+**11. Creating and Deploying Python Packages** \- Structuring, building, and distributing Python packages for reusability.
+
+**Note:** I have not considered PySpark in this notebook, I think PySpark in itself deserves a separate notebook!",1769766904.0,26,1,https://www.reddit.com/r/dataanalysis/comments/1qr1a40/python_crash_course_notebook_for_data_engineering/
+1qqr8ve,First data analysis project using Python & Pandas – looking for feedback,"Hi everyone,
+
+I just finished my first data analysis project using Python and pandas.
+
+The goal was to analyze sales performance, classify sellers based on business rules,
+
+and generate conclusions oriented to decision making.
+
+This project is part of my learning path as a future Data Analyst,
+
+and I would really appreciate any feedback or suggestions for improvement.
+
+GitHub repo:
+
+[https://github.com/srtenebros0/python-data-analysis-sales](https://github.com/srtenebros0/python-data-analysis-sales)
+
+Thanks in advance!",1769735622.0,15,7,https://www.reddit.com/r/dataanalysis/comments/1qqr8ve/first_data_analysis_project_using_python_pandas/
+1qqhnt7,Agentic R Workflows for High-Stakes Risk Analysis,,1769713319.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qqhnt7/agentic_r_workflows_for_highstakes_risk_analysis/
+1qqh4a3,"Issue with visualizing uneven ratings across 16,000 items",,1769712170.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qqh4a3/issue_with_visualizing_uneven_ratings_across/
+1qqg56q,How to delete common sheets in 20 identical Excel files,"Hi! I am working on a project that involves tracking Taco Bell's company data over the course of 5 years.
+
+I have 20 Excel files (1 file per quarter for 2020 - 2024) that I am cleaning, all identical in layout and sheet names. Since Taco Bell is under the brand *Yum!*, the financial files contain sheets that have info for KFC and Pizza Hut, which don't pertain to my project. I have been opening each file and deleting the pages I don't need one click at a time...but is there a faster way to do this?? Is there a way to mass delete ALL sheets that say, for example, ""KFC"", from all 20 files?
+
+Would SQL be able to do this better? I am a toral newbie to this space and welcome all direction! 🙏
+
+Thanks for your help! (Crossposted in r/excel)
+
+",1769710122.0,8,9,https://www.reddit.com/r/dataanalysis/comments/1qqg56q/how_to_delete_common_sheets_in_20_identical_excel/
+1qqbi8x,First project looking for feedback,"Context: I have been studying CodeCademy’s Data Analytics course. I am about 80% of the way through and realised it’s time to start doing some projects.
+
+This is just a very quick project I completed today which I am looking for some advice on and recommendations for further projects.
+
+https://github.com/FBackhouse/UK-Labour-Market-Tightness-2020-2025",1769700280.0,3,1,https://www.reddit.com/r/dataanalysis/comments/1qqbi8x/first_project_looking_for_feedback/
+1qq749q,Combining assurance region and cross efficiency in R,Hi I want to first restrict weight bounds of two outputs and then do aggressive cross efficiency using that bounds. Is this doable in R? ,1769689354.0,1,3,https://www.reddit.com/r/dataanalysis/comments/1qq749q/combining_assurance_region_and_cross_efficiency/
+1qq6mmq,"[OC] Estimated death toll of Jan 3 - 4 protests crackdown in Iran, as reported by different sources over time, under total internet and phone network shut down.",,1769687860.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qq6mmq/oc_estimated_death_toll_of_jan_3_4_protests/
+1qq65f5,How to fix agentic data analysis - to make it reliable,"Michael, the AI founding researcher of ClarityQ, shares about how they built the agent twice in order to make it reliable - and openly shared the mistakes they made the first time - like the fact that they tried to make it workflow-based, the fact that they had to train the agent on when to stop, what went wrong when they didn't train it to stop and ask questions when it had ambiguity in results and more - super interesting to read it from the eye of the AI expert - an it also resonates to what makes GenAI data-analysis so complicated to develop...
+
+I thought it would be valuable, cuz many folks here either develop things in-house or are looking to understand what to check before implementing any tool...
+
+I can share the link if asked, or add it in the comments...",1769686325.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qq65f5/how_to_fix_agentic_data_analysis_to_make_it/
+1qq3t2x,A visual summary of Python features that show up most in everyday code,"When people start learning Python, they often feel stuck.
+
+Too many videos.  
+Too many topics.  
+No clear idea of what to focus on first.
+
+This cheat sheet works because it shows the parts of Python you actually use when writing code.
+
+A quick breakdown in plain terms:
+
+**→ Basics and variables**  
+You use these everywhere. Store values. Print results.  
+If this feels shaky, everything else feels harder than it should.
+
+**→ Data structures**  
+Lists, tuples, sets, dictionaries.  
+Most real problems come down to choosing the right one.  
+Pick the wrong structure and your code becomes messy fast.
+
+**→ Conditionals**  
+This is how Python makes decisions.  
+Questions like:  
+– Is this value valid?  
+– Does this row meet my rule?
+
+**→ Loops**  
+Loops help you work with many things at once.  
+Rows in a file. Items in a list.  
+They save you from writing the same line again and again.
+
+**→ Functions**  
+This is where good habits start.  
+Functions help you reuse logic and keep code readable.  
+Almost every real project relies on them.
+
+**→ Strings**  
+Text shows up everywhere.  
+Names, emails, file paths.  
+Knowing how to handle text saves a lot of time.
+
+**→ Built-ins and imports**  
+Python already gives you powerful tools.  
+You don’t need to reinvent them.  
+You just need to know they exist.
+
+**→ File handling**  
+Real data lives in files.  
+You read it, clean it, and write results back.  
+This matters more than beginners usually realize.
+
+**→ Classes**  
+Not needed on day one.  
+But seeing them early helps later.  
+They’re just a way to group data and behavior together.
+
+Don’t try to memorize this sheet.
+
+Write small programs from it.  
+Make mistakes.  
+Fix them.
+
+That’s when Python starts to feel normal.
+
+Hope this helps someone who’s just starting out.
+
+https://preview.redd.it/ndjdx2xb99gg1.jpg?width=1000&format=pjpg&auto=webp&s=4b215c4b7020fd44095cc59cbe03d65afc730838
+
+",1769678057.0,57,6,https://www.reddit.com/r/dataanalysis/comments/1qq3t2x/a_visual_summary_of_python_features_that_show_up/
+1qpygea,Feeling HUGE imposter syndrome at my new job.,,1769660388.0,1,4,https://www.reddit.com/r/dataanalysis/comments/1qpygea/feeling_huge_imposter_syndrome_at_my_new_job/
+1qpnvqc,"Retail analytics dashboard, looking for feedback, first project","Finally finished my first end-to-end data project. It's a retail dashboard. Takes order data, loads it into Postgres, displays it in Streamlit with filtering and exports.                                                                                            
+
+Tech: Python, Postgres (Supabase), Streamlit, Plotly                                                                           Live demo: [https://retail-analytics-eyjhn2gz3nwofsnyqy6ebe.streamlit.app/](https://retail-analytics-eyjhn2gz3nwofsnyqy6ebe.streamlit.app/)GitHub: [https://github.com/ukashceyner/retail-analytics](https://github.com/ukashceyner/retail-analytics)
+
+SQL uses CTEs and window functions for YoY comparisons. I also wrote up actual findings in [INSIGHT.md](http://INSIGHT.md) (heavy discounting hurt margins, Western region outperformed others, Q4 strong/Q2 weak).
+
+Looking for feedback - anything that screams beginner mistake. Happy to hear what sucks.",1769634104.0,5,3,https://www.reddit.com/r/dataanalysis/comments/1qpnvqc/retail_analytics_dashboard_looking_for_feedback/
+1qpe0eh,Unique identifiers,,1769613201.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qpe0eh/unique_identifiers/
+1qpdt43,Data Cleaning and Processing,"Is there any **free platform, website, or app** where I can practice **data cleaning and processing**, work on **data science projects**, and get them **graded or evaluated**? I’m also looking for any related platforms for practicing **data science in general**",1769612755.0,19,7,https://www.reddit.com/r/dataanalysis/comments/1qpdt43/data_cleaning_and_processing/
+1qpd0hv,churn analysis- how to actually think towards it?,"been practicing churn analysis on a bank customer dataset. how do you proceed with it? like okay I validated the data, cleaned it, then calculated overall churn rate. then went on to divide it into country-wise churn rate, gender wise and age buckets to see what country/gender/age category has a higher churn rate. now what's the next level? how do I start thinking intuitively and learn that what can impact the churn. how can it be further segmented or diagnosed? 
+for reference here's the info on row columns taken from kaggle. 
+and I learnt there's customer segmentation, how do I decide basis for that?
+I really wanna build that intuitive thought process so any advice from an experienced professional in this field would be valueable! ",1769610932.0,46,8,https://www.reddit.com/r/dataanalysis/comments/1qpd0hv/churn_analysis_how_to_actually_think_towards_it/
+1qpcp2u,Guidance on an Excel Project,,1769610194.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qpcp2u/guidance_on_an_excel_project/
+1qpcd1z,Hey I have built a chatting with Database in english no SQL request. I have video as a demo.,,1769609411.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qpcd1z/hey_i_have_built_a_chatting_with_database_in/
+1qpbde1,"🛠️ DataViz Toolkit (R, Python, BI) & Learning Resources: Meet r/DataVizHub","# 📊 DataViz Tools Guide & Resources: Meet r/DataVizHub
+
+Hi everyone! I've put together a curated guide for the community.
+
+# 🛠️ Toolkit Highlights
+
+* **The R Ecosystem:** `ggplot2`, `tidyplots`, `gt`, and `GWalkR`.
+* **The Python Ecosystem:** `Matplotlib`, `Seaborn`, `Great Tables`, and `PyGWalker`.
+* **No-Code:** Datawrapper, Tableau, and Power BI.
+
+👉 **Check the full guide on our Wiki:** [old.reddit.com/r/DataVizHub/wiki/index/](https://old.reddit.com/r/DataVizHub/wiki/index/)
+
+# 📚 Resources
+
+* **The Economist** and **NYT** style guides for critical analysis.
+* Foundational books and video tutorials.
+
+If you love the craft of data storytelling, join us at: **old.reddit.com/**r/DataVizHub",1769606966.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qpbde1/dataviz_toolkit_r_python_bi_learning_resources/
+1qpb8x5,How deeply do I need to learn ML models as a data scientist? From scratch or just intuition + usage?,,1769606659.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qpb8x5/how_deeply_do_i_need_to_learn_ml_models_as_a_data/
+1qpa3dm,"Hard Hats to Heat Maps: How to ""Data-fy"" my Capital Projects Lead experience for a pivot?","Hi everyone, 
+
+I’m currently a **Capital Projects Lead** managing multi-million dollar infrastructure and business ops development. While my title says PM, my day-to-day is actually consumed by variance analysis, workflow optimization, and budget forecasting.
+
+The physicality of being ""boots on the ground"" at job sites is wearing on me, and I’ve realized my true interest lies in the insights side of the business. I want to transition into a dedicated Data Analyst role. I’m an Excel power user and currently grinding through SQL and Power BI. 
+
+**My question:** For those who pivoted from a non-tech industry, how did you frame ""real-world"" ops experience so it resonated with data recruiters? Should I focus on ""Operations Analytics"" roles first?
+
+**TL;DR:** Construction PM Lead wants to trade site visits for SQL queries. Looking for advice on transitioning into data without a CS degree.",1769603501.0,2,2,https://www.reddit.com/r/dataanalysis/comments/1qpa3dm/hard_hats_to_heat_maps_how_to_datafy_my_capital/
+1qp6t58,Chess data analysis with surprising findings: what would you measure and how?,"Playing online chess (chess.com) my main measure of performance is my rating. I was interested in how my playing accuracy developed over the course of years as my rating increased from 1300-1400 to 2000. See the charts:
+
+[Rating chart](https://preview.redd.it/bbrd5fh862gg1.png?width=883&format=png&auto=webp&s=4b247f10c221f368bf6375a30beeb0e011a2f6f6)
+
+[Average accuracy per game chart \(measured in average loss per move, so the lower is the better\)](https://preview.redd.it/s2x2zh3762gg1.png?width=1000&format=png&auto=webp&s=a852685436854c846c4a13425b094f9f9d0e38cd)
+
+While in the rating chart there are some massive, quick leaps (in the beginning of 2016 from 1350 to 1550, in 2021 from 1500 to 1800, in my post-2024 playing period from 1600 to 2000), the accuracy shows a slow steady growth instead. One of the explanations is of course rating inflation, but I'm sure many hidden contributing features could be studied as well, such as time management, style of games, and so on. What do you think, how would you approach this problem?
+
+Thank you for you input!",1769592636.0,1,6,https://www.reddit.com/r/dataanalysis/comments/1qp6t58/chess_data_analysis_with_surprising_findings_what/
+1qp6evz,Anyone here interested in sports analytics applied to football / sport,"Hey everyone,  
+I’m curious to see how many people here are interested in sports analytics**,** things like data analysis applied to football, performance, scouting, or decision-making in clubs.
+
+If you’re:
+
+* Working (or trying to work) in sports analytics
+* Learning data skills for sport
+* Or just interested in how data is used in professional sports
+
+I’d love to hear what you’re working on or trying to break into.
+
+If you’d rather chat directly, feel free to DM me here on Reddit, or reach out by email (happy to share my profile in DMs).
+
+Looking forward to hearing your thoughts 👋",1769591146.0,2,1,https://www.reddit.com/r/dataanalysis/comments/1qp6evz/anyone_here_interested_in_sports_analytics/
+1qp4ssw,"Has anyone proven what the actual win rates are compared to their odds for ""long odds""?","For example, for a hundred 100/1 bets on UK horse races do they actually win once?
+
+Or similarly for 250/1 500/1.
+
+Is there a ""sweet spot"" of say 50/1 that does return more than expected?
+
+If no one knows, I will give it a go and analyse it (I am professional data analyst engineer), if someone can provide a link to a free trusted/official dataset.
+
+I have also heard win rate COULD be improved based on number of competing riders/difference in range of the odds spread of the favourites. Might be BS, hence the question and wanting to prove one way or the other",1769585379.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qp4ssw/has_anyone_proven_what_the_actual_win_rates_are/
+1qoxfkv,Exploratory Data Analysis on Vehicle Sales Dataset,,1769564025.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qoxfkv/exploratory_data_analysis_on_vehicle_sales_dataset/
+1qoxf2b,Exploratory Data Analysis on Vehicle Sales Dataset,,1769563988.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qoxf2b/exploratory_data_analysis_on_vehicle_sales_dataset/
+1qox87g,Is using synthetic data for portfolio projects worthwhile?,"I’m aiming to break into the data analyst field and I’m still at an early stage. I’m aware of platforms like Kaggle, but I’m not sure whether Kaggle projects alone are enough to stand out to recruiters.
+
+I’m considering building more advanced portfolio projects using **synthetic data**. For example, I could generate a realistic dataset for an automotive or life insurance use case with many features and variables, then perform exploratory data analysis, identify relationships, build insights, and communicate findings as I would in a real-world project.
+
+My concern is whether recruiters would see this negatively — for example, assuming that because I generated the data myself, I already “knew” the correlations or outcomes in advance, which might reduce the credibility of the analysis.
+
+Is synthetic data generally acceptable for portfolio projects, and if so, how should it be framed or explained to recruiters to avoid this issue?
+
+Thanks in advance for any advice",1769563492.0,21,12,https://www.reddit.com/r/dataanalysis/comments/1qox87g/is_using_synthetic_data_for_portfolio_projects/
+1qoj3wt,Is this graph misleading?,,1769532355.0,10,21,https://www.reddit.com/r/dataanalysis/comments/1qoj3wt/is_this_graph_misleading/
+1qoi7sp,Update On My Data Cleaning Application,"Update on a local desktop data-cleaning tool I’ve been building.
+
+I’ve set up a simple site where testers can download the current build:  
+👉 [https://data-cleaner-hub.vercel.app/](https://data-cleaner-hub.vercel.app/)
+
+The app runs **entirely locally** no cloud processing, no AI, no external services.  
+Your data never leaves your machine.
+
+It’s designed for cleaning messy real-world datasets (Excel/CSV exports) before they break downstream workflows.
+
+# Current features:
+
+* Excel & CSV preview before cleanup
+* Detection of common inconsistencies
+* Duplicate and empty-row detection
+* Column-level format standardization
+* Multi-format export
+* Fully offline/local processing
+
+This is an early testing build, not a polished release.  
+The goal right now is validation through real usage.
+
+Looking for feedback on:
+
+* Failure cases
+* Performance with large files
+* Missing workflows
+* UX problems
+* Real-world edge cases
+* Things that would make this actually useful in production pipelines
+
+Download:  
+👉 [https://data-cleaner-hub.vercel.app/](https://data-cleaner-hub.vercel.app/)
+
+If you work with messy datasets regularly, your feedback is more valuable than feature ideas.",1769530479.0,3,3,https://www.reddit.com/r/dataanalysis/comments/1qoi7sp/update_on_my_data_cleaning_application/
+1qnsnh5,Data Analysts - Are you Interested in Non-Profit Data? We are recommending Airtable to small teams that have data always and data analysts sometimes.,"JANUARY 27th we explore **Prenatal Care** \- participants will be learners and leaders from the public health and non-profit sector ... and data analyst world too.
+
+[https://www.broadstreet.org/event-details/new-tools-for-public-health-data-airtable](https://www.broadstreet.org/event-details/new-tools-for-public-health-data-airtable)",1769460945.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qnsnh5/data_analysts_are_you_interested_in_nonprofit/
+1qns9mm,cloud gpu resources,"i have a decent amount of cloud AI credits that , i might not need as much as i did at first. with this credits i can access highend GPUs like B200 , H100 etc.  
+any idea on what service i can offer to make something from this . it's a one time thing until the credits end  not on going . would be happy to hear your ideas ",1769460109.0,5,5,https://www.reddit.com/r/dataanalysis/comments/1qns9mm/cloud_gpu_resources/
+1qnr7hj,Just started learning Python on DataCamp... where can I practice?,"I know this question is very dumb, so apologies in advance. I just started learning Python on DataCamp, and I want a 'blank space' to practice random code, upload my own data etc. Basically a space away from the strucutured lessons, where I can try and type my own code freely. Is there a blank terminal on DataCamp to do this? Or do I have to install a program to be able to freely practice away from the lessons? If so, what is the best program to install, where I can freely type Python code?",1769457866.0,0,5,https://www.reddit.com/r/dataanalysis/comments/1qnr7hj/just_started_learning_python_on_datacamp_where/
+1qnpcln,"Performed an analysis of businesses in NYC and London to identify ""business twins"". Lemme know whatcha think!",,1769454089.0,0,0,https://www.reddit.com/r/dataanalysis/comments/1qnpcln/performed_an_analysis_of_businesses_in_nyc_and/
+1qnosd0,How to improve ETL pipeline,,1769452963.0,2,1,https://www.reddit.com/r/dataanalysis/comments/1qnosd0/how_to_improve_etl_pipeline/
+1qnjd21,A short survey,"Hi everyone, I m a final year student from MMU Cyberjaya. I m currently conducting a survey for my fyp titled customer churn prediction in the telecommunications industry. It is only 3 minutes long and I will be deeply grateful if you would allow me to pick your brains. You have my eternal gratitude.
+
+
+
+[https://forms.gle/VfKNNakLXmeq1s5SA](https://forms.gle/VfKNNakLXmeq1s5SA)
+
+  
+",1769441870.0,2,2,https://www.reddit.com/r/dataanalysis/comments/1qnjd21/a_short_survey/
+1qnj2dn,Data Purchasing,"**Hi everyone 😊**
+
+Does anyone here have experience approving or purchasing external datasets for AI/analytics (processes, budgets, quality checks)?
+
+If so, I’d really appreciate a quick chat (15–20 min). Feel free to DM me or react to this message. Thanks!",1769441232.0,1,3,https://www.reddit.com/r/dataanalysis/comments/1qnj2dn/data_purchasing/
+1qnbk65,dbt-ui — a modern web-based user interface for dbt-core projects,,1769419999.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qnbk65/dbtui_a_modern_webbased_user_interface_for/
+1qmue8c,How do you design Power BI dashboards to be reusable without overengineering?,"I recently finished a personal Power BI project where the goal wasn’t just to build dashboards, but to make them reusable and understandable by someone who didn’t build them.
+
+I tried to focus on:
+
+* Starting with clear business questions
+* Keeping data models simple and documented
+* Being intentional about when to use SQL vs. Power BI, instead of forcing everything into one tool
+* Designing layouts that reduce explanation time for end users
+
+I’m curious how others here approach balancing reusability with flexibility — especially when dashboards are meant to work across different datasets or stakeholder groups.
+
+Would love to hear how others think about this.",1769372896.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qmue8c/how_do_you_design_power_bi_dashboards_to_be/
+1qmu3e3,Stop testing Senior Data Analyst/Scientist on their ability to code,"Hi everyone,
+
+I’ve been a Data Science consultant for 5 years now, and I’ve written an endless amount of SQL and Python. But I’ve noticed that the more senior I become, the less I actually know how to code. Honestly, I’ve grown to hate technical interviews with live coding challenges.
+
+I think part of this is natural. Moving into team and Project Management roles shifts your focus toward the ""big picture."" However, I’d say 70% of this change is due to the rise of AI agents like ChatGPT, Copilot, and GitLab Duo that i am using a lot. When these tools can generate foundational code in seconds, why should I spend mental energy memorizing syntax?
+
+I agree that we still need to know how to read code, debug it, and verify that an AI's output actually solves the problem. But I think it’s time for recruiters to stop asking for ""code experts"" with 5–8 years of experience. At this level, juniors are often better at the ""rote"" coding anyway. In a world where we should be prioritizing critical thinking and deep analytical strategy, recruiters are still testing us like it’s 2015.
+
+Am I alone in this frustration? What kind of roles should we try to look for as we get more experienced?
+
+Thanks.",1769372234.0,205,45,https://www.reddit.com/r/dataanalysis/comments/1qmu3e3/stop_testing_senior_data_analystscientist_on/
+1qmer6f,I built a privacy-first Excel cleaner because I was tired of uploading sensitive data to random websites [Free for 1 Month]," Hey everyone,
+
+I work with data a lot, and I always hated the anxiety of uploading my messy CSVs containing client info to those random ""Free Online CSV Cleaner"" websites just to remove duplicates or fix date formats.
+
+I realized that with modern browsers, we don't actually need a server to clean text data. Your laptop is powerful enough.
+
+So I built **DataCure** – a 100% client-side data cleaning tool. **The USP is simple:** Your data never leaves your device. It works offline, it’s faster because there's no upload/download, and it’s private.
+
+**It handles:**
+
+* **Auto Scan & Resolve** (Smartly detects issues and fixes them in one click—100% locally)
+* **Deduplication** (Instant, check by specific columns)
+* **Date Standardization** (Fix messy formats like `DD-MM-YYYY` to `YYYY-MM-DD` automatically)
+* **PII Masking** (Redact emails/phones for safe sharing)
+* **Text Cleaning** (Trim whitespace, Title Case, Upper/Lower case)
+* **Split & Merge Columns** (Split names by space, comma, etc.)
+* **Find & Replace** (Bulk update values across columns)
+* **Number Cleaning** (Fix currency strings like `$1,200.00` \-> `1200`)
+* **Remove Empty Rows** (Clean up whitespace-heavy exports)
+* **Reorder/Hide Columns** (Organize your view before export)
+
+It's a freemium tool (server costs are low, but I put a lot of time into the UI), but I want to give the Reddit community 1 month of full Pro access for free to get some feedback.
+
+**Link:** [datacure.app](https://datacure.app/) **Link:** [datacure.app](https://datacure.app/) **Coupon:** `WELCOME_FREE` (Redeem in Settings/Upgrade menu)
+
+I'd strictly love feedback on the ""Privacy"" aspect—does the ""Local Processing"" label make you trust it more?
+
+Thanks!",1769333632.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qmer6f/i_built_a_privacyfirst_excel_cleaner_because_i/
+1qmcnlt,Competition related to Data analysis,Guys there is a competition in which we will have a set of data and we basically would just have to rank teams and predict outcomes according to it though the sport is ice hockey. It is a big competition and is being conducted by university of Pennsylvania. Let me know if anybody is interested I need some partners and age limit is 18,1769326210.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qmcnlt/competition_related_to_data_analysis/
+1qlt31k,"I am a student; i have made this tracker for this month. Your opinions, please.","https://preview.redd.it/065az8z61cfg1.png?width=1000&format=png&auto=webp&s=fbb3a04a4c296a7ecf7c313a1d384550d52fa773
+
+I have tried to hide some stuff, like the table for the total minutes and the streak table, so it can look a bit cleaner. What do you think?",1769275815.0,0,5,https://www.reddit.com/r/dataanalysis/comments/1qlt31k/i_am_a_student_i_have_made_this_tracker_for_this/
+1qlht5z,Starting out in data analysis...,"Hi all!
+
+I’m starting out in data analysis, currently building a portfolio and working through a few certificates. I’m also looking to buy a new laptop. My main use will be Python (pandas/numpy), Jupyter notebooks and VS Code for learning and small projects.
+
+I’m choosing between similar laptops that mainly differ in 16GB vs 32GB RAM and 512GB vs 1TB SSD. Some shops strongly recommend 32GB/1TB, but that pushes the price up quite a bit, so I’m trying to understand what’s actually necessary.
+
+Is 16GB RAM and 512GB SSD realistically enough for learning and junior-level data analysis work, or is 32GB becoming the norm? I’m also curious how often people really work with very large datasets locally, versus using databases or cloud tools.
+
+Any general tips for starting out and moving toward entry-level roles are very welcome as well.
+
+Thanks in advance!",1769243843.0,8,9,https://www.reddit.com/r/dataanalysis/comments/1qlht5z/starting_out_in_data_analysis/
+1qle8pb,Wondering some things about data analysis,"Hi guys, I recently joined this sub and this is my first time making a post here so pls be kind. Recently after getting absolutely fucked in alg2 at school and getting a bad grade, ive given up on majoring in CS or engineering or anything that involves heavy math. I began looking into potential majors and found out about data analyst. So I am just wondering about a few things - 
+
+1. What is data analysis about?
+
+2. What and where do data analysts work and what do they do?
+
+3. Does data analysis require you to take the most advanced math classes and be very good at math?
+
+I would be thankful if yall could provide some helpful feedback",1769231855.0,3,7,https://www.reddit.com/r/dataanalysis/comments/1qle8pb/wondering_some_things_about_data_analysis/
+1qlb24r,Claude in Excel is now available on Pro plans,,1769222673.0,0,18,https://www.reddit.com/r/dataanalysis/comments/1qlb24r/claude_in_excel_is_now_available_on_pro_plans/
+1ql7cq0,Portfolio advice?,"Hi, so I am a college student trying to get a data analyst internship. I found 2 good ones. I have no experience with data visualization but I am working on building some projects. 
+
+I found a way to present my projects on Microsoft sway and embed it into a wix website. Would this be a good idea? I was able to make it so you can open up the project and see it full screen. Is this a good idea?
+
+Is there anything y’all would suggest or recommend. I am also open to any criticism. ",1769212888.0,5,4,https://www.reddit.com/r/dataanalysis/comments/1ql7cq0/portfolio_advice/
+1ql799m,Trying to understand my social’s posts,"I wouldent say I’m a data analyst cause I’m a designer, but I do like having systems and being very rational about things. My current task trying to understand a portion of my TikTok videos to see what works and doesn’t to better test it out! 
+
+Currently struggling to grab the information so I’m almost doing everything by hand or asking GPT to update my file from a transcript. 
+
+Any advice or directions could be great !",1769212661.0,18,6,https://www.reddit.com/r/dataanalysis/comments/1ql799m/trying_to_understand_my_socials_posts/
+1qkxujz,Roast my Game Analytics Project,,1769191006.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qkxujz/roast_my_game_analytics_project/
+1qkvm2b,A data portfolio project,"am building a data portfolio and I want to showcase my skills in Python, SQL, and Power BI through real-world projects.
+
+I’m looking for project ideas that:
+
+Are practical and close to real business use-cases
+
+Allow me to demonstrate data extraction, cleaning, transformation, and visualization
+
+Can highlight performance metrics, KPIs, and data quality aspects
+
+What project ideas would you recommend?
+
+And what key metrics or KPIs should I focus on to make these projects attractive for recruiters?",1769186125.0,38,10,https://www.reddit.com/r/dataanalysis/comments/1qkvm2b/a_data_portfolio_project/
+1qkq31o,[FREE EVENT Jan 27] RStudio for Beginners,"Want to learn R but feeling stuck? Let’s fix that, starting with a practical public health project. We will be using an online tool called Posit Cloud so no R software installation is needed. Career-critical, basic skills will be covered including makin’ a bar chart.  ",1769172999.0,2,1,https://www.reddit.com/r/dataanalysis/comments/1qkq31o/free_event_jan_27_rstudio_for_beginners/
+1qkpu9o,Google Form Survey Data Collection for College Research Project. Human Behavioral Pattern Study.,,1769172316.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qkpu9o/google_form_survey_data_collection_for_college/
+1qkor8f,Any good books?,"I just finished Think Like A Freak, and thought it's a great for any data analyst. wondering if anyone have book recommendations that is helpful for data analyst. ",1769169027.0,48,5,https://www.reddit.com/r/dataanalysis/comments/1qkor8f/any_good_books/
+1qkk2lj,Help needed to analyse student perpetrators,"Hello everyone! 
+
+I dont know if my post goes against any policies but I apologize if it does! I am a teacher and I came across the idea to analyse my students’ performances since I am sitting on a huge pile of useful data that might help guide my teaching! I currently have the midterm quiz and final and total marks of my students and I wanted to analyse how each of these different assessments affect their performance. 
+
+I was hoping you all could guide me towards any statistical methods that can help me to analyse these results and also plot them in a way so that I can present it to other teachers to guide or learning at the moment I have done correlation and linear regression on these data, but I also want to create beautiful plots as you all do so that I can analyse and present my data. Thank you! ",1769151923.0,4,4,https://www.reddit.com/r/dataanalysis/comments/1qkk2lj/help_needed_to_analyse_student_perpetrators/
+1qk4ws6,OpenSheet: experimenting with how LLMs should work with spreadsheets,"Hi folks. I've been doing some experiments on how LLMs could get more handy in the day to day of working with files (CSV, Parquet, etc). Earlier last year, I built [https://datakit.page](https://datakit.page/) and evolved it over and over into an all in-browser experience with help of duckdb-wasm. Got loads of feedbacks and I think it turned into a good shape with being an adhoc local data studio, but I kept hearing two main things/issues:
+
+1. Why can't the AI also change cells in the file we give to it?
+2. Why can't we modify this grid ourselves?
+
+So besides the whole READ and text-to-SQL flows, what seemed to be really missing was giving the user a nice and easy way to ask AI to change the file without much hassle which seems to be a pretty good use case for LLMs.
+
+DataKit fundamentally wasn't supposed to solve that and I want to keep its positioning as it is. So here we go. I want to see how [https://opensheet.app](https://opensheet.app/) can solve this.
+
+This is the very first iteration and I'd really love to see your thoughts and feedback on it. If you open the app, you can open up the sample files and just write down what you want with that file.",1769111766.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qk4ws6/opensheet_experimenting_with_how_llms_should_work/
+1qk3whu,Download SEC data for free,"After searching for a website that let you download historical financial data for FREE and not finding one I decided to build my own. I've seen many posts of people asking for something like this and this should be a very helpful tool for those who want to extract data to plug into models, slice data or just want to avoid using the antiquated EDGAR website. This is a free service and I hope it will genuinely be useful to people on this subreddit so I hope the post does not get banned!
+
+What the tool does:
+
+\-Download historical financials for SEC listed companies for FREE
+
+\-Data is ready to plug into financial models
+
+\-No hunting through individual filings
+
+\-Clean, usable format
+
+[getsecdata.com](http://getsecdata.com)
+
+The website is in it's early stages and any feedback on improvements, bugs or general experience is more than welcome!",1769109564.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1qk3whu/download_sec_data_for_free/
+1qjzr3b,Seeking Data Folks to Help Test Our Free Database Edition,"Hey everyone!
+
+Excited to be here! I work at a database company, and we’ve just released **a free edition of our analytical database tool designed for individual developers and data enthusiasts**. We’re looking for community members to test it out and help us make it even better with your hands-on feedback.
+
+**What you can do:**
+
+* Test with data at any scale, no limits.
+* You can play around with enterprise features, including spinning up distributed clusters on your own hardware.
+* Mix SQL with native code in Python, R, Java, or Lua, also supported out of the box.
+* Distribute workloads across nodes for MPP.
+* PS: Currently available on AWS, we will launch support for Azure and GCP as well soon.
+
+**Quick Start:**
+
+1. Make sure you have the our [Launcher ](https://downloads.exasol.com/)installed and your AWS profile configured (see our [Quick Start Guide](https://docs.exasol.com/db/latest/get_started/exasol_personal.htm) for details).
+2. Create a deployment directory: `mkdir deployment`
+3. Enter the directory: `cd deployment`
+4. Install the free edition: [here](https://www.exasol.com/downloads/for-individuals/exasol-personal/)
+5. Work with your actual projects, test queries, or synthetic datasets, whatever fits your style!
+
+**We’d love to hear about:**
+
+* What works seamlessly, and what doesn’t
+* Any installation or usability hurdles
+* Performance on your favorite queries and data volumes
+* Integrations with tools like Python, VS Code, etc.
+* Suggestions, bug reports, or feature requests
+
+Please share your feedback, issues, or suggestions in this thread, or open an issue on GitHub.",1769100679.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qjzr3b/seeking_data_folks_to_help_test_our_free_database/
+1qjmiya,"My second project on Data Forecasting, feedback appreciated!","Hi, I recently started learning Data Science. The book that i am using right now is, ""Dive into Data Science"" by Bradford Tuckfield ! Even after finishing the first four chapters thoroughly, I didn't feel like i learned anything. Therefore, I decided to step back and revise what i had already learnt. I took a random (and simple) dataset from kaggle and decided to perform Forecasting using Linear Regression on it. I was mid-way, when i realised that Linear Regression is not optimum for forecasting or making predictions on the data set i found. But decided to make a mini-project out of it anyway lol!
+
+Please take a look and share your feedback --
+
+[Limitations of Linear Regression](https://www.kaggle.com/code/sh1vy24/limitations-of-linear-regression) (kaggle)
+
+Anyone who's an expert or works in the data science field, If you stumble upon this post, please let me know how much of what i learnt really translates into practical work / how i can make automated prediction models / assess what model suits what kind of data.
+
+Thank you!",1769061343.0,8,7,https://www.reddit.com/r/dataanalysis/comments/1qjmiya/my_second_project_on_data_forecasting_feedback/
+1qjbdxc,"Feedback on low‑code, customer‑facing AI analytics/dashboard builder","Hi all,
+
+I’m working on PMF for a product in the AI analytics space and would really appreciate some honest feedback from this community.
+
+Current state:  
+I have a server‑side text‑to‑SQL and text‑to‑visualization system that can explore a database and generate charts from a single natural‑language prompt. You can improve accuracy with “gold” queries and DB annotations, and it works reasonably well for ad‑hoc analysis.
+
+However, when it comes to customer‑facing analytics, most companies seem to prefer fully embeddable dashboard solutions with management, permissions, etc. Because of that, I started building a low‑code, embeddable UI on top of this engine, focused on customer‑facing AI dashboards.
+
+High‑level idea:
+
+* Frontend is embeddable with something like `<QuerypanelEmbedded dashboardId="""" />` in your app.
+* Auth is handled via JWT issued by your backend and stored client‑side.
+* The UI has a simple text‑block editor (titles, paragraphs, charts) for composing dashboards.
+* Charts are generated by AI through a chat‑style modal, with history and versioning.
+* The dashboard can summarize how data has changed over a selected time period.
+* Admins can build charts in Querypanel and deploy them to customers with one click.
+* Tenants/customers can customize their own dashboards (with RBAC‑style controls).
+
+Questions for you:
+
+* Is this something you would consider using instead of building dashboards in‑house or using existing BI tools?
+* What would be the main blockers or “no‑go”s for adopting a tool like this (security, governance, explainability, UX, etc.)?
+* Are there any features that feel like “must‑haves” that are missing from the description?
+
+Any candid feedback (including “this is not needed” or “already solved”) would be super helpful. Prototype is here if you'd like to have a look: [https://querypanel.io/prototype](https://querypanel.io/prototype)  
+  
+Thanks!",1769032068.0,0,3,https://www.reddit.com/r/dataanalysis/comments/1qjbdxc/feedback_on_lowcode_customerfacing_ai/
+1qj4f5l,Laptop recommendations,"I’m just starting a data analytics major, my budget is $600",1769016907.0,2,2,https://www.reddit.com/r/dataanalysis/comments/1qj4f5l/laptop_recommendations/
+1qj3m17,ANOVA to test the effect of background on measurements?,"hello everyone, I hope this post is pertinent for this group.
+
+I work in the injection molding industry and want to verify the effect of background on the measurements i get from my equipment. The equipment measures color and the results consist of 3 values: L\*a\*b for every measurement. I want to test it on 3 different backgrounds (let's say black, white and random). I guess i will need many samples (caps in my case) that i will measure multiple times for each one in each background. 
+
+Will an ANOVA be sufficient to see if there is a significant impact of the background? Do I need to do a gage R&R on the equipment first (knowing that it's kind of new and barely used)?
+
+any suggestion would be welcome.",1769015157.0,2,8,https://www.reddit.com/r/dataanalysis/comments/1qj3m17/anova_to_test_the_effect_of_background_on/
+1qit8ta,Help with project in audification,,1768987009.0,2,1,https://www.reddit.com/r/dataanalysis/comments/1qit8ta/help_with_project_in_audification/
+1qin5i5,Snipper: An open-source chart scraper and OCR text+table data gathering tool [self-promotion],,1768966897.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qin5i5/snipper_an_opensource_chart_scraper_and_ocr/
+1qin59j,Where to find practice datasets such as SAP General Ledger for model and template building?,,1768966879.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qin59j/where_to_find_practice_datasets_such_as_sap/
+1qia6vw,What is this job market?,"Even on a Tuesday or. Wednesday morning I don’t see any jobs on LinkedIn or anywhere. Where do I find jobs suitable for my role(data)? 
+
+I’m freakinggg out cz i don’t have any money left to sustain. 
+
+Genuinely curious what are you folks doing daily, who do not have a job? 
+
+Where are you guys applying and what apart from applying are you guys doing?
+
+I’m thankful for the meaningful responses in adv. ",1768935895.0,16,13,https://www.reddit.com/r/dataanalysis/comments/1qia6vw/what_is_this_job_market/
+1qhzy5l,Anybody using Hex / Omni / Sigma / Evidence?,,1768912534.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qhzy5l/anybody_using_hex_omni_sigma_evidence/
+1qhy2oq,"Is NVIDIA Overvalued, Undervalued or Fairly Valued?","I analyzed NVIDIA to understand whether its recent market boom is supported by financial fundamentals or just driven by market speculation.
+
+**What I analyzed:**
+
+\- ROCE, operating margins, Earning per share (EPS), Dividend per share (DPS), P/E
+
+\- Share price trends
+
+\- Daily returns and beta using regression on python
+
+**Key Findings:**
+
+The analysis confirms that NVIDIA's extraordinary market performance is strongly supported by financial fundamentals and not merely speculation. ROCE, operating margins and EPS demonstrated that the company is converting capital and revenue into profits. The rapid expansion in earnings has allowed valuation pressure to ease, as evidenced by the declining P/E ratio in 2024 and 2025, indicating that fundamentals are catching up with price rather than the stock becoming cheaper due to falling investor expectations.  
+
+However, the technical and risk analysis highlights that NVIDIA remains a high volatile stock with frequent sharp fluctuations. A beta of 1.77 confirms that NVIDIA amplifies overall market movements while CAPM results show that more than one-third of daily return variation is driven by firm-specific factors. 
+
+Here is the full analysis report: [https://sites.google.com/view/albanus-muli/projects/nvidia](https://sites.google.com/view/albanus-muli/projects/nvidia)",1768906533.0,2,5,https://www.reddit.com/r/dataanalysis/comments/1qhy2oq/is_nvidia_overvalued_undervalued_or_fairly_valued/
+1qhteck,looking for a group of data analysis students that are starting from scratch for study,,1768889870.0,22,35,https://www.reddit.com/r/dataanalysis/comments/1qhteck/looking_for_a_group_of_data_analysis_students/
+1qhn6pu,Is ATLAS.ti finished?,"  
+They haven’t released any updates for over a year, not even on their social media. What alternatives would you suggest? I don’t feel confident renewing my license since nothing new has come out in the past year. What recommendations do you have?",1768872228.0,2,3,https://www.reddit.com/r/dataanalysis/comments/1qhn6pu/is_atlasti_finished/
+1qhirbu,"Fluxly - A lightweight, self-contained DAG workflow framework (decoupled from orchestration)",,1768861307.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qhirbu/fluxly_a_lightweight_selfcontained_dag_workflow/
+1qh9joe,AMA to undetstand my chess ELO trends,"So basically after June my life has been stable in terms of routine (as far as I remember!). However, I do notice some periods I feel unstoppable on my elo and every good move is obvious for my brain and wins become easy, other times however my performance goes down the hill (which is why I am posting this).
+
+I genuinly have no idea why my ability fluctuates in a trend but it tells me something about my attention and neural activity at that period because I could feel it.
+
+Thus, I am posting this so we can collectively understand these trends either by asking me questions about some periods that I may be oblivious about or you can provide your insights from other experiences.",1768841575.0,3,4,https://www.reddit.com/r/dataanalysis/comments/1qh9joe/ama_to_undetstand_my_chess_elo_trends/
+1qh4qm0,Can anyone help do an project might be simple for someone who really are good at knime,,1768830868.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qh4qm0/can_anyone_help_do_an_project_might_be_simple_for/
+1qh4esm,"Analyzing the impact of limited time offers, flash sales and scarcity tactics on impulse buying behavior in quick commerce apps",,1768830029.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qh4esm/analyzing_the_impact_of_limited_time_offers_flash/
+1qh3b1q,How filtering outdated and duplicate data improved data reliability in analysis,"For a long time, our default rule was simple: keep the data unless it’s obviously broken.
+
+The thinking was that more data equals more signal. In reality, it often meant more outdated data and noisier analysis. Numbers moved around even when nothing meaningful had changed.
+
+The mindset shift was when we stopped asking “Is this record valid?” and started asking “Is this record still useful?” That question alone changed a lot.
+
+Data normalization came first. Once formats, timestamps, and identifiers were aligned, it became much easier to see where things didn’t line up. After that, real-time data filtering helped us drop records that looked fine structurally but hadn’t shown recent activity.
+
+Removing duplicate data reduced clutter, but it wasn’t the main win. The biggest improvement came from improving data reliability by filtering out stale rows early, before they influenced aggregates or trends.
+
+With TNTwuyou data filtering, we focused on normalization rules and activity windows as part of preprocessing, not cleanup. The dataset shrank, but signal-to-noise improved a lot.
+
+How do you all balance freshness versus sample size?",1768827012.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qh3b1q/how_filtering_outdated_and_duplicate_data/
+1qh2wro,Help with some pre-chart math?,"[https://imgur.com/gallery/7CNoCph](https://imgur.com/gallery/7CNoCph)
+
+  
+I think this is the right sub?
+
+Honey bees generate heat, especially when raising baby bees (brood). They have vertical combs captured in a wooden box, but the actual broodnest is a globe shape (efficient thermal mass) arranged in the combs. I would like to visualize the size of the globe-shaped broodnest and access that at any time over a network.
+
+Heat rises.
+
+I have nine temperature sensors arranged across the gaps between the combs, and one outside the box.
+
+What the image shows is a heatmap of each sensor-minus-outside, the delta being heat generated. And also a scatter plot of only the outside temperature.  
+
+""It works"" in the sense of being able to see a heat signature of the nest at any given vertical band of time. But it doesn't work in the sense of displaying change over time, specifically because the outside temperature fluctuates a lot.
+
+  
+Can you suggest better math?
+
+",1768825846.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qh2wro/help_with_some_prechart_math/
+1qgvt8f,How Can Edge-Case Workflow Flaws Affect Data Analytics?,"Hi r/DataAnalysis,
+
+I recently explored a large SaaS platform and discovered some unusual workflow behaviors that exposed hidden logic and permission issues. Nothing malicious — just observing what happens when the system is used in unexpected ways.
+
+Here’s why it matters for data analysts:
+
+Data integrity risks: Account, payment, and wallet balances could go out of sync, making dashboards and reports unreliable.
+
+Anomaly detection opportunities: These edge cases highlight patterns analysts could flag to catch unusual behavior early.
+
+Impact on KPIs: Corrupted or inconsistent data could affect forecasts, business metrics, and decision-making.
+
+Monitoring & validation: Insights like these can guide better dashboards, alerts, and workflow checks.
+
+Cross-team collaboration: Understanding these system weaknesses helps analysts communicate effectively with IT, QA, and security teams.
+
+Questions for the community:
+
+Have you seen workflow issues create “invisible” data problems in your work?
+
+How do you design dashboards or alerts to catch these rare anomalies?
+
+Any best practices for communicating potential data risks from unusual system behaviour 
+
+How others handle edge-case impacts on data analytics and how we can make systems more robust together.",1768801397.0,0,3,https://www.reddit.com/r/dataanalysis/comments/1qgvt8f/how_can_edgecase_workflow_flaws_affect_data/
+1qgfnj7,"Built a tiny Windows tool to clean ugly CSV exports (encoding, delimiters, empty cols, duplicates) – would this be useful?","I keep running into messy CSV exports from different tools (weird encodings, `;` vs `,`, random empty columns, duplicated rows…).
+
+As a side project I built a very small Windows tool to automate the boring part:
+
+• auto-detects encoding & delimiter  
+• removes empty columns and duplicate rows  
+• can process a whole folder in one go (batch mode)  
+• no Python / no install / just a single `.exe` (Windows only)
+
+I’m currently experimenting with selling it for a small price on Gumroad, but before I go further I’d really like feedback from people who actually work with data every day:
+
+• what are the first edge cases that would completely break this for you?  
+• which “must-have” features are missing for your typical CSV exports?  
+
+If you’re curious, here is the page with more details, screenshots and the download:  
+https://jasonbuilds.gumroad.com/l/enjdp  
+It’s priced low on purpose because I mainly want to see if it provides real value to people dealing with messy exports all the time. If a couple of people find it useful and save time, that’s already a win.
+
+I’m mainly looking for brutally honest feedback so I can decide whether to improve it or just ship it as a tiny niche tool and move on.",1768759625.0,2,5,https://www.reddit.com/r/dataanalysis/comments/1qgfnj7/built_a_tiny_windows_tool_to_clean_ugly_csv/
+1qg4se5,"[Portfolio] I have the analysis and dashboard, but how do I structure the final ""Deliverable"" for recruiters?","Hi everyone,
+
+I’m currently building up my portfolio and I’m looking for advice on the ""packaging"" phase. I am not looking for project ideas—I have the work done—but I want to know the conventional/industry-standard way to showcase it so it doesn't just look like a folder of random scripts.
+
+Here is what I currently have for a typical project:
+- Raw Data (CSV/Excel)
+- Cleaned Data
+- Python Scripts / Jupyter Notebooks (EDA and cleaning)
+- SQL Queries
+- Power BI Dashboard (.pbix file)
+
+I want to make sure I am bridging the gap between ""I did some coding"" and ""I solved a business problem.""
+
+I have three specific questions:
+1.Missing Files: Beyond the files listed above, what else is mandatory? I’ve heard suggestions about including a PDF summary of the process and insights, or a requirements.txt. What defines a ""complete"" repository?
+
+2.Structuring for different platforms: How do you differentiate what goes on GitHub vs. a Personal Portfolio Site vs. LinkedIn?
+
+-  GitHub: Should it just be code, or should I host screenshots of the dashboard there too?
+
+- Portfolio Site: Should this be a technical deep dive or a high-level case study?
+
+3. Examples: Does anyone have links to ""Gold Standard"" repositories or portfolio entries that showcase this workflow perfectly? I learn best by seeing a concrete example of good folder structure and documentation.
+
+Thanks in advance for the help!",1768730414.0,12,5,https://www.reddit.com/r/dataanalysis/comments/1qg4se5/portfolio_i_have_the_analysis_and_dashboard_but/
+1qf8nq3,Offering Free Guidance for Anyone Stuck Learning Data Analytics,"I have  been working as a Data Analyst for 4+ years and honestly, I learned most things the hard way trial, errors, bad tutorials, wrong advice, and a lot of confusion.
+
+I see many people stuck in tutorial hell learning Python, SQL, Power BI, but not knowing what actually matters for jobs, how to think like an analyst, or how to move from learning to real projects.
+
+So I’m offering free mentorship based purely on my experience  what worked for me , what didn’t, and what I will do if I were starting today.
+
+Ask your questions in comments or DM me.
+No course. No upsell. Just real guidance.
+",1768641181.0,145,113,https://www.reddit.com/r/dataanalysis/comments/1qf8nq3/offering_free_guidance_for_anyone_stuck_learning/
+1qewatk,Need people for collaboration on a comparative study.,,1768606877.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qewatk/need_people_for_collaboration_on_a_comparative/
+1qengx9,What percentage of each skill do you actually use in your position?,,1768586945.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qengx9/what_percentage_of_each_skill_do_you_actually_use/
+1qektzf,issues with dropdown lists on google data studio not holding/filtering selection to filter consistently after first selection.,,1768581343.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qektzf/issues_with_dropdown_lists_on_google_data_studio/
+1qegjrg,Calling GIS / DATASCIENCE / STATISTICS experts to review my spatial entity matching approach  -       Please :),,1768571640.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qegjrg/calling_gis_datascience_statistics_experts_to/
+1qe9ew3,Data Analytics Institute in Nagpur ?,please guide if you know.,1768547866.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qe9ew3/data_analytics_institute_in_nagpur/
+1qdrjws,Beginner question,"Learn sql and excel and power bi like as tool what are step to find insight  form them ik this tools and when see the dataset does not able to find out any insight ,how I can improve this? ???( and also tried with tutorial they just doing same thing again and again)",1768501734.0,5,5,https://www.reddit.com/r/dataanalysis/comments/1qdrjws/beginner_question/
+1qdr6jb,Need your ADVICE,"It has been one month since I've joined as a ""Data Analyst "" in the Edtech domain. It's all google sheets based, feels like more of a data management role tbh. I have been using ChatGPT fully for this, I'm low on confidence when it comes to basic formulas also.
+
+Since the work also needs to be delivered in a specific time frame, I have developed this habit of using AI for assistance.  
+
+I am underconfident and lowkey want to switch into a proper analytics role. I need to improve my analytical abilities and survive (do well) in this job as well.
+
+KINDLY GUIDE ME GUYS!PANICCCCCC",1768500945.0,0,5,https://www.reddit.com/r/dataanalysis/comments/1qdr6jb/need_your_advice/
+1qdo6zp,Agentic Scraping V Normal Scraping,"Noob Question: I have a pipeline that I use to scrape data from the sites (following robots.txt ofc). This uses scrapy and playwright during the scraping. I've been sort of required to try to add agents into the loop of scraping such that the agents handle the extraction of the fields and returning the json. I would like to know what's your take on the idea of replacing the scraping pipeline with an agent scraping pipeline. Is it good, bad and how should it be approached.",1768494582.0,2,3,https://www.reddit.com/r/dataanalysis/comments/1qdo6zp/agentic_scraping_v_normal_scraping/
+1qdhntz,Working on an offline Excel data-cleaning desktop app,,1768478444.0,11,5,https://www.reddit.com/r/dataanalysis/comments/1qdhntz/working_on_an_offline_excel_datacleaning_desktop/
+1qdgvs0,Looking for 2–3 Serious Study Partners for Data Analytics/BI Interview Prep,,1768475806.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qdgvs0/looking_for_23_serious_study_partners_for_data/
+1qddllc,Need guidance for a sql project,"Hi, so I want to make my first sql project, but I've heard querying already existing datasets and reporting findings is too basic and honestly quite useless.
+ 
+But if I was to build my own database with multiple tables, primary and foreign keys etc where am I gonna get the actual data from? Should I ask an AI tool to generate artificial data that I can query on later? 
+",1768463627.0,8,15,https://www.reddit.com/r/dataanalysis/comments/1qddllc/need_guidance_for_a_sql_project/
+1qd3opc,[Q] New to statistics - Is my dataset/model setup correct for estimating time & cost per cabin type?,,1768434779.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qd3opc/q_new_to_statistics_is_my_datasetmodel_setup/
+1qcl9cn,When is Python used in data analysis?,"Hi! So I am in school for data analysis but I'm also taking Udemy classes as well. I'm currently taking a SQL boot camp course on Udemy and was wondering how much Python I needed to know. I too a class that taught introductory Python but it was just the basics. I wanted to know when Python was used and for what purpose in data analytics because I was wondering if I should take an additional Python course on Udemy. Also, should I learn R as well or is Python enough?",1768391325.0,37,32,https://www.reddit.com/r/dataanalysis/comments/1qcl9cn/when_is_python_used_in_data_analysis/
+1qcl0vd,2026 benchmark of 14 analytics agents,"This year I want to set up on analytics agent for my whole company. But there are a lot of solutions out there, and couldn't see a clear winner. So I benchmarked and tested 14 solutions: BI tools AI (Looker, Omni, Hex...), warehouses AI (Cortex, Genie), text-to-SQL tools, general agents + MCPs.
+
+Sharing it in a substack article if you're also researching the space -
+
+[https://thenewaiorder.substack.com/p/i-tested-14-analytics-agents-so-you](https://thenewaiorder.substack.com/p/i-tested-14-analytics-agents-so-you)",1768390529.0,2,3,https://www.reddit.com/r/dataanalysis/comments/1qcl0vd/2026_benchmark_of_14_analytics_agents/
+1qch1pk,Excel 365 GROUPBY Function Explained | Better Than Pivot Table?,,1768375705.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qch1pk/excel_365_groupby_function_explained_better_than/
+1qcghcl,How does a bayesian calculator work?,"Heya,
+
+The marketing team I’m the analyst for, is all about Bayesian. They use an online calculator that provides probability (with a non informative prior) that A > B. Then at 80% probability they implement the variant. So they accept to be wrong 1/5 times.
+
+However recently they did an A/A test and they’re all in panic because the probability is 79% that A>A. So I was asked to investigate whether this was worrysome.
+
+Now I ran a simulation of the test, to see how often I got a result that they considered ‘interesting’. The result was about 40% of the times the calculator shows A > B or B > A with 80% probability when there is no real difference, regardless of sample size.
+
+My assumption was that the more data you have (law of large number) the more the calculator seems to get it correctly (so deviating around 50%).
+
+This assumption seems wrong however and the Bayesian calculator exactly does what it reports. 20% of the times it will say lower than 20% prob, 60% deviated between 20% and 60% and 20% of the times over 80%. Meaning if a hypothesis is non directional, you have 40% chance to see a change when there is non.
+
+My question; am I interpreting this correctly, or am I missing something?",1768373679.0,7,10,https://www.reddit.com/r/dataanalysis/comments/1qcghcl/how_does_a_bayesian_calculator_work/
+1qc61pc,Good arms transfer database for research...,,1768344446.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1qc61pc/good_arms_transfer_database_for_research/
+1qc1zqo,Data analysis/cleaning,,1768335278.0,0,1,https://www.reddit.com/r/dataanalysis/comments/1qc1zqo/data_analysiscleaning/
+1qbxm2i,"Power BI Desktop keeps showing email login popup repeatedly (can’t log in, no org account)","Power BI Desktop keeps showing repeated email / sign-in popups even without refresh and makes Power BI unusable. I don’t have an organizational account and can’t log in. Cleared credentials and disabled background refresh, but the popup keeps coming.
+
+Any simple fix to stop this?",1768325895.0,32,13,https://www.reddit.com/r/dataanalysis/comments/1qbxm2i/power_bi_desktop_keeps_showing_email_login_popup/
+1qbo4zp,Built a Real Estate Market Intelligence Pipeline Dashboard using Python + Power BI (Learning Project),"This is a learning project where I attempted to build an end-to-end analytics pipeline and visualize the results using Power BI.
+
+Project overview:
+
+I designed a simple data pipeline using static real estate data to understand how different tools fit together in an analytics workflow, from raw data collection to business-facing dashboards.
+
+Pipeline components:
+
+• GitHub – used as the source for collecting and storing raw data
+
+• Python – used for data cleaning, transformation, and basic processing
+
+• Power BI – used for building the Market Intelligence dashboard
+
+• n8n – used for pipeline orchestration (pipeline currently paused due to technical issues at the automation stage)
+
+Current status:
+
+The pipeline is partially implemented. Data extraction and processing were completed, and the final dashboard was built using the processed data. Automation via n8n is planned but temporarily halted.
+
+Dashboard focus:
+
+• Price overview (average, median, min, max)
+
+• Location-wise price comparison
+
+• Property distribution by number of bedrooms
+
+• Average price per square foot
+
+• Business-oriented insights rather than purely visual design
+
+This project was done independently as part of learning data pipelines and analytics workflows.
+
+I’d appreciate constructive feedback—especially on pipeline design, tooling choices, and how this could be improved toward a more production-ready setup.",1768300885.0,17,6,https://www.reddit.com/r/dataanalysis/comments/1qbo4zp/built_a_real_estate_market_intelligence_pipeline/
+1qbkrza,Regression Results,"Hello everyone,
+I’m working on an undergraduate dissertation with 5 predictors. Pearson correlation shows 4/5 significant, but in multiple regression only 1 remains significant (assumptions and multicollinearity are fine).
+
+My concern is that my supervisor might not accept the regression results. Could you please advise?
+
+Thanks a lot. ",1768288161.0,7,4,https://www.reddit.com/r/dataanalysis/comments/1qbkrza/regression_results/
+1qbhbkl,Product analyst's what are is the best project you made/saw and why?,"Hi, eveyone i justed whated to give more of what I want to know in the body of the post. 1. What do you consider a good project and why. 2. How did this project change how you do you're work from then on. That's really the main things I am looking for ",1768277094.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qbhbkl/product_analysts_what_are_is_the_best_project_you/
+1qb7hof,Customer‑facing data analysis app – does Zero Trust architecture actually make sense here?,"Hey all,
+
+I’m working on a customer‑facing data analysis app (think: multi‑tenant SaaS where customers explore their own product/data dashboards), and I’m trying to figure out how far it makes sense to push **Zero** Trust ideas in this context.
+
+I am building an SDK for text to sql using AI and all the buzz, and i wanna create something that secure enough, but i am not sure whether it brings enough value to the table. 
+
+For folks who have built or operated analytics / BI / data‑heavy SaaS products:
+
+* Have you implemented a “Zero Trust‑ish” architecture for a customer‑facing analytics app? What did that actually look like in practice?
+* What parts gave you the most real security value (vs. just architecture purity or buzzwords)?
+* Were there any Zero Trust patterns you tried that turned out to be overkill or created too much UX or operational pain?
+* If you were evaluating a vendor like this, which concrete controls would convince you they “take Zero Trust seriously” versus just marketing it?
+
+Any war stories, architectural patterns, or “don’t bother with X, absolutely do Y” advice would be super helpful. I’m especially interested in how you balance strict isolation and verification with not making the product miserable to use.
+
+",1768252512.0,1,4,https://www.reddit.com/r/dataanalysis/comments/1qb7hof/customerfacing_data_analysis_app_does_zero_trust/
+1qb2p8i,What helped you stay consistent while learning analytics?,"I’ve noticed that motivation comes and goes, but consistency really makes the difference. For those learning or working in analytics — what helped you stay consistent when progress felt slow?",1768242206.0,12,8,https://www.reddit.com/r/dataanalysis/comments/1qb2p8i/what_helped_you_stay_consistent_while_learning/
+1qb0640,My first DA project,"Hi, this is my first data analysis project. Anyone who is professional please if you have time keep your judging eyes there. And give me suggestions, advice, and what to do next.
+
+Aiming to get a good remote job by acquiring skills.
+
+
+
+[https://github.com/Anikdas111/Customer-churn-analysis](https://github.com/Anikdas111/Customer-churn-analysis)",1768236743.0,10,1,https://www.reddit.com/r/dataanalysis/comments/1qb0640/my_first_da_project/
+1qaxqnn,How do you actually manage reference data in your organization?,"I’m curious how this is handled in real life, beyond diagrams and “best practices”.
+
+In your organization, how do you manage reference data like:
+
+* country codes
+* currencies
+* time zones
+* phone formats
+* legal entity identifiers
+* industry classifications
+
+Concretely:
+
+* Where does this data live? ERP, CRM, BI, data warehouse, spreadsheets?
+* Who owns it, IT, data team, business, no one?
+* How do updates happen, manually, scripts, vendors, never?
+* What usually breaks when it’s wrong or outdated?
+
+I’m especially interested in:
+
+* what feels annoying but accepted
+* what creates hidden work or recurring friction
+* what you’ve tried that didn’t really work
+
+Not looking for textbook answers, just how it actually works in your org.
+
+If you’re willing to share, even roughly, it would help a lot.",1768231428.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1qaxqnn/how_do_you_actually_manage_reference_data_in_your/
+1qa937x,Excel Question,"**In an interview,** if the interviewer asks me what is the Difference between Power Pivot and the data model in Excel, what can I say?  
+",1768161011.0,0,7,https://www.reddit.com/r/dataanalysis/comments/1qa937x/excel_question/
+1q9vvoz,Data stet,Where can I find a good data to start doing personal projects in data analysis,1768126443.0,0,11,https://www.reddit.com/r/dataanalysis/comments/1q9vvoz/data_stet/
+1q9l4v5,Feedback Request: Global Health Analysis Dashboard (Power BI),"Hi everyone,  
+I’m learning Power BI and I built this *Global Health Analysis Dashboard* to practice KPI storytelling and visuals.
+
+I’m looking for honest feedback on:
+
+1. Visual design (layout, spacing, fonts, colors)
+2. Chart choice (are these the best visuals for these metrics?)
+3. Storytelling (does the dashboard tell a clear story?)
+4. What improvements would make it look more *professional*?",1768092709.0,27,9,https://www.reddit.com/r/dataanalysis/comments/1q9l4v5/feedback_request_global_health_analysis_dashboard/
+1q9b5zu,Seeking guidance - Accounting Audit related task/project,"I need to build a ""validation engine"" template for my company for reviewing proper coding for invoices.
+
+There are about 300 projects
+
+There are about 20 sites, some of which correspond to a general ""region"" where the project is located, some specific to a project, some are for general things like corporate expenses, etc.
+
+There are about 15 bank accounts that a project should be paid out of, relative to the location of the project and the project status.
+
+For example,
+
+ Project A + Location A + Location A = correct
+ Project A + Location B + Location B = correct 
+Project A + Location C + Location A = incorrect
+etc.
+
+There are other variables. But this is the default concept
+
+How can I create a validation tool that will flag each coding line on an export listing all the processed invoices and what they were coded to. That will flag it as correct coding or incorrect and why based on the ""rules""?
+
+I made an excel template that for all intents and purposes works. But is inefficient and janky and slow because of the data ingestion method and so many formula interdependencies. Is has a ""master mapping"" page where it lists the correct combinations of coding, and uses Xlookups to see if a line on our processed invoices export is the found on the master mapping sheet, and flags it accordingly. But I don't know if there's a better way.
+
+How would a data scientist/analyst approach this? Maybe a Python/Pandas/NumPy/Jupityr/etc. stack?
+
+I'm not a data scientist, so please go easy on me!
+
+",1768068859.0,5,2,https://www.reddit.com/r/dataanalysis/comments/1q9b5zu/seeking_guidance_accounting_audit_related/
+1q9anqi,"For people at new or small startups, how do you manage version chaos on recurring monthly client dashboards?","For those of you doing any kind of recurring reporting or dashboards for clients or stakeholders, how are you keeping track of versions and feedback without losing your mind?
+
+I worked at a small health insurance startup and we used SharePoint and Teams to track changes. The client success manager would log requests like ""change this color"" or ""this number looks off"" or ""add this metric"" and new changes would keep on being requested even after we thought a dashboard was done. Internal reviews kept getting rescheduled. It added up to hours of wasted time per week across multiple clients and recurring dashboards.
+
+The worst part was that all that back and forth ate into time we needed for actual data work like scraping hundreds of PDFs and SQL extraction. The analyst I worked under was constantly stressed, working overtime, juggling 10 tickets while also having 2 dashboards due the same week that needed to be presented to leadership within days.
+
+Curious if other small teams deal with this or if there's a workflow that actually keeps the revision chaos from snowballing. Or is this just the reality of early stage ops? ",1768067698.0,1,7,https://www.reddit.com/r/dataanalysis/comments/1q9anqi/for_people_at_new_or_small_startups_how_do_you/
+1q9a261,"Made my first data analysis project, looking for feedback.","Hi, I recently started learning Data Science. The book that i am using right now is, ""Dive into Data Science"" by Bradford Tuckfield ! Even after finishing the first four chapters thoroughly, I didn't feel like i learned anything. Therefore, I decided to step back and revise what i had already learnt. I took a random (and simple) dataset from kaggle and decided to perform an Exploratory Data Analysis on it (thats the first chapter of this book). This project is basic and it's whole purpose was to apply things practically. Please take a look and share some feedback -
+
+Link - [https://www.kaggle.com/code/sh1vy24/restaurant-orders-eda](https://www.kaggle.com/code/sh1vy24/restaurant-orders-eda)  
+",1768066291.0,30,16,https://www.reddit.com/r/dataanalysis/comments/1q9a261/made_my_first_data_analysis_project_looking_for/
+1q94ixd,create a website which i can upload a pdf in and it will extract the contents and download it in an excel file also show the content in the website,how do i do that ,1768052970.0,0,9,https://www.reddit.com/r/dataanalysis/comments/1q94ixd/create_a_website_which_i_can_upload_a_pdf_in_and/
+1q8s0sq,Recurrent dashboard deliveries with tedious format change requests are so fucking annoying . Anyone else deal with this ?,"I’m an analyst and my team is already pretty overloaded. On top of regular tickets, we keep getting recurring requests to make tiny formatting changes to monthly client dashboards. Stuff like colors, fonts, spacing, or fixing one number.
+
+Our workflow is building in Power BI, exporting to PowerPoint, uploading the PPT to SharePoint, then saving a final PDF and uploading that to another folder for review. The problem is Power BI exports to PPT as images, so every small change means re-exporting the entire deck. One minor request can turn into multiple re-exports.
+
+When this happens across a bunch of clients every month, it adds up to hours of wasted time. Is anyone else dealing with this? How are you handling recurring dashboards with constant formatting feedback, or automating this in a better way?",1768012059.0,0,2,https://www.reddit.com/r/dataanalysis/comments/1q8s0sq/recurrent_dashboard_deliveries_with_tedious/
+1q8qccz,Dataset on Water Drunk Daily in Europe?,"I’m doing a project on a product that encourages drinking water, which is marketed in Europe and the USA.  I’ve found a recent USA gov’t survey that included drinking water, but I’m having terrible luck finding European data.  I’m not authorized to access the European Commission’s online datasets, and the EFSA’s data is aggregated.  Plus I have to go back to 2018 just get info from 5 countries.  I’ve tried searching some of the major countries’ gov’t sites, but I’m not getting anywhere.  Any ideas?",1768007528.0,4,6,https://www.reddit.com/r/dataanalysis/comments/1q8qccz/dataset_on_water_drunk_daily_in_europe/
+1q88mv0,When is SQL used and when is Python used in DATA SCIENCE?,"Hey! I have never worked in any data analytics company. I have learnt through books and made some ML proejcts on my own. Never did I ever need to use SQL. I have learnt SQl, and what i hear is that SQL in data science/analytics is used to fetch the data. I think you can do a lot of your EDA stuff using SQL rather than using Python. But i mean how do real data scientsts and analysts working in companies use SQL and Python in the same project. It seems very vague to say that you can get the data you want using SQL and then python can handle the advanced ML , preprocessing stuff. If I was working in a company I would just fetch the data i want using SQL and do the analysis using Python , because with SQL i can't draw plots, do preprocessing. And all this stuff needs to be done simultaneously. I would just do some joins using SQl , get my data, and start with Python. BUT WHAT I WANT TO HEAR is from DATA SCIENTISTS AND ANALYSTS working in companies...Please if you can share your experience clear cut without big tech heavy words, then it would be great. Please try to tell teh specifics of SQL that may come to your use. 🙏🏻🙏🏻🙏🏻🙏🏻",1767966333.0,127,26,https://www.reddit.com/r/dataanalysis/comments/1q88mv0/when_is_sql_used_and_when_is_python_used_in_data/
+1q866ul,Looking for anonymized blood test reports,"Hey, so I am a computer science major and currently working on a healthcare related LLM-based system which can interpret medical reports.
+
+As the title says, I am looking for datasets that contains blood test reports (CBC, lipid profile, LPD, etc.). It would be really great if anyone can provide a link to some public datasets or guidance on any open-source datasets that I might have missed.",1767959200.0,1,2,https://www.reddit.com/r/dataanalysis/comments/1q866ul/looking_for_anonymized_blood_test_reports/
+1q7q2yn,"20 years in tech, no recent coding… and yet I shipped this AI Chart Intelligence Chrome extension",,1767910969.0,0,7,https://www.reddit.com/r/dataanalysis/comments/1q7q2yn/20_years_in_tech_no_recent_coding_and_yet_i/
+1q7nsx2,ETL with Self-hosted Parquet lakehouse,"We’ve been working on the *front side* of the data analysis problem: getting data into a Parquet lake cleanly. This means a Cribl like ETL that can load into the local Cloud. No SaaS component.
+
+Built a self-hosted that:
+
+* Handles HEC collection, transformation, and ingestion into Parquet
+* Runs on AWS, Azure, and GCP
+* Uses spot instances on AWS to keep ingestion costs low
+* Leaves you with a ready-to-query Parquet lake (not just a router)
+
+Azure parity should be done this week.
+
+Repo is here:
+
+[https://github.com/SecurityDo/ingext-helm-charts](https://github.com/SecurityDo/ingext-helm-charts)",1767905903.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1q7nsx2/etl_with_selfhosted_parquet_lakehouse/
+1q7lhbz,I didn't learn data analytics. I escaped chaos.,"3 years ago, I was stuck doing repetitive work, copying numbers into Excel for hours.
+I didn’t even know why I was doing it.
+
+One day I asked my manager: What decision comes from this file?
+He couldn’t answer.
+
+That’s when I realized data analytics isn’t about tools it’s about questions.
+
+I stopped chasing courses and started fixing one real problem:
+
+Cleaned bad data (Power Query)
+
+Asked one business question
+
+Built one ugly dashboard
+
+That dashboard got used daily.
+My role changed before my title did.
+
+Lesson: If your work helps decisions, you’re already ahead of 90%.",1767900752.0,0,3,https://www.reddit.com/r/dataanalysis/comments/1q7lhbz/i_didnt_learn_data_analytics_i_escaped_chaos/
+1q7h8qc,"From ""why did this dip?"" to ""what do we do about it?""","When metrics are down, stakeholders often want explanations for the dip or a “silver lining” instead of talking about what could actually change the outcome.
+
+From a data analysis standpoint, what approaches have you found helpful for shifting the conversation from reporting numbers to proposing actionable, testable ideas?",1767891735.0,5,7,https://www.reddit.com/r/dataanalysis/comments/1q7h8qc/from_why_did_this_dip_to_what_do_we_do_about_it/
+1q7dqqq,What AI tools are you actually using in your day-to-day data analytics workflow?,"Hi all,
+
+I’m a data analyst working mostly with Power BI, SQL, and Python, and I’m trying to build a more “AI‑augmented” analytics workflow instead of just using ChatGPT on the side. I’d love to hear what’s *actually* working for you, not just buzzword tools.
+
+A few areas I’m curious about:
+
+* **AI inside BI tools**
+   * Anyone actively using things like Power BI Copilot, Tableau AI / Tableau GPT, Qlik’s AI, ThoughtSpot, etc.?​
+   * What’s genuinely useful (e.g., generating measures/SQL, auto-insights, natural-language Q&A) vs what you’ve turned off?
+* **AI for Python / SQL workflows**
+   * Has anyone used tools like PandasAI, DuckDB with an AI layer, PyCaret, Julius AI, or similar for faster EDA and modeling?​
+   * Are text-to-SQL tools (BlazeSQL, built-in copilot in your DB/warehouse, etc.) reliable enough for production use, or just for quick drafts?​
+* **AI-native analytics platforms**
+   * Experiences with platforms like Briefer, [Fabi.ai](http://Fabi.ai), Supaboard, or other “AI-native” BI/analytics tools that combine SQL/Python with an embedded AI analyst?​
+   * Do they actually reduce the time you spend on data prep and “explain this chart” requests from stakeholders?
+* **Best use cases you’ve found**
+   * Where has AI saved you *real* time? Examples: auto-documenting dashboards, generating data quality checks, root-cause analysis on KPIs, building draft decks, etc.​
+   * Any horror stories where an AI tool hallucinated insights or produced wrong queries that slipped through?
+
+Context on my setup:
+
+* Stack: Power BI (DAX, Power Query), Azure (ADF/SQL/Databricks), Python (pandas, scikit-learn), SQL Server/Snowflake.​
+* Typical work: dashboarding, customer/transaction analysis, ETL/data modeling, and ad-hoc deep dives.​
+
+What I’m trying to optimize for is:
+
+1. Less time on boilerplate (data prep, repetitive queries, documentation).
+2. Faster, higher-quality exploratory analysis and “why did X change?” investigations.
+3. Better explanations/insight summaries for non-technical stakeholders.
+
+If you had to recommend **1–3 AI tools or features** that have become non‑negotiable in your analytics workflow, what would they be and why? Links, screenshots, and specific workflows welcome.",1767883840.0,0,14,https://www.reddit.com/r/dataanalysis/comments/1q7dqqq/what_ai_tools_are_you_actually_using_in_your/
+1q7ap5s,Excel vs. Python/SQL/Tableau,,1767875845.0,1,5,https://www.reddit.com/r/dataanalysis/comments/1q7ap5s/excel_vs_pythonsqltableau/
+1q753tx,Help for renaming components,"Hello everyone,
+I’m finding it challenging to appropriately rename the extracted components so that they are meaningful and academically sound.
+
+Could anyone please help? Thank you so much. ",1767855850.0,0,3,https://www.reddit.com/r/dataanalysis/comments/1q753tx/help_for_renaming_components/
+1q70o6r,Why raw web data is becoming a core input for modern analytics pipeline,"Over the past few years I’ve watched a steady shift in how analysts build their datasets. A few years ago the typical workflow started with a CSV export from an internal system, a quick clean‑up in Excel, and then the usual statistical modeling. Today the first step for many projects is pulling data directly from the web—price feeds, product catalogs, public APIs, even social‑media comment streams.
+
+The driver behind this change is simple: the most current, granular information often lives on public websites, not in internal databases. When you’re trying to forecast demand for a new product, for example, the price history of competing items on e‑commerce sites can be far more predictive than last year’s sales numbers alone. Similarly**Subreddit:** r/dataanalysis
+
+**Title:** Why raw web data is becoming a core input for modern analytics pipelines
+
+Over the past few years I’ve watched a steady shift in how analysts build their datasets. A few years ago the typical workflow started with a CSV export from an internal system, a quick clean‑up in Excel, and then the usual statistical modeling. Today the first step for many projects is pulling data directly from the web—price feeds, product catalogs, public APIs, even social‑media comment streams.
+
+The driver behind this change is simple: the most current, granular information often lives on public websites, not in internal databases. When you’re trying to forecast demand for a new product, for example, the price history of competing items on e‑commerce sites can be far more predictive than last year’s sales numbers alone. Similarly, sentiment analysis of forum discussions can surface emerging trends before they appear in formal market reports.
+
+Getting that data, however, isn’t as straightforward as clicking “download”. Most modern sites render their content with JavaScript, paginate results behind “load more” buttons, or require authentication tokens that change every few minutes. Traditional spreadsheet functions like IMPORTXML or IMPORTHTML only see the static HTML returned by the server, so they return empty tables or incomplete data for these dynamic pages.
+
+To reliably harvest the needed information you need a tool that can:
+
+1. **Render the page in a real browser environment** – this ensures JavaScript‑generated content is fully loaded.
+2. **Navigate pagination and follow links** – many listings span multiple pages; a headless‑browser approach can click “next” automatically.
+3. **Schedule regular runs** – data freshness matters; a nightly job that writes directly into a Google Sheet or a database removes the manual copy‑paste step.
+
+When these capabilities are combined, the result is a repeatable pipeline: the scraper runs in the cloud, extracts the structured data you need, and deposits it where your analysts can query it immediately. The pipeline can be monitored for failures, and you can add simple transformations (e.g., converting price strings to numbers) before the data lands in the sheet.
+
+Because the extraction runs on a schedule, you also get a historical record automatically. Over time you build a time‑series of competitor prices, product releases, or any other metric that changes on the web. That historical depth is often the missing piece that turns a one‑off snapshot into a robust forecasting model.
+
+In short, the modern data analyst’s toolkit now includes a reliable, no‑code web‑scraping layer that feeds fresh, structured data directly into the analysis workflow.
+
+**Links**
+
+* [https://www.nature.com/articles/d41586-023-00000-0](https://www.nature.com/articles/d41586-023-00000-0)
+* [https://www.lection.app/blogs/automate-google-sheets-with-scraped-data](https://www.lection.app/blogs/automate-google-sheets-with-scraped-data)
+* [https://www.dataconomy.com/2023/09/web-scraping-for-data-analysis/](https://www.dataconomy.com/2023/09/web-scraping-for-data-analysis/)",1767842177.0,0,6,https://www.reddit.com/r/dataanalysis/comments/1q70o6r/why_raw_web_data_is_becoming_a_core_input_for/
+1q6ulku,I built an open-source library that diagnoses problems in your Scikit-learn models using LLMs,"Hey everyone, Happy New Year!
+
+I spent the holidays working on a project I'd love to share: **sklearn-diagnose** — an open-source Scikit-learn compatible Python library that acts like an ""MRI scanner"" for your ML models.
+
+**What it does:**
+
+It uses LLM-powered agents to analyze your trained Scikit-learn models and automatically detect common failure modes:
+
+\- Overfitting / Underfitting
+
+\- High variance (unstable predictions across data splits)
+
+\- Class imbalance issues
+
+\- Feature redundancy
+
+\- Label noise
+
+\- Data leakage symptoms
+
+Each diagnosis comes with confidence scores, severity ratings, and actionable recommendations.
+
+**How it works:**
+
+1. Signal extraction (deterministic metrics from your model/data)
+
+2. Hypothesis generation (LLM detects failure modes)
+
+3. Recommendation generation (LLM suggests fixes)
+
+4. Summary generation (human-readable report)
+
+**Links:**
+
+\- GitHub: https://github.com/leockl/sklearn-diagnose
+
+\- PyPI: pip install sklearn-diagnose
+
+Built with LangChain 1.x. Supports OpenAI, Anthropic, and OpenRouter as LLM backends.
+
+Aiming for this library to be community-driven with ML/AI/Data Science communities to contribute and help shape the direction of this library as there are a lot more that can be built - for eg. AI-driven metric selection (ROC-AUC, F1-score etc.), AI-assisted feature engineering, Scikit-learn error message translator using AI and many more!
+
+Please give my GitHub repo a star if this was helpful ⭐",1767826702.0,2,3,https://www.reddit.com/r/dataanalysis/comments/1q6ulku/i_built_an_opensource_library_that_diagnoses/
+1q6kdw2,Healthcare data analyst,"I am thinking to do a project on the impact of staff turnover in financial health of nhs, how it impacts on quality of work. For that I need dataset from nhs related to finance, staff turnover, staff absence data. Anyone help me to generate the appropriate dataset? Or is it good idea to use synthetic dataset for that?",1767804213.0,5,9,https://www.reddit.com/r/dataanalysis/comments/1q6kdw2/healthcare_data_analyst/
+1q6dxso,"CSE students looking for high impact, publishable research topic ideas (non repetitive, real world problems)",,1767788457.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1q6dxso/cse_students_looking_for_high_impact_publishable/
+1q6ay0k,Looking for datasets on the anomaly of satellite on orbit,"I am from the background of computer science. And Our team are trying to apply the LLM agents on the automatic analysis and root-cause detection of anomaly of satellite on orbit.
+
+I am dying for some public datasets to start with. Like, some public operation logs to tackle specific anomaly by stuffs at nasa or somewhere else, as an important empirical study materials for large language models.
+
+Greatly appreciate anyone who could share some link below!",1767778066.0,1,1,https://www.reddit.com/r/dataanalysis/comments/1q6ay0k/looking_for_datasets_on_the_anomaly_of_satellite/
+1q68zes,How can I get interview questions?,"Hii folks , I am 3rd year bca student and currently preparing for a data analyst role . I am totally dependent on YouTube and free resources to Learn the skills of data analyst. Currently I am learning power bi so I want to know how can I get interview questions that usually asked interview interviews by that I can do practice before giving a real interview. Or any kind of mock interview ",1767770646.0,3,2,https://www.reddit.com/r/dataanalysis/comments/1q68zes/how_can_i_get_interview_questions/

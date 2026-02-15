@@ -1,0 +1,264 @@
+post_id,subreddit,title,body,comments_text,cluster,top_terms,top_weighted_phrases,post_sentiment,comment_sentiment,delta_sentiment,comments_count_observed,hard_norm,soft_norm,desirability_index,desirability_class,created_date
+1qx2vvc,analytics,Information systems or business analytics?,"Hi, I am a first year information systems major with interest in both business and technology, particularly in analytics/ data engineering. I have been looking at the business analytics degree map and noticed that InfoSys and BusAn have almost the same required classes, and was wondering if it would be smarter to major in business analytics instead. Any advice?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* I would double major if they are pretty close to the same.",1,,,0.7476,0.7312,-0.01640000000000008,2,0.0,0.15826356296651628,-0.15826356296651628,soft_dominant,2026-02-06 00:37:07
+1qx1m80,analytics,Most DA portfolios are ignored for one reason (and it's not projects),"Rule: if a hiring manager can't point to a job requirement and say ""this artifact proves it"", your portfolio is basically invisible.
+
+10-minute fix:
+
+1. pick 1 JD you would apply to
+2. copy 3-5 requirement bullets (no company name needed)
+3. for each bullet, write the evidence you will ship (a concrete artifact)
+
+Examples of 'JD bullet -> evidence artifact':
+
+* 'Write SQL queries for KPIs' -> 8 KPI queries + a short assumptions note
+* 'Test data integrity / resolve discrepancies' -> 5 QA checks: grain, joins, nulls, dupes, reconciliation
+* 'Build dashboards / reporting' -> 1 dashboard page + 3 decisions it supports
+* 'Communicate insights to stakeholders' -> a 1-page insight memo (context, findings, recommendation)
+
+Quick check (comment one number):  
+1 = I've built portfolio projects but still got 'no response'  
+2 = Recruiters liked my resume, but interviews exposed gaps  
+3 = I don't know what to build that maps to real JDs  
+4 = I'm not applying yet, just learning
+
+If you've been through it, which one is you?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",4,,,0.4854,0.4501,-0.0353,1,0.0021633765472539685,0.0,0.0021633765472539685,balanced,2026-02-05 23:42:08
+1qwrtk9,analytics,Pivot to analytics feasible?,"Hi all. 
+I am an economics graduate. I have been working for over six years and my experience has been mostly been around market intelligence and research. I am currently working at a Big 4 consulting firm in a business services team. I have sector expertise in the Tech, Media and Telecom (TMT) sector. A lot of work that my team does or even in other similar companies (think Forrester, Gartner) is getting automated due to AI. I have been thinking of making a pivot to analytics and getting a masters. I have an offer for an MS in Business Analytics program at a decent university in the US. 
+
+I have a few questions:
+
+1. I don't have any prior programming experience. I have been trying to learn some Python through online courses but my progress has been slow. Am I being unrealistic about making a pivot, given that I have no technical knowledge? Will I struggle a lot during the program, given that it is only a year long and will be fast paced?
+
+2. I would ideally like to remain in consulting or in the media and entertainment sector. Do consulting companies value an MS degree? Are these sectors viable options to target post the program? 
+
+Thanks in advance. I would love to hear from anyone who has been in a similar situation or made a pivot. ","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* Yes the pivot is absolutely feasible and you are much closer than you think. Your economics background and market intelligence experience already align well with analytics, and many people enter MSBA programs with little to no programming and catch up quickly if they put in the work early. It will be fast paced and uncomfortable at first, but most programs are designed for people like you and focus on applied skills rather than hardcore computer science. 
+
+Consulting firms do value an MS degree especially when it clearly upgrades your skill set, and media entertainment and TMT are very realistic targets since your domain knowledge will differentiate you from more generic analytics grads. I also have an economics undergraduate degree. Did less analytical work than you in my professional career. 6 years into corp life, (age 29), I transitioned to analytics. Started a MSBA (dropped it after I got an analytics job), but now I work as a business analyst. With your existing experience, it’s completely doable to transition.",9,,,0.9785,0.9551,-0.023400000000000087,3,0.0,0.052983305714438024,-0.052983305714438024,soft_dominant,2026-02-05 17:37:48
+1qwq7lw,analytics,Looking for Retail Data Analysis Project Ideas / References,"Hi everyone,
+
+I’m working on building a retail data analysis portfolio project and wanted to ask if anyone here has worked on or built a good retail analysis project that they’d be willing to share or let me refer to.
+
+I’m mainly looking for project ideas, problem statements, datasets, or dashboards that reflect real-world retail use cases (sales analysis, customer behavior, inventory, forecasting, etc.).
+
+Any links, GitHub repos, or brief descriptions would be really helpful.
+
+Thank you in advance.. I would really appreciate your time and help! 😊","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* Tons, will dm you",1,,,0.9225,0.4501,-0.4724,2,0.0,0.04900706579780494,-0.04900706579780494,soft_dominant,2026-02-05 16:39:48
+1qwpoxu,analytics,MS in Business Analytics or MS in Data Analytics?,"What is the better choice? I've heard an MSDS is more technical, so for those without a technical background, would an MSBA be sufficient for similar opportunities?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* This mostly comes down to how technical you want to go and what kind of roles you’re targeting. An MSBA is usually more business focused, with lighter math and programming, and it’s perfectly sufficient for roles like business analyst, BI analyst, or analytics roles embedded in marketing, ops, or finance. 
+
+An MS in Data Analytics or Data Science tends to go deeper into statistics, programming, and modeling, which opens more technical roles but can be tougher without a strong technical background. If your goal is applied analytics and decision support rather than building models, an MSBA is often the better and safer choice.",11,,,0.7219,0.9463,0.22440000000000004,2,0.0,0.0,0.0,balanced,2026-02-05 16:20:43
+1qwpbqq,analytics,i learned what ‘strong communication’ actually means in interviews after landing an offer,"i spent months applying, and some of my early feedback would say i had solid technical skills but needed stronger communication. it felt vague and unhelpful.
+
+it’s only when i went through a long interview cycle and finally landed a role that i actually realized how strong communication skills should look like for data analyst interviews. here’s some specific things i’ve observed, and also understood with the help of an interviewer who fortunately gave me feedback (don’t be afraid to ask!)
+
+* **for SQL rounds, don’t just think about the query.** it’s easy to limit your prep to just getting the correct answer, but expect to get *follow-ups* about the assumptions you’re making, or how your answer would change in the face of missing or duplicated data.
+* **practice talking about how you have dealt/would deal with messy or incomplete data.** across technical and behavioral rounds, i was always asked things like what i would do if the data was delayed or unreliable. or how i would communicate these data issues to stakeholders. these situations are inevitable in our line of work, so always prepare for this aspect.
+* **behavioral questions aren’t always** ***just*** **behavioral.** yes, they’re mostly about stories/experiences/learning, but also look out for ways interviewers turn them into something more technical! if you’re being asked questions like *tell me about a time your analysis was wrong*, you can add a technical layer to your answers by talking about how you realized it was wrong, mentioning signals you missed and any adjustments you made to your approach/overall process.
+
+just my thoughts since i see a lot of posts asking for interview prep/general advice on here. though i’m not job hunting anymore, i’d love to know how other analysts approached the communication aspects of their interviews? also happy to answer other questions from those currently applying!","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* This really resonates. I’m still interviewing right now, and this has been one of the hardest adjustments for me too. I kept grinding SQL and stats, but then drew a blank when the interviewer asked follow-up questions.
+
+Your advice really helped, and I figured I could integrate it into a structure I already implement during my mock interviews, which is to explain my assumptions out loud and talk about trade-offs even if they’re not explicitly asked. Practicing with more realistic, interview-style questions also made a bigger difference than just doing more problems. I made sure to look for questions that were tailored to the role/company I was applying for. I think what you’ve said is true. Now with some significant on the hiring I’ve seen a lot of common themes on how people mess up interviewing in analytics. The most common error I see (and I’ve certainly done this myself in the past) is not having a structured approach while answering every question. This could be a strict framework like STAR (Situation-Task-Action-Result) or it could be just a narrative approach with a beginning middle and end. But every substantial question should be answered with some sort of structure. I’d say the majority of analytics people I interview take a grab bag approach to answers where they’re just rattling off ideas or metrics and for me that’s always an instant decline.  One big thing that a lot of folks miss during interviews is that the interviewers don't just care about you getting the correct answer; they want to understand your thought process, how you approach and solve problems, why you made decisions, etc. It might not feel natural at first, but once you get comfortable answering questions that way, you'll likely go farther in interviews.
+
+And this is stuff that is going to come up once you get the job. Because your work isn't always very straightforward. You'll have to get comfortable thinking critically and scoping out solutions and explaining your results as well as your decisions. Not just to your boss but to your business partners and possibly executives. So they are also testing if you'll fall apart when that time comes. Mean take:
+
+If you cannot connect your effort to business outcomes and/or the risks of erroneous data and the impacts to business decisions and/or….
+
+Then you’re a monkey to be replaced by AI 
+
+Sadly, this is my key take away when interviewing people for analytics roles.",5,,,0.9811,-0.6007,-1.5817999999999999,5,0.0,0.03380422046735182,-0.03380422046735182,soft_dominant,2026-02-05 16:07:14
+1qwgs7n,analytics,"Solo analyst, how do you avoid not answering immediately to ad-hoc requests?","I’m currently the only analyst at a \~70 person SaaS company.
+
+I love building models and doing deeper analysis, but realistically my day looks like:
+
+Slack → quick metric request  
+Slack → experiment validation  
+Slack → “just one number”  
+Repeat.
+
+We have dashboards, but people still prefer asking questions directly when something changes or when they’re testing hypotheses.
+
+I’m trying to figure out if this is just unavoidable, or if other teams found a way to scale analytics without hiring 3 more analysts.
+
+What actually worked for you?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* There's not really an answer that's going to be broadly applicable. But to start, who is typically making these requests and what are their roles? 
+
+
+I've run an analytics team and a broader performance marketing team at a large bank and when the requests were coming outside of the department the solution was ""how to we establish clear processes, expectations on our obligations outside of the department, and intake/request forms"" - do you need to discuss with your manager about how your time is being used in a way that may not aligned with what they want. When the requests were coming from the person I reported to, it involved me pushing for them to communicate priority so we could triage. When the requests came from the C-suite it was often, screw it, I guess we're dropping everything, if this keeps up we will need more people. 
+
+
+So that is to say, the solution may be processed-based, involved talking to management, and/or political/cultural. Or there may be no solution at that company and you'll get swept up in whatever is ""super important"" right then and  later you'll be criticized for being reactionary and not strategic and replaced by an AI solution someone convinces them can fill the tactical role they pushed you into.  Use a ticket/request system (Jira, Aha, etc). That would help identify some sort of ranking/priority order, so long as you continuously emphasize the need for people to use it. 
+
+Plus, this kind of system tends to actually cut down on ad hoc requests, as people who are 'just curious' but don't really need specific info, won't bother with it. I walk over to their desk, and show them how to find the number they want. Then they stop asking me for it.  >when they’re testing hypotheses.
+
+Are you running experiments in real time? Or is this more like ""Can you tell me when metric A went up if metric B also went up?""?
+
+Can you create a Slack bot that can answer the latter questions where you use an LLM trained to generate SQL queries? I set up a teams channel for ad-hoc requests. In the form the priority is listed as being an option of 3 days (urgent), 7 days (high), 14 days (low)
+
+Note that there is no 1 day option. If my sprint is full and I actually can't do it, I'll ask someone to lower their prio and it hasn't happened so far that they deny. If it somehow does happen, escalate to your manager and get them to ask/reprioritize your sprint.
+
+This is honestly an extension of the age-old work question ""how do I say no"". Most people don't realize this, but you can simply say no to anything you want, and as long as you communicate it early enough, no one cares.
+
+Also you can do some cool things with the form like link to the dashboard, get an llm to answer, etc. Start telling people it will take twice as long as it will usually take to deliver it.
+
+This will trigger one of two consequences:
+
+1. They'll stop asking and figure it out themselves.
+
+2. They'll complain to someone in management.  Whoever from management comes to talk to you about it is the person *all* of these requests should be going to instead of you so *they* can decide how you are to be resourced out.  Then get this person to tell the requestors it will take twice as long as it will usually take.
+
+If neither of the above occurs, start shopping around for another job.  No, I'm not kidding. You need to establish a system. Forms are good because a little friction encourages people to look up their own numbers and also think through their requests. Workg in sprints helps too so you’re not constantly reprioritizing. I’d recommend:
+
+\- Start working in sprints. Ideally pick the same sprint cycle as another team and match theirs 
+
+\- Set up an intake form. Ideally this would link to Asana, Jira, or some other tools you have that creates tickets, but worst case it could just be a Microsoft/Google form. 
+
+\- Tell everyone “thanks for your request. Please fill in this form so I can prioritize it alongside requests from others. The next sprint starts on X so at that time I will prioritize all requests and let you know when I can get to this”. 
+
+\- Occasional things can still be handed immediately but it becomes the exception, not the rule. 
+
+You’ll get push back at the start but people will get used to it.  Sounds like you either need to find a way to prioritize requests with a ticketing system, automate your answers, or create dashboards and refer your colleagues to these dashboards.
+
+For example, if people keep asking about churn and you can, you could make a dashboard and instead of telling them ""we lost 10 clients last month"", you share the link to the dash and tell them to look for themselves. If what they are asking for already exists, I provide a link to it and point out where the answer is.
+
+On a past team, I scheduled a recurring ""open office hour"" every week, sent an invite to everyone's calendars, and told them that is when they can drop in for hands-on assistance like this. Then when they'd Slack me throughout the week with these questions, I'd remind them to come to my office hour. If they couldn't make it, I told them to schedule 15 minutes on my calendar so I could walk them through it. 
+
+If you get a lot of questions about tests/experiments, schedule a weekly or bi-weekly Peer Review for them to share their test plans, including forming hypotheses, selecting metrics, etc. You can be a reviewer, but they can also review each other. 
+
+Outside of that, before agreeing to do any task, always ask ""what are you going to do with this information?"" or ""what decision are you trying to make?"" - If they can't articulate a reason, then I don't proceed. ""I'm curious"" is not a good reason. 
+
+If your company already has a ticketing system for other teams, you can use that for all requests and have your intake form include the questions above. Often, the work of writing the ticket reduces the number of ad hoc asks.
+
+Also, manage expectations and timelines. ""Based on the scope of this request and what else I am working on, I can get you an answer in X \[days/weeks\]."" If they push for sooner, then reply ""you'll need to check with \[other person\] if I can deprioritize \[other project\] in order to work on your request.""",4,,,0.6818,0.9967,0.31490000000000007,10,0.0,0.0,0.0,balanced,2026-02-05 09:28:02
+1qwfibd,analytics,Need Help,"My bookings suddenly stopped. I was getting good U.S traffic and Europe bookings. Only thing we changed was keyword to B2B Sales Outsourcing from B2B Lead Generation, we wrote blogs around it since few weeks.
+
+What else could be the reason?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* that kind of drop usually has more going on than one keyword swap. changing the core positioning can affect search intent, not just rankings. lead gen and sales outsourcing attract different buyers with different urgency and expectations. i have seen traffic stay fine while conversions dip because the message no longer matches why people landed. i would also check timing and attribution before assuming it is purely seo. It could be the keyword change causing the drop since search intent for B2B Sales Outsourcing might be different from lead generation. I’d check where you’re losing users in your funnel too. If you want to spot new lead opportunities faster, ParseStream can track real time conversations about your keywords across Reddit, Quora, and LinkedIn, which could help you fine tune your messaging or find new angles. May be you disrupted your SEO relevance and rankings with the keyword shift, but also check traffic sources, search volume, seasonality, and algorithm updates.",11,,,0.5719,0.4421,-0.12979999999999997,4,0.0,0.0,0.0,balanced,2026-02-05 08:07:24
+1qwfhff,analytics,Need Help,,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",11,,,0.4019,0.4501,0.04820000000000002,1,0.0,0.0,0.0,balanced,2026-02-05 08:05:51
+1qwd6a0,analytics,"Need advice: HR budget capped at 10 LPA base, but I want 11 LPA – how should I negotiate?",,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",11,,,0.1154,0.4501,0.3347,1,0.0,0.0,0.0,balanced,2026-02-05 05:52:06
+1qwani3,analytics,Multi model research workflow: how I reduce hallucinations and blind spots,,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",11,,,-0.4019,0.4501,0.852,1,0.0,0.0,0.0,balanced,2026-02-05 03:48:12
+1qw9tiy,analytics,This might be a silly question but can I get into data analytics with a bachelors in psychology?,"Currently I am on course to graduate with a bachelors in psychology at the end of May and have no plans of continuing in psychology or the field of mental health. One thing I really enjoyed throughout my coursework is the statistics portion of it alongside the descriptive statistics part in order to tell stories about data. Perhaps this might be a naive take on it but I am wondering if I can get a role as a data analyst or will I have to pursue a masters in say business analytics or data science? If so would it be best to pursue a masters right away or try to land a role as a data analyst and have the company pay for it? 
+
+Looking for some input from those who have had a similar path where analytics or statistics was not their original degree. ","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* Not silly at all. I’ve worked with a lot of analysts who came from psych, sociology, or econ, and they often have better instincts around bias and interpretation than people who only learned tools. The gap is usually practical stuff like SQL, basic data modeling, and showing you can turn messy data into a clear decision. If you can build a small portfolio that proves that, a masters is optional, not a requirement. I’d try to land an entry level role first and see how far that takes you before committing time and money to another degree. I have a BA in Philosophy and Religion and I’m a sr analytics manager for a F100 company. Granted, I talked my way into an internship with said company by making a good first impression with a hiring manager, and learned software engineering and analytics through my internships with them over 3 years, took some stats courses on the side, then started full time as a data scientist, then into BI work, and now my team does BI / Insights / Python development… so anyway, it’s possible I’m proof, was an intern from 2016-19, graduated and stayed with the company and here I am. With no internship and connections I would imagine it’ll be tough though tbh Modern psychology often involves surveys, and understanding research data and statistics. There's definitely overlap in the skillsets. Yes. Quantitative social sciences is a thing. With that being said, it’s a hard market for entry level so unless you have something that screams wow in your background, e.g., exceptional excel skills, it might be a bit before you secure a job. Yerr, I graduated psychology and biology double major.
+
+I learned R while conducting research at a university and pivot to business analytics. Business uses much less advance statistics than what I had to learn for academic research. Bro, I'm the director of a 30+ person data team and I've got a bachelor's AND master's in psychology! Yes it's definitely possible!
+
+Edit: [Click here for a Google doc of my full salary/job history and categorized career advice I've posted on Reddit](https://docs.google.com/document/d/1KkyiVPmsMTLBKulon7aj8FKQMzkKAZyWAd3PYy8ynHs/edit?usp=drivesdk) I got into data analytics with a bachelors in nothing Creative Writing degree here 🙋‍♀️ Go for the job! Former coworker had a BS in Virology and another had a Masters in Psychology. I’ve got a BFA in Sculpture, my supervisor has a BA in Theater.
+
+All that said, getting in the door is always tough with god knows what filtering applications.",9,,,0.6991,0.9799,0.28079999999999994,10,0.0,0.0,0.0,balanced,2026-02-05 03:09:48
+1qw88lq,analytics,Biologist -> Data Analyst in Private Equity (seeking advice),,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",11,,,0.0,0.4501,0.4501,1,0.0,0.0,0.0,balanced,2026-02-05 02:00:16
+1qw4rm0,analytics,Please advise,"Hi, I am math major, specializing in mathematical analysis (Calculus for those from US). Regarding my specialization, I thought of career in DS or DA.  I only got through introductory course of math. probability And statistics, however I have advanced knowledge of math. analysis, measure theory, functional analysis and basic to intermediate knowledge of linear algebra, harmonical analysis, geometry and numerical analysis. Could you please recommend me skills, which i should prioritize learning in order to get position in DA/DS? Could you also recommend materials on probability And statistics for me. 
+
+Thank you for all the answears ","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* We have analytical mathematics as a specialty and i would train up on da stuff. Its more descriptive statistics. Sometimes, you get to deploy things like odes but ive only seen that in gov jobs. Data science is probability heavy. Get some certs and an internship. Its not impossible. There are data science and data analyst graduate degrees now. CS with AI and ML is a possibility. Then there are certs from google and the like. I have a master’s in mathematics and work as a data analyst and honestly almost none of it matters for data analysis or data science.
+
+Learn python, SQL, excel, and if you want to be a data scientist take machine learning and advanced probability classes.  Your math background is more than enough. The priority now is applied skills: SQL, Python (pandas), Excel, basic stats, and working with messy real data.  
+For DS, add probability, inference, and ML basics. Most hiring is about application, not more theory. For DA/DS, prioritize applied probability & statistics (estimation, hypothesis tests, regression), SQL, and Python with pandas/numpy, plus basic data visualization (Tableau, Power BI, or matplotlib/seaborn).
+
+For probability/stats materials at your math level, Blitzstein & Hwang's ""Introduction to Probability"", Wasserman's ""All of Statistics"", and StatQuest on YouTube hit a good balance between rigor and application.",9,,,0.9022,0.971,0.06879999999999997,5,0.0,0.0,0.0,balanced,2026-02-04 23:31:30
+1qvs5zo,analytics,Path to game analytics,"Hey there, so I am currently an HR generalist in the automotive industry that is really wanting to get into the video game industry. I know, its a weird switch, and probably doesn't make sense but its a dream I can't shake. I have started taking courses on Coursera, I was able to complete and recieve a basic Data Analytics certificate from a Google administered course and am now starting a Data Visualization & Analytics in Tableau course. The skillset I realized fits me the most is data analytics, so that being said, are there any analysts in here that are in the games field? What would you suggest be the path I take? I also don't want to put myself in debt with student loans, so I know the obvious answer is to go to school and get an actual degree but I would rather not pay student loans for the rest of my life.
+
+I also taught myself R programming with free online learning resources but have learned a lot of video game companies use SQL - so I know I need to take a SQL course as well. I'm also pretty aware the direction tech is going in and how gpt and ai will eventually be doing the basic entry level work so should I focus on business analytics instead? Also is understanding trends, player behavior, patch outcomes etc. more important than coding in the video game field? Thank you in advance for any and all advice!","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* SQL is really important, I use it most of my time. I would also recommend you to start learning game specific metrics (you can do that with books or chatgpt) like DAU, ARPU, economy sourcing etc and playing some games trying to think what would you analyse (chatgpt could also be help you here when lost) and make a portfolio with this analysis ond some more to land your first job. Have you seen whats happened to the gaming industry job wise in the last couple years? In additon to SQL the studio I worked at was an R shop, some will (probably more) be python. Focus on SQL first before anything else. Game companies care way more about your ability to query player data and build dashboards than they do about R.
+
+Most entry level game analytics is writing SQL queries to answer questions like retention rates or what percentage of players finished level 3. Pick up Mode Analytics or similar and just start practicing with public datasets.",9,,,0.9603,0.9722,0.01189999999999991,4,0.0,0.02915228519245289,-0.02915228519245289,soft_dominant,2026-02-04 15:51:50
+1qvrqmn,analytics,Data silos are killing decision-making is data centralization the real issue in 2026?,"For years, companies thought their main data problem was lack of data.
+
+In reality, in 2026 the issue is the opposite: data is everywhere, but rarely in one place.
+
+From my experience (and what I see in many organizations), data fragmentation leads to:
+- inconsistent numbers across teams
+- slow and manual reporting
+- declining trust in data
+- decisions increasingly based on intuition rather than facts
+
+At some point, this stops being a technical problem and becomes a business and leadership issue.
+
+I recently wrote a short analysis on why data centralization is becoming critical, not to replace tools, but to create a reliable source of truth.
+
+Curious to hear:
+👉 How do you deal with data silos today?
+👉 Is centralization realistic in your organization?","If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* Thanks for the LinkedIn AI slop. You’re making Reddit worse. I don’t think “centralize everything” is the fix. The pain usually comes from 1) no shared IDs/definitions and 2) no owner for the metric layer, so every team rebuilds the same logic slightly differently.
+
+
+
+A pattern that works is hub-and-spoke: centralize only the boring foundational stuff (customer/account/product, event schema, core finance) + a metric dictionary, then let domains publish curated marts with contracts and tests. You get consistency without forcing every dataset into one monolith.
+
+
+
+If the numbers disagree today, I’d start by picking 5–10 exec metrics, write down the exact grain/filters, and add automated reconciliation checks between the two sources. That’s usually what rebuilds trust.
+
+
+
+What’s actually breaking for you, access to data, conflicting definitions, or data quality?",11,,,0.1815,-0.8091,-0.9906,3,0.0,0.024096799413005753,-0.024096799413005753,soft_dominant,2026-02-04 15:35:47
+1qvokmr,analytics,Can AI catch business risks before your team does?,,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* Maybe, as long as you wipe sumo first",11,,,-0.2732,0.4501,0.7233,2,0.0,0.0,0.0,balanced,2026-02-04 13:29:05
+1qvohbf,analytics,Is automated insight generation from raw data really reliable for business decisions?,,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* The question keeps changing, but the answer is still the same as it was ten years ago.
+
+
+“Test it and find out” I use LLMs to summarize themes from open-ended survey responses. I'll take the survey data set and randomize the row order about 5 times, saving each as a new CSV. Then, I'll run each of those CSVs through a new LLM conversation to summarize the themes. I'll use both ChatGPT and Gemini to get different themes from the same data. Finally, I'll read each of the 5-10 summaries and finalize what I think the themes are.
+
+This process requires a few things: open-ended first-party data (telling LLMs to search the web isn't enough) and a human-in-the-loop to write actual insights. Without both of those, we end up with expected observations that lack nuance. Not at the moment. I’ve seen it work pretty well for spotting patterns, but when it comes to real decisions it still feels like you need clean source data and someone sanity checking it. Curious how others are handling that. Random question to a random dataset? No. We tried to place a ""chat bot"" on top of our data platform without much luck a while back.
+
+We are now back to testing and have seen some promising results when we keep adding more and more context to an LLM. Things like relationships between data, descriptions, common SQL patterns, business logic etc.
+
+Not close to perfect, but we keep being surprised by how much we can improve the results by adding context that we currently keep in a .yml file and then have some different steps from a user types a question to an answer is created. F.ex we have a step which just tries to interpret a question to a domain, then a SQL creator, then an analyzer and then a step to dig deeper into our data depending on this first result to try to provide our users with more than just an initial answer.
+
+Note, we already have a data platform in place, we do not start from scratch. But where we before maybe duplicated data to specific new tables or views catered to a  business need we now try to add context and see what an LLM is able to do.
+
+So we will keep experimenting, and test in small scale. We think this is the best way to follow along and see how far we can get.",11,,,0.0,0.983,0.983,6,0.0,0.0,0.0,balanced,2026-02-04 13:25:08
+1qvo8w1,analytics,Regular expenses analytics app,,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.*",11,,,0.0,0.4501,0.4501,1,0.0,0.0,0.0,balanced,2026-02-04 13:14:45
+1qvnyay,analytics,Future in data field post Antropic plugins,hey folks what’s your view on data field post antropic plugins??,"If this post doesn't follow the rules or isn't flaired correctly, [please report it to the mods](https://www.reddit.com/r/analytics/about/rules/). Have more questions? [Join our community Discord!](https://discord.gg/looking-for-marketing-discussion-811236647760298024)
+
+
+*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/analytics) if you have any questions or concerns.* what anthropic plugins?",1,,,0.0,0.4822,0.4822,2,0.0,0.1121033571012824,-0.1121033571012824,soft_dominant,2026-02-04 13:01:21

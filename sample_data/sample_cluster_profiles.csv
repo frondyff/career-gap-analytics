@@ -1,0 +1,6 @@
+cluster,size,top_tfidf_terms,top_weighted_phrases,avg_sent_post,avg_sent_comment,avg_hard_norm,avg_soft_norm,dominant_class,size_pct
+1,3,"sql, python, dashboard","technical skills, communication skills",0.5567000000000001,0.5545,0.0,0.10645799528853454,soft_dominant,15.0
+4,2,"sql, python, dashboard","technical skills, communication skills",0.5836,0.7234,0.0010816882736269843,0.0,balanced,10.0
+5,1,"sql, python, dashboard","technical skills, communication skills",0.9811,-0.6007,0.0,0.03380422046735182,soft_dominant,5.0
+9,4,"sql, python, dashboard","technical skills, communication skills",0.8850250000000001,0.9695499999999999,0.0,0.02053389772672273,soft_dominant,20.0
+11,10,"sql, python, dashboard","technical skills, communication skills",0.13174999999999998,0.42629,0.0,0.0024096799413005753,balanced,50.0

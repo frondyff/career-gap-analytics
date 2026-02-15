@@ -1,0 +1,11 @@
+cluster,cluster_size,avg_post_sentiment,avg_comment_sentiment,avg_engagement_observed,avg_hard_score,avg_soft_score,top_terms
+0,120,0.2253175,0.6081091836734694,2.783333333333333,0.7241980924162784,0.6563645884190031,"search, test, video, skill, need, graph, database, sql, resource, anyone"
+1,96,0.53695625,0.7197875,4.09375,1.4408704669849015,1.2296417293594326,"data, science, data science, tool, pipeline, engineer, cleaning, data engineer, data cleaning, data pipeline"
+2,183,0.41338743169398906,0.6736186746987952,4.415300546448087,0.8529290603373727,2.58488027173935,"team, data, dashboard, like, time, tool, analytics, actually, work, one"
+3,73,0.4966178082191781,0.7032119402985075,4.2465753424657535,1.912777999828652,1.1914067163300022,"engineering, data engineering, data, engineer, data engineer, role, streaming, job, year, working"
+4,123,0.510659349593496,0.7429465517241379,4.821138211382114,2.4970157140332483,0.982704266088703,"job, databricks, data, airflow, would, experience, dbt, aws, engineer, stack"
+5,99,0.5824949494949495,0.6931744680851064,3.9393939393939394,0.786419927089791,1.713876607623938,"analytics, data analytics, data, career, course, business, degree, business analytics, year, looking"
+6,156,0.5441128205128205,0.591514598540146,3.7243589743589745,2.15297909347154,2.3728917633720816,"table, data, file, model, using, run, column, row, use, query"
+7,86,0.6042174418604651,0.6750168831168831,3.2325581395348837,2.289095516238179,1.301729250924683,"project, data, help, work, sql, idea, python, excel, analytics, portfolio"
+8,151,0.6409549668874172,0.7169918367346939,5.556291390728477,1.8974498685065881,2.205963855816313,"analyst, data, data analyst, job, role, like, interview, company, get, work"
+9,48,0.49875625,0.7015190476190476,3.7083333333333335,0.7452140314859853,1.885541809108492,"analysis, data analysis, data, project, sport, analysis project, business, looking, feedback, exploratory data"

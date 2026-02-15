@@ -1,0 +1,13 @@
+{
+  "method": "Turney-style orientation from PMI on POS-tagged phrases",
+  "weights": {
+    "data pipeline": 1.252762968495368,
+    "python programming": 0.75,
+    "cloud experience": 0.75,
+    "technical skills": 0.75,
+    "sql skills": 0.75,
+    "statistics knowledge": 0.75,
+    "dashboard development": 0.75,
+    "machine learning": 0.75
+  }
+}

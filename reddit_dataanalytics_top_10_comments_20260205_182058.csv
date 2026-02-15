@@ -1,0 +1,279 @@
+post_id,comment_rank,comment_body,comment_score
+1qwntks,1,Official dataLayer Builder Link: [datalayerbuilder.org](http://datalayerbuilder.org),0
+1qwjfm2,1,"Professional summary is too general, i would not go below it",1
+1qwjfm2,2,When and where did fresher enter the lexicon,1
+1qubnmt,1,"With so much available for free at seemingly high quality, what fits your learning style best and what could push you to pay for it?
+
+Some of the more premium options have live courses with mentors at least every week, cohorts with similar people, etc. What would access to a professional to solve your problems and explain things be worth to you? 
+
+Some of the subscription options are still pretty expensive and they are just self-paced videos without interactive quizzes that you could probably do for free with no capstone or projects.",2
+1qubnmt,2,"I have pretty good luck over the years with the Coursera courses. Like the IBM Data Analytics one, which has some SQL, Python, Data viz, and more for only like $40 a month I think.",2
+1qu6hto,1,"Eh I may think so too. Im starting to stray into more process development and automation with Python nowadays, more so than making dashboards.
+
+Stuff more like: Get reports from cloud storage -&gt; parse into one file -&gt; transform -&gt; set to recurring schedule -&gt; pyinstaller to exe file (ETL processes)
+
+Most stuff that I work with already even has built insights and dashboards for web apps, so not much more I can do.",35
+1qu6hto,2,"I think compliance-driven, highly regulated, and frequently audited industries, such as healthcare, will still have needs for data analysts. Liability cannot be automated away, and AI cannot make decisions in a sector such as healthcare. Healthcare is also one of the most regulated data environments on earth. You have HIPAA, HITECH, CMS audits, payer audits, DOJ False Claims Act risk, etc. Healthcare is also full of edge cases. It's 90% exceptions pretending to be a system. Incentives are also misaligned with automation; Providers don’t want payer-controlled analytics and Payers don’t want provider-controlled models, healthcare IT historically lags behind other industries by 10-15 years, etc. AI will definitely remain and advance as a support tool in healthcare but as for other industries especially tech in general who knows what the job landscape looks like in 5 years.",24
+1qu6hto,3,"Depends what you mean by Data Analyst.
+
+If you’re just pumping out dashboards, probably, if your owning data from start to finish, probably not.",13
+1qu6hto,4,I am also on the same boat as you are - working for one of the MAG7 as a Senior Data Analytics Engineer. At the moment I do all the business transformation in a data platform environment that acts as a Platinum layer and I oversee a small vendor team that is in charge of Bi development and AI agent pilot.,4
+1qu6hto,5,"Hmm. I was just looking at what my next steps should be. I was considering a masters program at Georgia Tech, but this me thinking if that’s even a good idea at this point.z",2
+1qu6hto,6,"Honest Q: Why do you say this, because of AI?
+
+I am a software guy -not data - how accurate are LLM generated reports? Do you still need a seasoned eye for accuracy? 
+
+Asking because the software being made now is really bad. I can only imagine the same is being said in this discipline, too.",2
+1qu6hto,7,"Even if tech companies have the resources (engineers) to build agents who have domain knowledge, can perform analysis, that's just one sector (albeit an important one). Non tech companies (in healthcare, law, etc) esp the smaller ones rely heavily on analysts and often lack the engineering department needed to build any automation.",2
+1qu6hto,8,tech is constantly evolving.  it is up to you to evolve with the times.,7
+1qu6hto,9,"I’ve moved to become a Business Analyst and left behind Data Analytics. Way I see it, will be massive cuts to DA roles next decade.",1
+1qu6hto,10,"No. I'm in three different interview circuits at the moment.
+
+If all you do is code - then yes. Coding is secondary to my actual role - which is to make business decisions. Do more of that - or find a role that will let you. A.I. won't be trusted to make decisions, only feed you the data that will allow it.
+
+Personally, I'm loving it.",1
+1qu08kp,1,Is the military funding your education? How do you balance studying with duty service?,1
+1qsp0r8,1,"It could also mean to have a higher understanding of the language or programming in general. 
+
+I have seen a lot of people, specially juniors, that claim to be python programmers and just run a few scripts. They want to use those 1 file scripts in production, because it works in their notebook. 
+
+Sure, fair enough, you are able to run a script in Python and therefore you might claim to be a Python programmer. But are you, really?
+
+I might have an older view, but if I see code that can be split up in methods and perhaps even classes, I would like this, together with a good file and folder structure and documentation so you can maintain it. Also, packages dependencies for reproducability.
+
+Another thing is using the correct data structures and algorithms. In a notebook, you might want everything just to work. Understand why it works. But there comes a point where you might scale up from a sample set to production data. Scaling up, according to the junior, meant to spend on processing power each week just to have the code finish. A good review on the code might expose a lot of efficiency problems that can be tackled, making the code manageable even on a local system. Our current desktops are actually quite strong already. I work with 10-millions of entries per day on multiple tables, but that doesn't mean I really need to buy resources for simple processing.
+
+Learn Python is something I, as a data analyst, say because I see a gap between working code and production ready material. But also, when I see points where a junior can learn to improve.
+
+Note: it is within their role to learn. I also had to learn this when I started learning Python on a job and it took me years to be there, it is not looked down upon.",3
+1qsp0r8,2,Simplified. Bravo,1
+1qsi8pv,1,"I wouldn’t add experiences that have nothing to do with data analysis. Plus i would recommend using AI agents, not from the start but after you writing it your own way as you did: now put it in Gemini and ask to rephrase it professionally in a concise but relevant way.",2
+1qsi8pv,2,"The core job of a data analyst is to present information to your client.
+
+Your client is your new employer. Now, think about what they need. Apply 5 x 'why?' to their need. This will help you present your info to them.
+
+If you have the story you want to present them with, then build. Apply your knowledge, your cv is also data.",1
+1qs9uow,1,"Industrial Pump dataset: [https://www.kaggle.com/datasets/83dc6870bf12bc6181c0512fd95daf267100a2c637f8dfae05f8f37dc5db0371](https://www.kaggle.com/datasets/83dc6870bf12bc6181c0512fd95daf267100a2c637f8dfae05f8f37dc5db0371)
+
+Human Performance dataset: [https://www.kaggle.com/datasets/1968d96cd9182959c0154a67c9ad6baf570e1221411f51c952ca12cf3bdc9f6d](https://www.kaggle.com/datasets/1968d96cd9182959c0154a67c9ad6baf570e1221411f51c952ca12cf3bdc9f6d)
+
+Ecology dataset: [https://www.kaggle.com/datasets/b40efa3b9b2026d769025e7055743872f94155ea99d49128beb65fe4b061e102](https://www.kaggle.com/datasets/b40efa3b9b2026d769025e7055743872f94155ea99d49128beb65fe4b061e102)",1
+1qr4xsp,1,"Different jobs will have different requirements, but basically you need to know how to prep and wrangle your data (using SQL, Power Query or Alteryx), and do some data visualisation (with Power BI or Tableau). You don't need to learn everything, just see what you prefer/where there is demand. Plus, they can all be learned fairly easily.
+
+Learning SQL is definitely a good start, but you might end up doing everything, from prep to visualisation, in Power BI and never use it. 
+
+Some people will tell you that you need to know R and/or Python. They might be right but I personally never had to use them.
+
+Ultimately (and that's the secret most people don't want to say out loud), your role will be to make the data say what your stakeholders want it to say, but in a graph with pretty colours. 
+
+
+Edit as I've just reread your post: if you already have some knowledge of Excel, go towards Power BI as you've already done half of the work (DAX, that you use to make calculations, is just Excel formulas on steroids). Plus, in the UK, a lot of companies are using it as part of a full Microsoft Power Platform integration, so it's never a lost skill.",2
+1qr4xsp,2,"Typical day at the job will be opening your mailbox flooded with „I don’t see data i used to see, fix plz” for the data that was never there in the first place.
+
+Jokes aside, you will probably need to know how to do the „ETL” in a tool that is used by the company. (could be anything: PowerBI, Tableau, Celonis)
+So:
+- how to extract data (most likely SQL),
+- how to transform it (also SQL, but could be also M or Python and many more)
+- how to structure it in the data model (Relational Schema)
+- how to visualise it
+
+I think the most important part of the job is not about the technical skills (they are still important dont get me wrong) but about managing your stakeholders. Catching what they want, deciding if thats even feasible, checking whether we have data to achieve what they want etc.",1
+1qr4xsp,3,"Mine was weird, as I was the only analyst. Had some individual SQL projects. Then it was help fixing an FTP issue with Powershell (Dont expect to ever encounter that) and create an automated file transfer system.
+Now I make scripts in Python to create reports and such using Windows task Manager to schedule the Python files to run. A little all over the place.
+
+Id start with Python, even learn to use SQL in a Python notebook (fairly straightforward)",1
+1qr4xsp,4,"SQL was a great start, next step should be learning the basics of the common industry tools. Power BI,  Tableau, and StyleBI all have video libraries where you can follow along with the free version of their tool.",1
+1qpkykm,1,Look at the latest LCA data from DOL. Many Data Analyst and Business Analyst positions are filled by H-1b. Hard for Americans to land a job because of nepotism.,0
+1qpcdr9,1,Plz share,1
+1qoxiwp,1,Unfortunately all data analyst jobs are going to h-1b. I just looked at LCA data! The job posting you see are fake. They are posting fake positions to process h-1b.,3
+1qoxiwp,2,"Well, the jobs are also drying up outside of the US as well. Mainly because DA jobs at fresher level are more about tool skills than domain depth, and tool skills are role-independent. I was an Automobile Engineer doing DA with Excel, Python and PBI during my first role, along with CAD design and drawings.",2
+1qoxiwp,3,Most jobs going overseas like Philippines and india so basically cooked,1
+1qoxiwp,4,"For me, because the job market is getting tough, I decided to pursue a degree in university which allows me to get pratical experience and get exposure to corporations while still studying so that I can find a job more easily after I graduate. That's why I decided to apply to Albert School, it will allow me to learn the foundational theory while also gaining practical experience and learn skills/competences that are going to be useful for me. And by being in contact with so many companies, I know will not have any problems finding a job. Choose university based on how linked they are to the job market and how they actually prepare you, not university that it's going to stick you on a book and you'll learn nothing",1
+1qobyof,1,"I dnt think so , there are any math involved in Data Analytical course. You need to learn Powerbi to get a job on Data Analytics. Try to learn Powerbi using  Data Analytics in a reputed institute like Raj Cloud Technologies. You can google search about them.",1
+1qnuudt,1,"The thing is that most job applications nowadays are more about is your CV (automated AI check) proof, and are less about the content.
+
+In most cases you won't even pass the CV collection stage if you don't know how to structure the CV.",1
+1qmdyyn,1,if you get any suggestion then tell me cause i also need it,1
+1qmdyyn,2,You will certainly not learn it completely in 6 months.,1
+1qmdyyn,3,"First of all you are defenitely not learning it in 6 months. I graduated in data science, worked in multiple banks as a statistitian/data analytics, have multiple complex projects, and yet I sometimes feel like I know nothing.
+
+This field is not an easy one if you plan on becoming a highly valued professional, so I would recommend to fully research the field before doing anything.",1
+1qmdyyn,4,"I know a little about it the salary packages in starting is not very cool at first but will look only good when you have enough experience and you become a senior in this field
+Also it's not that hard , entry barrier is low so yeah good competition is waiting for you too ...",1
+1qlz3wc,1,Try usinf m.mean(numeric_only=True),1
+1qldqcg,1,I can’t see why you would want this but you could easily create your own solution to do this using n8n or something similar.,2
+1qjyzh1,1,"It's a nice to have, not a requirement. Your goal is the data, not the code. If you find yourself spending days fighting Cloudflare, just switch to a scraping API to automate scraping",8
+1qjyzh1,2,No,3
+1qjyzh1,3,"beautifulsoup is the go to package in python for this.  It's definitely a skill worth developing.  I've used it lots of times, but it's not super duper common.",1
+1qjyzh1,4,Yep,1
+1qjyzh1,5,"IMHO, communication is.",1
+1qjyzh1,6,It can be helpful but a lot of roles never need it ,1
+1qjyzh1,7,More like an occasionally useful topic. If you know python and use the appropriate packages it is fairly easy to do. Would not see it as a separate skill. Also not an everyday task.,1
+1qjyzh1,8,Yes,1
+1qjyzh1,9,"If I had to guess, I’d say it’s completely irrelevant to about 90% of data analysis roles.",1
+1qjyzh1,10,Depends on the job,1
+1qjv11p,1,"Considering your background, option 1 makes more sense. PowerBI and SQL basics are very easy to learn, and will be a plus when combined with option 1. Those are only tools...",1
+1qjv11p,2,"With me little knowledge I’d say blend the two data analytics but marketing and CRM is your domain or niche , powerBI Sql and python càn be used to do stuff there",1
+1qjv11p,3,"Leaning into CRM / customer analytics is actually your edge, not a trap. Lots of “generic” data analysts can build dashboards; far fewer can translate lifecycle, segmentation, and journeys into actual revenue decisions, especially on stacks like Dynamics 365.
+
+If you want Microsoft-type roles, I’d aim for a T-shape: go deep on one CRM ecosystem (Dynamics + Customer Insights, maybe some marketing automation) and broad enough on core analytics (SQL, Power BI, basic Python) to stand next to BI folks without feeling lost.
+
+In the next 6–12 months, I’d: 1) build 2–3 portfolio projects that mimic real customer analytics problems (churn, LTV, cohort analysis) in Power BI; 2) get hands-on with a CRM sandbox; 3) do the Power BI cert only if you can back it with solid portfolio work.
+
+Tools-wise, think in stacks: people use HubSpot, Segment, then stuff like Pulse for Reddit for user research and keyword monitoring to feed those customer insight loops. Focus on being the person who can connect all of that into clear decisions.",1
+1qjtfkz,1,Dm me mate can help,1
+1qjtfkz,2,Interested,1
+1qjtfkz,3,"Check out govt portals, you get datasets and problem statements",1
+1qjo0ts,1,"Employers will focus on experience first, it's best to write what problems you have solved, value you've added and impact you've had. 
+
+Sell yourself",3
+1qjo0ts,2,"Your work experience is tiny and doesn't provide any insight into any value you've actually provided your company. ""Actionable insights"" what were they? What did the company do with them? 
+
+I also don't want to be mean but no one cares about projects, that should be a footnote unless it was something you did in a job on which case it should be in your work experience. You also don't tend to get certificates for self run projects which suggests this was actually like a udemy course or something.
+
+There's obviously a gap in your CV from July. What have you been doing?",2
+1qjo0ts,3,"Use the STAR method in your work experience. Put education at the top of the resume right after your name stuff.
+
+Everything else looks very good! Great resume!",1
+1qjo0ts,4,"What sort of team did you work with, what were the outputs, what about stakeholder engagement. 
+
+You've listed a lot of skills but repeated them, if you say SQL you don't have to say joins.",1
+1qjo0ts,5,Looks good for internships and junior positions. I would use personally a classical format though,1
+1qjo0ts,6,y do u have a summary? u have only 3 things on ur resume,1
+1qixwbz,1,SQL -- 9 times out of 10 data will be in a database.,6
+1qixwbz,2,I would also say SQL because database is such an important thing in the architecture of building things such as APIs.,2
+1qixwbz,3,"learning SQL would be super useful, but with LLM's being so good at writing code, it's less important than understanding concepts.  Right now, if I were you I would focus on infrastructure and orchestration.  Focus on cloud management and data pipelines.  Those are places that it will take a lot longer for the LLMs to take over.",1
+1qixwbz,4,"Both, I provide training sessions in both. DM if you are interested",1
+1qixwbz,5,"Don't neglect learning commercial tools. StyleBI, Tableau, and Power BI all offer video courses where you can follow along with the free version of the products, it's good to at least have the basics down in case a prospective employer is already using one of them",1
+1qixwbz,6,"Uh you kinda went a weird way because 95% of analyst roles will never require Python lol. 
+
+Excel is a must in 100% roles imo. 
+
+SQL is 85% of roles but you should know sql in depth for those roles vs excel you can get away with less knowledge.",1
+1qixwbz,7,"SQL!! SQL querying is pretty quick to get the hang of too, practice some leet code sql problems;",1
+1qi3ht4,1,"I don’t think portfolio is specifically about any topic it’s the way that person can tell why this project and how storytelling is built
+For ex how I analyzed Airbnb data to get better deals or find my formula to book best deal .
+
+I think you should guide how to build right portfolio rather than giving ready ones.
+IMHO",1
+1qi3ht4,2,Do one project on Zomato or Swiggy .on which platform are you studying,1
+1qi3ht4,3,This is good enough for practice,1
+1qi3ht4,4,These look like dummy projects,0
+1qhzppk,1,Pointless,4
+1qhzppk,2,"No. Would not take you serious without this Skillset.
+
+Chose PowerBI, Tableau etc. Technology is different depending on the customer. Pick a common one to get started. Also keep in mind many customers prefer freelancers who already have experience with their specific technology. They don't pay you for training time.",4
+1qhzppk,3,It depends on project but hypothetically yes you can,1
+1qhzppk,4,"yes, but it will limit you pretty quickly. You can freelance doing SQL analysis, data cleaning, reporting, or ad hoc insights where clients just want spreadsheets or written findings, and those gigs definitely exist. The problem is most freelance clients expect something visual they can understand and share, and dashboards are often how they judge value. You can survive without Power BI or Tableau, but learning at least one visualization tool will massively increase the kind of work and pay you can access.",1
+1qhzppk,5,Honestly the freelance data analyst usually specialize in Visualization tools like power bi and tableau. Like that’s almost exclusively how they showcase the results and make a long term impact.,1
+1qhzppk,6,"You can, but you probably won't do that well. Is there a reason you're averse to learning these tools? More experience and skills are a good thing, and intentionally limiting yourself seems like a poor career choice.",1
+1qhzppk,7,"it's possible, but not great. Data analytics is quite a vast field, you can work on different aspects that don't require viz, for instance you can become an expert in ETL and pipeline management, it's a very useful skillset and you quickly become indispensable if you're good at it. 
+
+You can otherwise become an expert in query and data prep, in this case SQL/Python is much more important and most of the time your deliverables will be raw files or tables in a db 
+
+Data viz is definitely a big part of the game and allows you to shine, but it's not the whole thing.",1
+1qhzppk,8,"Ask yourself this.
+
+You analyze data and do what with it?",1
+1qgvm5x,1,"For your graph in the upper right, at first glance it looks like revenue is falling as most users would probably assume it’s sorted chronologically by month. However it’s on the PBI default of sorting by dollar amount. I’d recommend changing it to sort chronologically, that will make it much easier to understand, especially on an executive summary. You may also want to consider leaving the current, partial month out of that graph (or maybe do a actual to date and projection for the full month) otherwise (again at first glance) it looks like the current month is not doing well at all.",1
+1qgvm5x,2,"This looks clean! Love the tooltip layering especially.
+
+Quick question-how long did it take to build this end-to-end? And how often do you have to rebuild or update the logic when your data structure changes?
+
+We built a product specifically because we kept seeing talented analysts spend days wrangling dashboards in tools like Power BI, only to have them break the moment a column name changed or a new data source got added.
+
+Our approach is local-first analytics with natural language querying. You can ask “show me revenue trends for the last 12 months by region” and get the visualization instantly. No DAX, no manual chart building, no breaking when your schema shifts.
+
+Would love to hear how much time you spend maintaining vs. building net-new insights. That ratio is what we’re trying to flip.
+
+Either way, solid work here 👏",1
+1qgvm5x,3,only suggestion I have is the missallocation of space on your slicers on the left hand side (too much empty space). I would suggest all visuals need to have equal distance from each other. Either put them next to each other and add another visual (card) or make them larger.,1
+1qgvm5x,4,Does PowerBI have the option to add predictive analytics on customer churn ? I am building a similar dashboard....,1
+1qgdg9x,1,"Data analytics can be a dependable long-term career if you keep building skills. Entry level is crowded and the first job is hard, but stability and pay improve a lot after 2–3 years.
+
+Career growth usually goes from junior analyst → analyst → senior → specialist roles (product, finance, analytics engineering) or management.
+
+It’s overhyped by courses that sell “easy money”. In real life it’s messy data, business problems, and a lot of explaining. If you like problem-solving and context, it’s genuinely a good field.",10
+1qgdg9x,2,"I’ve been in analytics for a few years now and I’ve already seen a lot. I know many people who have built solid careers in this field, and people bouncing off because their expectations weren’t met. 
+
+Is data analytics dependable in the long-term? Yes, I’d say so. Organizations will keep needing people who can turn messy data into useful insights. That need will always be there. 
+
+Stable income and growth? Depends on what you’re looking for in terms of pay, but high pay and growth is absolutely realistic. Entry level jobs are really competitive right now, but once you’re in and you’ve proven that you can be reliable, your income stability improves a lot. Analysts who understand a domain like finance, healthcare, supply chain, product, and marketing are more employable. I’m personally in the healthcare domain.
+
+Common paths look like this: 
+- Junior Data Analyst → Data Analyst → Senior Data Analyst → Analytics Lead/Manager
+- Data Analyst → Product, Strategy, or Finance roles
+- Data Analyst → Data Scientist or Data Engineer
+
+Is the field overhyped? In my personal opinion, the hype is around how “easy” it is. Bootcamps and many influencers sold the idea that anyone could learn a few tools and instantly land a nice, cushy analytics job. That part was exaggerated. If you wanna stand out and break into analytics, you should focus on learning the technical skills like SQL (a must), one data visualization tool (Tableau or Power BI), and know how to use Excel. Don’t stress about having to learn every single tool, just focus on these. Soft skills are also very important. Being able to communicate well especially with non-technical people, thinking critically, understanding business needs, and just having a nice personality goes a long way. 
+
+Make sure you keep your expectations realistic too. Understand that there will be exciting days and plenty of boring days as well. That comes with any job, but it’s important to know this so you’re not disappointing yourself if/when you jump into this career. 
+
+One thing I’d tell you since you’re only 17 is that your timing is actually good. You have years to build fundamentals in things like math, statistics, writing, logic, and basic programming before chasing job titles. The best analysts I’ve worked with took their time to learn the basics. 
+
+Let me know if you have any more questions!",5
+1qgdg9x,3,"It’s a decently at risk of generative AI replacing but it’s less at risk than like software engineering, data engineering imo. 
+- so I would say it’s not a long term career anymore unless you can prove value alongside Gen Ai.
+
+- data analyst roles are requiring masters almost exclusively at this point. Out of 42 analyst in my company about 75% have at least a masters from MBA, Analytics, Computer Science, Stats/Math.
+
+- some analyst transition to data engineering or database management roles, some transition to more business decision roles and some maintain analytics focused throughout. Usually junior analyst to like a level 2 analyst and then senior analyst which can be anywhere from 4-16 years to get from junior to senior analyst depending on the company and work. From there analytics management in someway if you have a desire to manage others.
+
+- I think data analytics was overhyped so we got a bunch of people who wanted an easy way to make good money. But unless you are passionate about statistics, crunching numbers, coding, math, and cleaning messy data, this is NOT a glamorous job. You will get very little recognition for your work and you are behind the scenes so you have to prove your value since you are Not directly in contact with the day to day business. 
+
+—— From a data analyst 😁",1
+1qgdg9x,4,man at 17 years old do not think about what’s stable. just do what you like,1
+1qgdg9x,5,Pls bhai bata do,0
+1qgafjb,1,"I'm a first year student at university, but i have choose my topic i want to do, this is according to fintech ỏ finance quantative, may be i want to do risk and financial analysis more, that is because my major is business analysis. So i'm just confused and woried.",2
+1qdvbet,1,"Your job description reads like a list of tasks. Think about the why - why was it worth spending time to do this? If you can include a measurable outcome, fantastic. But even if you can specify the decision that you helped the business make, that’s good too. A good structure is “Accomplished X as measured by Y by doing Z.” 
+
+Also think hierarchy and order of importance. You have Education at the bottom, under projects, skills, and certificates, which are all less important to a recruiter scanning through this. I would move certificates into your education section (after your degrees), and then put skills under that. 
+
+Also with 2 years of experience, your projects are less important, so I would shrink down that section.",1
+1qcgwbn,1,Go for the offline one for more exposure and to understand the concepts F2F.,2
+1qcgwbn,2,"I thought offline would be better for doubts, but time flexibility became a bigger issue. Online allowed me to practise more. Skillovilla worked for me because I could get feedback without adjusting my entire schedule.",1
+1qcgwbn,3,"For me, the choice wasn’t really offline versus online, but how much real practice I’d get. I found Skillovilla after trying a few options, and it worked because most learning occurred through hands-on experience, not just sitting in class.",1
+1q8wmfj,1,"Keep it simple and practical.
+
+Good data analytics projects for resume:
+
+* Sales or revenue analysis dashboard
+* Customer churn analysis
+* E-commerce product performance analysis
+* Budget vs actual (finance data)
+* Data cleaning + insights project
+
+Use public datasets (Kaggle, govt data), show how you cleaned data and what insights you found. 2–3 strong projects is enough.",7
+1q8wmfj,2,https://www.datasciencehive.com/projects,3
+1q8wmfj,3,"Keep it simple. Pick projects that feel like real work.
+
+Sales dashboard-Monthly sales, top products, regions. Excel or Power BI.
+
+Customer churn analysis- Find why users leave. SQL or basic Python.
+
+Marketing campaign analysis- Ad spend vs conversions. Shows ROI thinking.
+
+E-commerce order analysis- Orders, returns, repeat customers.
+
+HR attrition analysis- Why employees quit. Very common in companies.
+
+SQL project- 15 to 20 business questions using only SQL.
+
+Do 2 to 3 projects well.
+Write clear business conclusions.",1
+1q6xxm1,1,Are you enrolled in a course or is this for the job?,1
+1q6xxm1,2,I’d recommend choosing datasets that actually fit the field you’re studying and having domain knowledge makes it much easier to spot meaningful patterns and turn your analysis into real insights.,1
+1q6xxm1,3,"Get into kaggle and GitHub , kaggle has challenges all the time specifically for that",1
+1q6q97u,1,"Canadian here. The local job market is ice cold here.
+
+Though there are many international enterprises hire global remote talents, but not sure if Jordan is in competitive timezone like Brazil, India etc.",1
+1q698r9,1,"Hi everyone, as there are so many comments I have created a WhatsApp group. Anyone interested to join can dm or reply to this comment",2
+1q698r9,2,In,1
+1q698r9,3,I am also! Feel free to reach out,1
+1q698r9,4,Me too!,1
+1q698r9,5,Down,1
+1q698r9,6,i am in currently doing course from ExcelR institute,1
+1q698r9,7,im down,1
+1q698r9,8,I'm in.,1
+1q698r9,9,I am in for this let's talk in dm,1
+1q698r9,10,Sure please.,1
