@@ -10,7 +10,7 @@ from src.data import (
     sentiment_delta_label,
 )
 
-st.set_page_config(page_title="INSY669 Career Text Analytics", layout="wide")
+st.set_page_config(page_title="Analytics Jobs Gap Explore", layout="wide")
 
 st.title("Analytics Jobs Gap Explorer")
 st.caption("Overview dashboard for cluster themes, desirability framing, and community response patterns.")
