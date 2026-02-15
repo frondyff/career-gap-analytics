@@ -1,0 +1,31 @@
+cluster,post_id,title_std,cluster_label,dist_to_centroid
+0,1qjqcm6,Stop telling everyone to learn sql and python. It’s a waste of time in 2026,sql / python,0.4890630186807938
+0,1qub19h,"For SQL round, what flavor of SQL (MySQL vs PostgreSQL)?",sql / python,0.48966047792337875
+0,1qm3nnr,Upskilling beyond SQL,sql / python,0.5164782833378776
+1,1qgvm5x,How I designed a leadership-ready Power BI revenue &amp; churn dashboard - Exec Reviews,dashboard / power,0.4720882976810652
+1,1qlq3so,Why do leaders still make six-figure decisions based on descriptive dashboards?,dashboard / power,0.5364916150760541
+1,1q7c8z2,Most analytics jobs are fake productivity,dashboard / power,0.5387396367947795
+2,1qbaolw,Jobs To Work While In School For Computer Science,entry / entry level,0.5491238364273549
+2,1qu5ye0,Is the data analyst role going to be automated in the next 5–10 years?,entry / entry level,0.5518278200509339
+2,1qvil25,Entry level roles that we knew of is going to be non-existent,entry / entry level,0.5724161654996898
+3,1qukzhw,I'm building a CLI tool for data diffing,table / schema,0.4494807428541261
+3,1qdp2sl,How do you test db consistency after a server migration?,table / schema,0.4582264434153135
+3,1qgy9rx,Validating a 30Bn row table migration.,table / schema,0.49351686765843006
+4,1qdpusv,What’s one analytics mistake you made that taught you the most?,business / advice,0.5402064612582682
+4,1qqdpgu,DSRs are doable until you need to explain backups and logs,business / advice,0.552832955519387
+4,1qhbvog,"Tools matter, but analytical thinking matters more",business / advice,0.5598033692340358
+5,1qbw9su,Flows with set finish time,dbt / model,0.44558912794253897
+5,1quvcv4,"Tired of Airflow overhead for local dev? I built a minimal, local-first CLI orchestrator.",dbt / model,0.4616425720213923
+5,1qkujmz,Question on Airflow,dbt / model,0.5087583450892735
+6,1qj2dvr,Military spouse seeking PCS-friendly remote work (Associate’s degree + 6 yrs ops/admin experience),course / interview,0.5031580006188396
+6,1qq3znr,Early-career data analyst struggling. Is it the job or the role itself?,course / interview,0.5225173394074817
+6,1qax9vn,Anyone work in fraud analytics/fraud detection?,course / interview,0.5276178702681663
+7,1qls0kd,Roast my junior data engineer onboarding repo,engineer / tool,0.5039121923967612
+7,1qpygea,Feeling HUGE imposter syndrome at my new job.,engineer / tool,0.5354816779204954
+7,1qeaukw,"Designed a data ingestion pipeline for my quant model, which automatically fetches Daily OHLCV bars, Macro (VIX) data, and fundamentals Data upto last 30 years for free. Should I opensource the code? Will that be any help to the community?",engineer / tool,0.5640649144358917
+8,1qtc0ag,Recommended ETL pattern for reference data?,file / csv,0.46719191672054033
+8,1qsvelp,Looking for feedback on tool that compares CSV files with millions of rows fast.,file / csv,0.4773143236495306
+8,1qekncd,"I created DAIS: A 'Data/AI Shell' that gives standard ls extra capabilities, instant for huge datasets",file / csv,0.48082220339530174
+9,1qwfhff,Need Help,tool / company,0.14797461510644017
+9,1qsopst,M.S. in GIS or Data Science?,tool / company,0.14797461510644017
+9,1qqnva6,Data purchase,tool / company,0.14797461510644017

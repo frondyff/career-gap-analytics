@@ -1,0 +1,37 @@
+cluster,post_id,title_std,hard_norm,soft_norm,post_sentiment,comment_sentiment
+0,1qdp2sl,How do you test db consistency after a server migration?,0.0,0.0,0.5714,0.9782
+0,1qukzhw,I'm building a CLI tool for data diffing,0.0,0.0,0.4215,0.9525
+0,1qbilj6,Is my storage method effective?,0.0026038870747686132,0.012129245731833403,0.9692,0.6174
+1,1qh0m1y,Which role better prepares you for AI/ML and algorithm design?,0.0,0.06540473279398194,-0.9391,0.9936
+1,1qnqbqm,The Certifications Scam,0.0,0.04734680815157232,0.9135,0.9969
+1,1qc96mo,"Title as a senior data analyst, but just doing data extraction",0.0,0.07529121831364724,-0.619,0.9987
+2,1qekncd,"I created DAIS: A 'Data/AI Shell' that gives standard ls extra capabilities, instant for huge datasets",0.009172395336705521,0.004567185121245913,0.9727,0.8858
+2,1qsvelp,Looking for feedback on tool that compares CSV files with millions of rows fast.,0.0,0.026662486113219384,0.0,0.5362
+2,1qtc0ag,Recommended ETL pattern for reference data?,0.0,0.018613433701681455,0.8276,0.7788
+3,1qn0e1i,"Darl: Incremental compute, scenario analysis, parallelization, static-ish typing, code replay & more",0.002582717261152603,0.0,0.958,
+3,1q8q2un,Coco Alemana – Professional data editor that works with SQL and Amazon S3 natively,0.002887947482925187,0.0,0.9796,
+3,1qsg6tc,Puzzle game to learn Apache Spark & Distributed Computing concepts,0.001470713995934123,0.0,0.9563,0.9488
+4,1qgvm5x,How I designed a leadership-ready Power BI revenue &amp; churn dashboard - Exec Reviews,0.0,0.051144052064958555,0.9022,0.9772
+4,1qlq3so,Why do leaders still make six-figure decisions based on descriptive dashboards?,0.0,0.0,0.0,0.8503
+4,1q7c8z2,Most analytics jobs are fake productivity,0.0,0.0,0.8014,0.9972
+5,1qkzkgd,How do you get over a poor interview performance?,0.0,0.0,0.9453,0.9986
+5,1qwpbqq,i learned what ‘strong communication’ actually means in interviews after landing an offer,0.0,0.03380422046735182,0.9811,-0.6007
+5,1qqg341,Just had a job interview and was told that no-one uses Airflow in 2026,0.0,0.0,0.6545,0.9569
+6,1qls0kd,Roast my junior data engineer onboarding repo,0.0,0.0,0.4939,0.9043
+6,1qlsox2,Working from Asia making European wage,0.021619867699055408,0.0,0.9298,0.9392
+6,1q7n37e,Is it bad to take a career break now considering the ramping up of AI in the space ?,0.013666586435242366,0.013308022543988638,-0.9038,0.7017
+7,1qgv0ij,"Weekly Entering & Transitioning - Thread 19 Jan, 2026 - 26 Jan, 2026",0.0,0.06961297608201662,0.5093,0.9782
+7,1qalzjc,"Weekly Entering & Transitioning - Thread 12 Jan, 2026 - 19 Jan, 2026",0.0,0.06961297608201662,0.5093,0.9887
+7,1qtlvfu,"Weekly Entering & Transitioning - Thread 02 Feb, 2026 - 09 Feb, 2026",0.0,0.07229039823901726,0.5093,0.9966
+8,1qjqcm6,Stop telling everyone to learn sql and python. It’s a waste of time in 2026,0.020712753925514648,0.022485969126049766,-0.957,0.923
+8,1qub19h,"For SQL round, what flavor of SQL (MySQL vs PostgreSQL)?",0.0,0.0,0.2434,0.7105
+8,1qlb24r,Claude in Excel is now available on Pro plans,0.0,0.0,0.4588,0.8574
+9,1qj2dvr,Military spouse seeking PCS-friendly remote work (Associate’s degree + 6 yrs ops/admin experience),0.00044623995548371555,0.032136159269947374,0.9859,0.4501
+9,1qufmd2,Transition to analytics,0.0,0.0,0.8359,0.992
+9,1qusl1h,Bootcamp success in 2026,0.0,0.0,0.8807,0.9978
+10,1qgcog8,"Order of Books to Read: (a) The Data Warehouse Toolkit, (b) Designing Data-Intensive Applications, (c) Fundamentals of Data-Engineering",0.0,0.01121036347942177,0.8631,0.982
+10,1qhi4lr,Designing Data-Intensive Applications,0.0,0.03377887749442562,0.2045,0.9952
+10,1qkor8f,Any good books?,0.0,0.08151163808193043,0.8555,0.949
+11,1qwfhff,Need Help,0.0,0.0,0.4019,0.4501
+11,1qsopst,M.S. in GIS or Data Science?,0.0,0.0,0.0,0.4501
+11,1qqnva6,Data purchase,0.0,0.0,0.0,0.4501
